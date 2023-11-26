@@ -1,18 +1,18 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <ModMetaData>
-	<name>#Name</name>
-	<author>#The Dynamic Trio, CTH2004, SuperEngie, DopeUnicorn909</author>
-	<packageId>	Mod ID	</packageId>
+	<name>RimworldModTemplate</name>
+	<author>The Dynamic Trio, CTH2004, SuperEngie, DopeUnicorn909</author>
+	<packageId>TdT.modID</packageId>
 	<supportedVersions>
 		<li>1.4</li>
 	</supportedVersions>
 	<description>The Mod Description
+
+~~~Frequently asked questions. The bellow ones are used in almost all the mods, so they are included
 FAQ
 Q: CE Compatible?
 A: Uh... sure. There might be "unintented features" that we can't guarentee to fix, but you do you and all!
 
-Q: What does this mod do?
-A: Not much. Mostly just to centrilize the mods made by The Dynamic Trio, and contain shared code when needed, to prevent needing to double up on dependencies and such.
 </description>
 
 	<modDependencies>
@@ -32,7 +32,7 @@ A: Not much. Mostly just to centrilize the mods made by The Dynamic Trio, and co
 		<li>
 			<packageId>tdt.core</packageId>
 			<displayName>The Dynamic Trio Core</displayName>
-			<steamWorkshopUrl> </steamWorkshopUrl>
+			<steamWorkshopUrl>https://steamcommunity.com/sharedfiles/filedetails/?edit=true&id=3097014712</steamWorkshopUrl>
 			<downloadUrl>https://github.com/Dynamic-Trio/TheDynamicTrio-Rimworld-Core</downloadUrl>
 		</li>
 	</modDependencies>
@@ -43,4 +43,6 @@ A: Not much. Mostly just to centrilize the mods made by The Dynamic Trio, and co
 		<li>co.uk.epicguru.whatsthatmod</li>
 		<li>edb.preparecarefully</li>
 	</loadBefore>
+	<incompatibleWith>
+	</incompatibleWith>
 </ModMetaData>
