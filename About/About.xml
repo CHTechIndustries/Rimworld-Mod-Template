@@ -32,7 +32,7 @@ A: Uh... sure. There might be "unintented features" that we can't guarentee to f
 		<li>
 			<packageId>tdt.core</packageId>
 			<displayName>The Dynamic Trio Core</displayName>
-			<steamWorkshopUrl>https://steamcommunity.com/sharedfiles/filedetails/?edit=true&id=3097014712</steamWorkshopUrl>
+			<steamWorkshopUrl>https://steamcommunity.com/sharedfiles/filedetails/?id=3097014712</steamWorkshopUrl>
 			<downloadUrl>https://github.com/Dynamic-Trio/TheDynamicTrio-Rimworld-Core</downloadUrl>
 		</li>
 	</modDependencies>
