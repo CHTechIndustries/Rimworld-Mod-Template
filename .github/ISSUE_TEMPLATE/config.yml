@@ -1,7 +1,7 @@
 blank_issues_enabled: true
-name: Discord
-    url: https://discord.gg/D2TA8DUmDq
-    about: This is an invite to the discord server. This is the prefered place for suggestions, and, to a lesser extent, bug reports
-name: The Rimworld Discord Channel on the server
-    url: https://discord.com/channels/887440283485216779/1178447355243139093
-    about: Please ask and answer questions here.
+-name: Discord
+url: https://discord.gg/D2TA8DUmDq
+about: This is an invite to the discord server. This is the prefered place for suggestions, and, to a lesser extent, bug reports
+-name: The Rimworld Discord Channel on the server
+url: https://discord.com/channels/887440283485216779/1178447355243139093
+about: Please ask and answer questions here.
