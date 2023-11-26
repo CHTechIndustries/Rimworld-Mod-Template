@@ -1,0 +1,11 @@
+Thanks to:
+
+1. the VE team for Vanilla Expanded Framework
+2. Brainzz for making the harmony library availiable to Rimworld
+3. The members of TheDynamicTrio
+4. the makers of Github, which makes this coding a lot easier
+5. The wonderful Rimworld Modding community
+6. Jaxe for Publisher Plus, and Epiguru for updateing Publisher Plus past 1.4
+7. Gege for Xenotype Exporter
+8. Ludeon for Rimworld!
+9. RuPaul for Rimpy

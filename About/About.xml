@@ -1,0 +1,46 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ModMetaData>
+	<name>	Name	</name>
+	<author>The Dynamic Trio, CTH2004, SuperEngie, DopeUnicorn909</author>
+	<packageId>	Mod ID	</packageId>
+	<supportedVersions>
+		<li>1.4</li>
+	</supportedVersions>
+	<description>The Mod Description
+FAQ
+Q: CE Compatible?
+A: Uh... sure. There might be "unintented features" that we can't guarentee to fix, but you do you and all!
+
+Q: What does this mod do?
+A: Not much. Mostly just to centrilize the mods made by The Dynamic Trio, and contain shared code when needed, to prevent needing to double up on dependencies and such.
+</description>
+
+	<modDependencies>
+		<li>
+			<packageId>Ludeon.RimWorld.Biotech</packageId>
+			<displayName>Biotech</displayName>
+		</li>
+		<li>
+			<packageId>ludeon.rimworld.ideology</packageId>
+			<displayName>Ideology</displayName>
+		</li>
+		<li>
+			<packageId>ludeon.rimworld.royalty</packageId>
+			<displayName>Royalty</displayName>
+		</li>
+
+		<li>
+			<packageId>tdt.core</packageId>
+			<displayName>The Dynamic Trio Core</displayName>
+			<steamWorkshopUrl> </steamWorkshopUrl>
+			<downloadUrl>https://github.com/Dynamic-Trio/TheDynamicTrio-Rimworld-Core</downloadUrl>
+		</li>
+	</modDependencies>
+	<loadAfter>
+		<li>tdt.core</li>
+	</loadAfter>
+	<loadBefore>
+		<li>co.uk.epicguru.whatsthatmod</li>
+		<li>edb.preparecarefully</li>
+	</loadBefore>
+</ModMetaData>
