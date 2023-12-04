@@ -4,5 +4,6 @@
 	<exclude>.git</exclude>
 	<exclude>.github</exclude>
 	<exclude>About\Notes\Private Notes</exclude>
+	<exclude>SECURITY.md</exclude>
   </Excluded>
 </Configuration>
