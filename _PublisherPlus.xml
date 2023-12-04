@@ -3,6 +3,6 @@
   <Excluded>
 	<exclude>.git</exclude>
 	<exclude>.github</exclude>
-	<exclude>About\Steam Text</exclude>
+	<exclude>About\Notes\Private Notes</exclude>
   </Excluded>
 </Configuration>

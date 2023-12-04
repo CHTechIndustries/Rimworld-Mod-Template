@@ -1,0 +1,3 @@
+Put text documment of important links, and internet shortcuts to said links. Things like an online changelog.
+
+That way, from inside your mod you can acess the changelog (good for people making addons, so they can see a link to it. Do, however, recommend that said shortcut is also in the changelog folder). The other links allow you to store important links for others to access, and you to easily copy/ paste into other areas

@@ -1,12 +1,14 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <ModMetaData>
 	<name>RimworldModTemplate</name>
-	<author>The Dynamic Trio, CTH2004, SuperEngie, DopeUnicorn909</author>
+	<author>The Dynamic Trio, CTH2004</author>
 	<packageId>TdT.modID</packageId>
+	<url>https://github.com/Dynamic-Trio/Rimworld-Mod-Template</url>
+	<modVersion>1.0.2</modVersion>
 	<supportedVersions>
 		<li>1.4</li>
 	</supportedVersions>
-	<description>The Mod Description
+	<description>Put mod Description Here
 
 ~~~Frequently asked questions. The bellow ones are used in almost all the mods, so they are included
 FAQ
