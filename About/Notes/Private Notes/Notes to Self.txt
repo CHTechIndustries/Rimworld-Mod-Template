@@ -2,7 +2,6 @@ Put notes to self in here, such as a reminder to do "x"
 
 Other notes (important for all mods)
 
-Once SuperEngie and DopeUnicorn909 have rimworld and we work on this together in earnest, add their names back to the author section.
 XML Format:
 	Commenteing: 
 <!-- Comment goes here -->
