@@ -42,7 +42,7 @@ A: Uh... sure. There might be "unintented features" that we can't guarentee to f
 	<loadAfter>
 <!-- put mods that need to load before this mod in here (such as "soft" dependencies) -->
 		<li>tdt.core</li> <!-- remove unless you are also using this mod/ still need it above  -->
-		<li>TdT.devOrder<li> <!-- keep if you plan on useing https://github.com/Dynamic-Trio/Debug-Assist so that your mod remains bellow  -->
+		<li>TdT.devOrder</li> <!-- keep if you plan on useing https://github.com/Dynamic-Trio/Debug-Assist so that your mod remains bellow  -->
 	</loadAfter>
 	<loadBefore>
 <!-- put mods that need to be beneath it in here  -->
