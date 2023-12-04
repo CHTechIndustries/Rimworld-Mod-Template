@@ -45,6 +45,9 @@ A: Uh... sure. There might be "unintented features" that we can't guarentee to f
 		<li>TdT.devOrder</li> <!-- keep if you plan on useing https://github.com/Dynamic-Trio/Debug-Assist so that your mod remains bellow  -->
 	</loadAfter>
 	<loadBefore>
+<!-- apparently, even with "load at bottom", Exported Xenotype Storage always stays higher up. So, keep that in your mods (at least while using that mod) to ensure it's patches apply. And, while XML patch helper always stays low down, better safe than sory, so same thing  -->
+		<li>gege.exportedxenotypestoragemodfolder</li>
+		<li>smashphil.xmlpatchhelper</li>
 <!-- put mods that need to be beneath it in here  -->
 	</loadBefore>
 	<incompatibleWith>
