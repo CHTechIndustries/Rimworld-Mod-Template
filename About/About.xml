@@ -3,7 +3,7 @@
 	<name>RimworldModTemplate</name> <!-- Replace your mod name -->
 	<author>Put Author Here</author>
 	<packageId>TdT.modID</packageId>
-	<url>https://github.com/Dynamic-Trio/Rimworld-Mod-Template</url>
+	<url>https://github.com/Dynamic-Trio/Rimworld-Mod-Template</url> <!-- Replace with a website of your choice for your mod, or remove -->
 	<modVersion>1.0.5</modVersion> <!-- Replace with your version number -->
 	<supportedVersions>
 		<li>1.4</li> 
