@@ -5,5 +5,8 @@
 	<exclude>.github</exclude>
 	<exclude>About\Notes\Private Notes</exclude>
 	<exclude>SECURITY.md</exclude>
+	<exclude>Textures\.baseIcons</exclude>
+	<exclude>.branchLog</exclude>
+	<exclude>About\Incomplete</exclude>
   </Excluded>
 </Configuration>
