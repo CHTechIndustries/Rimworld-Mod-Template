@@ -1,0 +1,3 @@
+in this folder, you put completed branch logs in a subcolder. that way, you know what each branch did, and what update it was added in.
+
+the format is versionNum/branchlog
