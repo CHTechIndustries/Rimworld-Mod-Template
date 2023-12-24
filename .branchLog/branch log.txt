@@ -1,2 +1,5 @@
-when making a new feature as a seperate branch, list changes here. That way, when merged, you have a pre-made changelog to copy and paste into the main one
-	To allow github merges to work, it's recommendeed to change the name of this file, so when branches are merged there is no issue. After mergeing, you could either make an arcive folder, or delete it, or just straight up keep it (not recommended)
+put a prototype changelog of any branch here.
+
+this way, you can see whats been done, and have a list of changes pre-made to transfer into the changelog, without needing to deal with incompatibilities between merges.
+
+an example log is included
