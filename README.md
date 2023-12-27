@@ -14,6 +14,17 @@ Useing this template is supposed to be (realitivly) self-explanitory, with place
 2. This template will get sporiadic, sometimes random, updates. Some add features, some just strictly are "what happens if I move this github file to here" or "how does this pull request type work?" 
 
 # Notes
+There are some things you should note, including the fact that you will need to:
+1. Remove files you don't want
+2. alter templates
+3. remove notes
+4. change mod ID's
+5. Remove the "common requirments" I put in that you don't use
+6. Add in other mods you need
+7. Change name
+8. add URL (optional) or remove spot
+9. Change Author
+10. a whole lot more
 ## [Drawbacks](https://github.com/Dynamic-Trio/Rimworld-Mod-Template/wiki/Pros-and-Cons#cons)
 There are many drawbacks, the ones I know of noted bellow (more details at the linked part of the wiki)
 
@@ -26,4 +37,10 @@ There are many drawbacks, the ones I know of noted bellow (more details at the l
 7. I also use this as a testbed to see how different parts of GitHub works, so it might drastically break at any time
 8. Explanation isn't that good (probally)
 9. has many parts you probaly won't need, that you will need to manually prune
-A good amount of things here will need changeing. You will need to change the ID, the URL and such are examples, many of the requirments are put as hard ones, but are optional, there are comments in the about file, ect. For me, this mod is an almost exact copy & paste useage (almost as if it was originally made for my use...). I set up a security policy and a general issue template setup, however they will probaly need modifications to suit your use. Or, maybe not. But, this README file will definitly need modifications, and you might want to change the liscense, as the one I used is more "free" than normal
+10. Look at the "general notes" and "notes". most of those are kinda negative...
+## [Benifits](https://github.com/Dynamic-Trio/Rimworld-Mod-Template/wiki/Pros-and-Cons#pros)
+There are some benifits. The ones I can think of are:
+1. Pre-made folders
+2. useful templates pre-made
+3. some security pre set-up
+4. constant improvements (complete with [Planned Features](https://github.com/Dynamic-Trio/Rimworld-Mod-Template/wiki/Planned-Features))
