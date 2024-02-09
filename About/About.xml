@@ -2,7 +2,7 @@
 <ModMetaData>
 	<name>RimworldModTemplate</name> <!-- Replace your mod name -->
 	<author>Put Author Here</author>
-	<packageId>TdT.modID</packageId>
+	<packageId>modID</packageId>
 	<url>https://github.com/Dynamic-Trio/Rimworld-Mod-Template</url> <!-- Replace with a website of your choice for your mod, or remove -->
 	<modVersion>1.0.5</modVersion> <!-- Replace with your version number -->
 	<supportedVersions>
@@ -31,17 +31,9 @@ A: Uh... sure. There might be "unintented features" that we can't guarentee to f
 			<packageId>ludeon.rimworld.royalty</packageId>
 			<displayName>Royalty</displayName>
 		</li>
-
-		<li>
-			<packageId>tdt.core</packageId>
-			<displayName>The Dynamic Trio Core</displayName>
-			<steamWorkshopUrl>https://steamcommunity.com/sharedfiles/filedetails/?id=3097014712</steamWorkshopUrl>
-			<downloadUrl>https://github.com/Dynamic-Trio/TheDynamicTrio-Rimworld-Core</downloadUrl>
-		</li>
 	</modDependencies>
 	<loadAfter>
 <!-- put mods that need to load before this mod in here (such as "soft" dependencies) -->
-		<li>tdt.core</li> <!-- remove unless you are also using this mod/ still need it above  -->
 		<li>TdT.devOrder</li> <!-- keep if you plan on useing https://github.com/Dynamic-Trio/Debug-Assist so that your mod remains bellow  -->
 	</loadAfter>
 	<loadBefore>
