@@ -8,5 +8,6 @@
 	<exclude>Textures\.baseIcons</exclude>
 	<exclude>.branchLog</exclude>
 	<exclude>About\Incomplete</exclude>
+	<exclude>About\Lists</exclude>
   </Excluded>
 </Configuration>
