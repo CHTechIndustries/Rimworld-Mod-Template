@@ -1,0 +1,1 @@
+if you have biotech, use this for genes. If you don't have biotech, or aren't making genes, delete this folder (or rename it and use it for something else)
