@@ -3,10 +3,11 @@
 	<name>RimworldModTemplate</name> <!-- Replace your mod name -->
 	<author>Put Author Here</author>
 	<packageId>modID</packageId>
-	<url>https://github.com/Dynamic-Trio/Rimworld-Mod-Template</url> <!-- Replace with a website of your choice for your mod, or remove -->
-	<modVersion>1.0.5</modVersion> <!-- Replace with your version number -->
+	<url>https://github.com/CHTechIndustries/Rimworld-Mod-Template</url> <!-- Replace with a website of your choice for your mod, or remove -->
+	<modVersion>x.x.x</modVersion> <!-- Replace with your version number -->
 	<supportedVersions>
 		<li>1.4</li> 
+		<li>1.5</li>
 	</supportedVersions>
 	<description>Put mod Description Here
 
@@ -34,7 +35,7 @@ A: Uh... sure. There might be "unintented features" that we can't guarentee to f
 	</modDependencies>
 	<loadAfter>
 <!-- put mods that need to load before this mod in here (such as "soft" dependencies) -->
-		<li>TdT.devOrder</li> <!-- keep if you plan on useing https://github.com/Dynamic-Trio/Debug-Assist so that your mod remains bellow  -->
+		<li>CtH.devOrder</li> <!-- keep if you plan on useing https://github.com/Dynamic-Trio/Debug-Assist so that your mod remains bellow  -->
 	</loadAfter>
 	<loadBefore>
 <!-- apparently, even with "load at bottom", Exported Xenotype Storage always stays higher up. So, keep that in your mods (at least while using that mod) to ensure it's patches apply. And, while XML patch helper always stays low down, better safe than sory, so same thing  -->
