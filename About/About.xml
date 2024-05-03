@@ -2,9 +2,9 @@
 <ModMetaData>
 	<name>RimworldModTemplate</name> <!-- Replace your mod name -->
 	<author>Put Author Here</author>
-	<packageId>modID</packageId>
+	<packageId>general.modID</packageId>
 	<url>https://github.com/CHTechIndustries/Rimworld-Mod-Template</url> <!-- Replace with a website of your choice for your mod, or remove -->
-	<modVersion>x.x.x</modVersion> <!-- Replace with your version number -->
+	<modVersion>0.0.0</modVersion> <!-- Replace with your version number -->
 	<supportedVersions>
 		<li>1.4</li> 
 		<li>1.5</li>
