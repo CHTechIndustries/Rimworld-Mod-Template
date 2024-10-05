@@ -3,15 +3,17 @@ This "mod" is really just a template repository, designed to help with making ri
 
 ## Explanation Locations
 Useing this template is supposed to be (realitivly) self-explanitory, with placeholder files that explain what each folder is for. However , as I also tried to make them simple enough to be easy to see on most editors at a glance (many even built directly into the titles), a more in-depth [Explanation and Guide](https://github.com/Dynamic-Trio/Rimworld-Mod-Template/wiki) is here, along with more info.
-### General Notes
-1. you will need to edit some files, such as:
-	1. Removing links to my stuff
- 	2. Changeing Templates as needed
- 	3. Altering Tags
-  	4. Deleting unescessary folders
-   	5. adding source code (if applicable)
-   	6. Changeing README to fit your mod, not this current one
-2. This template will get sporiadic, sometimes random, updates. Some add features, some just strictly are "what happens if I move this github file to here" or "how does this pull request type work?" 
+### Edits
+1. some files will need to be changed to match your needs
+        1. Changeing template files as needed [^1]:
+  	4. Deleting unescessary folders [^3]:
+   	5. adding source code (if applicable) [^4]:
+   	7. remove notes from mod [^6]
+   	8. Format about file
+   	    1. add URL (optional) or remove
+   	    2. Altering Tags to match desired versions
+   	    3. Changeing README to fit your mod, not this current one [^5]
+3. This template will get sporiadic, sometimes random, updates. Some add features, some just strictly are "what happens if I move this github file to here" or "how does this pull request type work?" 
 
 # Notes
 There are some things you should note, including the fact that you will need to:
@@ -44,3 +46,5 @@ There are some benifits. The ones I can think of are:
 2. useful templates pre-made
 3. some security pre set-up
 4. constant improvements (complete with [Planned Features](https://github.com/Dynamic-Trio/Rimworld-Mod-Template/wiki/Planned-Features))
+
+[^1]:
