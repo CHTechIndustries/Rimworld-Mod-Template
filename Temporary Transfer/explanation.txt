@@ -1,5 +1,0 @@
-this is a folder designed to be used in the .gitignore
-
-by haveing it uploaded in this precise state, it will remain, allowing things to be put in there. It will look as if they got deleted, but they actually are in a folder that, for all intents and porpuses, doesn't exist. Now you can transfer it between branches with ease!
-
-as for it's name, it's called 
