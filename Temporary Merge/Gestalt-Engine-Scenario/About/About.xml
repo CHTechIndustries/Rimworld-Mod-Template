@@ -1,0 +1,115 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ModMetaData>
+	<name>Gestalt Engine Scenario</name>
+	<author>CTH2004, Breadmond</author>
+	<packageId>CHTech.GeS</packageId>
+	<url>https://github.com/CHTechIndustries/Gestalt-Engine-Scenario/wiki</url>
+	<modVersion>0.9.2</modVersion>
+	<supportedVersions>
+		<li>1.5</li>
+	</supportedVersions>
+	<description>A mod to add in a scenario to the Gestalt Engine mod by Helixien.
+Now, at first, it started as what was supposed to be an "easy" mod. Now, well...	there's a reason it's an Alpha!
+	
+	So, anyways, due to how much of a project this mod is, I couldn't have done it without help, so, 
+Firstly, thank you Breadmond, for the idea, and pestering me when I forgot (: If it wasn't for you, this mod would never have been completed! (Also for testing it, and making a proto-type non-mod version)
+
+	Without the idea, this wouldn't exist. Without the prototype, I would have had no idea where to even begin. Without the pestering, I would have stopped half way through
+
+Next up, thank you to Nirahiel, without whom I couldn't have even begun to do the necessary C# code, nor realize that this mod would reqrire code! He described a good algorithim for the system, and the holography is based on his idea!
+
+Finally, thank you Helixien for making the Gestalt Engine mod, without which this mod wouldn't be possible! Also, thank you to Helixien for the preview image that I modified to make this mods preview image! (He gets 125% of the credit, I get -25%)
+
+Also, I am the first to admit, I'm not that good of an artist. So, I will shamelesly admit that my image was made by using blender to merge 4 images: 2 from Helxien, and 2 from ChatGPT. So, it's got AI in it. Fits the mod, eh?
+~~~Frequently asked questions. The bellow ones are used in almost all the mods, so they are included
+FAQ
+Q: CE Compatible?
+A: Uh... sure. There might be "unintented features" that we can't guarentee to fix, but you do you and all!
+		and, while I have heard that Gestalt Engine is compatible, reinforced mechanoids 2 is a different story alltogether. I have no clue, so unintentional features might exist!
+
+Q: Why isn't it 1.4 compatible?
+A: Once apon a time, it was. But so many changes occured, and the 1.4 version was effectivly empty, so it was decided the best option was to remove it.
+	
+Progress:
+	Holography: 0%
+	Gestalt Engine Avatar: 0%
+	Subcore Production: 8%
+	Research: 39%
+	Scenarios: 3%
+	Caravans: 12% -->
+</description>
+
+	<modDependencies>
+		<li>
+			<packageId>Ludeon.RimWorld.Biotech</packageId>
+			<displayName>Biotech</displayName>
+		</li>
+
+		<li>
+			<packageId>chtech.core</packageId>
+			<displayName>CHTechIndustries Core</displayName>
+			<steamWorkshopUrl>https://steamcommunity.com/sharedfiles/filedetails/?id=3097014712</steamWorkshopUrl>
+			<downloadUrl>https://github.com/CHTechIndustries/CHTechIndustries-Rimworld-Core</downloadUrl>
+		</li>
+		<!-- <li>
+			<packageId>hlx.gestaltengine</packageId>
+			<displayName>Gestalt Engine</displayName>
+			<steamWorkshopUrl>https://steamcommunity.com/sharedfiles/filedetails/?id=3042401691</steamWorkshopUrl>
+		</li>
+
+			no longer maintained
+
+		-->
+		
+		<!--
+			<li>
+				<packageId>mlie.gestaltengine</packageId>
+				<displayName>Gestalt Engine (Continued)</displayName>
+				<steamWorkshopUrl>https://steamcommunity.com/sharedfiles/filedetails/?id=3392334612</steamWorkshopUrl>
+			</li>
+			now contained in reinforced mechanoids 2, which is quite possibly a better option. So, removed -->
+
+		<li>
+			<packageId>mlie.reinforcedmechanoid2</packageId>
+			<displayName>Reinforced Mechanoid 2 (Continued)</displayName>
+			<steamWorkshopUrl>https://steamcommunity.com/sharedfiles/filedetails/?id=3400713047</steamWorkshopUrl>
+		</li> <!-- this has the contents of gestalt engine, and so much more. So... replaced -->
+		<li>
+			<packageId>chtech.EmS</packageId>
+			<displayName>Extricate my Ship</displayName>
+			<steamWorkshopUrl>https://steamcommunity.com/sharedfiles/filedetails/?id=3315444901</steamWorkshopUrl>
+			<downloadUrl>https://github.com/CHTechIndustries/SoS2--ExtricateMyShip</downloadUrl>
+		</li>
+		<li>
+			<packageId>tongonto.mechcaravans</packageId>
+			<displayName>Mechanoid Caravans</displayName>
+			<steamWorkshopUrl>https://steamcommunity.com/sharedfiles/filedetails/?id=3253006390</steamWorkshopUrl>
+		</li>
+		<li>
+			<packageId>ratys.rtsolarflareshield</packageId>
+			<displayName>RT Power Switch</displayName>
+			<steamWorkshopUrl>https://steamcommunity.com/sharedfiles/filedetails/?id=728315620</steamWorkshopUrl>
+		</li>
+		
+		
+	</modDependencies>
+	<loadAfter>
+		<li>chtech.core</li>
+		<li>chtech.devorder</li>
+		<li>sarg.alphamechs</li>
+		<li>oskarpotocki.vfe.mechanoid</li>
+		<li>vanillaexpanded.vfea</li>
+	</loadAfter>
+	<loadBefore>
+		<li>gege.exportedxenotypestoragemodfolder</li>
+		<li>smashphil.xmlpatchhelper</li>
+		<li>co.uk.epicguru.whatsthatmod</li>
+		<li>chtech.rimworldextended.main</li>
+	</loadBefore>
+	<incompatibleWith>
+		<li>witek.mechscanhaultocharger</li>
+		<li>tongonto.mechindependence</li>
+		<li>hlx.gestaltengine</li>
+		<li>mlie.gestaltengine<li>
+	</incompatibleWith>
+</ModMetaData>

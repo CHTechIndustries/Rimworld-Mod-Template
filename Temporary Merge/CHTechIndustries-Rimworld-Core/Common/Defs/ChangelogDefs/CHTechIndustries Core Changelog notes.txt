@@ -1,0 +1,138 @@
+v1.0.0
+Uploaded, base file structure and about folder set up, nothing else there as that's all of import that there is
+
+1.0.1
+Removed core as a requirment
+
+1.0.2
+Uploaded with changelog, because I'd forgoten to update it for the previous update
+Edited Publisher+ XML to be better prepared
+Put Changelog in proper place
+
+1.1.0
+Removed Ideology, Biotech, and Royalty as requirments
+
+1.1.1
+Put load order in
+Put in rimpy lists for the new mods I'm working on
+
+1.1.2
+Added XML extensions as a requirment
+Updated steam description
+Improved folder structure
+
+1.1.2
+Improved folder structure drasticly
+Added link to about file (currently only goes to steam page, will one day probaly link to a wiki (most likley using github)
+added version number to about file (to be precise, 1.1.2)
+Removed SuperEngie and DopeUnicorn909 as authors, leaving just The Dynamic Trio and CTH2004. The reason is that, while both of them are part of "the Dynamic Trio", I'm the only one making this specific mod. So, they are included in "The Dynamic Trio" as they do help, but since they aren't making code additions, it's mostly by me right now. Once they have rimworld and we begin to work together on it, they shall be back!
+
+1.1.3
+Added a load before and load after to ensure this is always below frameworks, in case this ever performs patches on them.
+Altered description
+Set up wiki
+
+1.2.0
+Removed the list for the xenos mod, as it's obsolete and integrated into my genes mod
+made the mod require some utility mods that improve all mods I use (Unlimited, No More Lethal Damage Threshold)
+Modified description to highly recommend the unlimited mods
+did some background work due to the integration of my Xenotype mod into my gene mod
+added a highly recommended mods discussion
+updated steam description, bigtime
+
+1.2.1
+fixed the lists (background)
+published it correctly via publisher plus (apparently some genius forgot it wasn't enabled... not going to name names, CTH2004
+added a folder to do something with publisher plus easier
+
+v 2.0.0
+change ID (mod breaking)
+update to 1.5 as well (compatible with both, excluding the fact that some of the requirments aren't updated)
+Updated mod lists to reflect new ID's
+
+v2.0.1
+updated some requirments
+removed outdated requirment
+put better mod in
+started moveing some things around in background
+
+v2.0.2
+updated changelog for entire mod
+changed version number from 2.0.0
+fixed a link
+fixed a file name
+updated steam description
+fixed a requirment I'd mistyped
+
+v2.0.3
+updated other mods, and added their new lists
+fixed an issue with my comments, so that red error (should) be gone (Famous last words, am I right)
+put all my old, half finished mods into a folder (along with some notes), so I can slowly transfer the features. If you go to my mod, you can manually take the contents out. They work, but have very few features. I have a note in each one saying which mod(s) I currently plan on mergeing it with, so you can look and get a general idea of some future updates!
+Added all of my mods to the mod lists
+
+v2.0.4
+added a spreadsheet that can check to see if an items description is past steams maximum (or what I think it is)
+	Technically not important, as it isn't uploaded to steam, and is only on github. But, it is a change
+added in finalized lists for OP Thingamajing Mod (and published it)
+moved lists into a folder of "CHTechIndustries Mods", and added a folder for framework examples (frameworks that have an example included)
+added modlists that included all
+updated modlists to include anomally
+removed requirment for Hugslib Publisher, and just recommended it
+Update Steam Description
+Modified "Recommended Mods" discussion
+Removed Grimms Unlimited
+Added Tweaks Galore (and tabula rausa)
+added other frameworks into the "load order", for future reference/ reminding me of future ideas/ just to keep them in a logical place
+improved folder structure
+
+v2.0.5
+removed tabula rausa
+drasticly improved description
+added a line about support of CE to FAQ
+added tabula rausa to "Recommended Mods" (and note: it might become a dependency again)
+add mod icon
+mentioned a few more highly recomended mods
+
+continued to try to get Publisher+ working, so extraneus files don't bog down the downloads
+	tried moving folders
+	tried removing a folder that contained old about files (shouldn't cause an issue but worth a try)
+	copied another mods functional one into it, and added in the extra folders so no changes to it was necessary
+still not working, reporting to moder. so, not quite optimized file, not too bad though
+
+v2.0.6
+fixed my mistake that made Publisher+ not work. It was a stupid mistake, I dare say...
+	to do it, I've removed the 1.4 archive mod lists, and removed the lists from the 1.5 folder
+	Sortened the CHTechIndustries section to CHTech
+
+v2.0.7
+modified so about file has less extraneus parts, and made notes
+added a mention of un-un-limmited, and recommended it
+added un-un-limmited to order
+
+v2.0.8
+added in the code of un-un-limmited (with permission and credit)
+removed Tweaks Galore (will be a soft compat)
+update all lists
+altered about file to include credit to the autor of un-un-limmited
+altered description for same reason
+removed unecessary "do not upload" entry
+fixed gramaticall issues in authors section
+found a way to make "authors" and "contributers" slightly seperate (multiple lines), so did that
+made incompatible with those unlimiter mods, as they are redundent, and therefore at worst will cause crashes, quite likley cause issues of some sort, and at best are still redundent
+
+v2.0.9
+made it load What's That Mod bellow this one
+added Tabula Rasa based change log (much, much harder than expected)
+made it require Tabula Rasa (sorry, there's a lot of features there)
+re-designed mod list system (in background)
+improved load order
+slightly altered about file
+started using "releases" in github, so that will be the links from now on
+due to how I don't fully remember the logs, and some issues in my logs (inconsistancies), everything before this (2.0.9) isn't 100% correct with the in-game log, as I had to guestimate some (especially between 1.1.0 and 2.0.0)
+
+v2.0.10
+Slightly altered folder structure for better changelog posistioning
+
+v2.0.11
+remove uneeded files
+decrease total "load before"'s

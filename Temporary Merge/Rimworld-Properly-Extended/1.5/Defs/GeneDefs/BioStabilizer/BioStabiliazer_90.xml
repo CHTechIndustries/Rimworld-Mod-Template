@@ -1,0 +1,335 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+	<GeneDef ParentName="CHTech_BioStabilize_3">		<!--Conscisness-->
+		<defName>CHTech_BioStable_Consciousness_90</defName>
+		<label>Cognitive Stability: 90%</label>
+		<description>The Bio-Stabalizer Genes are designed to heigten specific stats, at the cost of longer rests and minor pain.	
+	
+This one specifically prevents conscisness from passing 90%, and makes it exceedingly difficult to drop it. This makes these pawns highly resistant to brain trauma!</description>
+		<exclusionTags>
+			<li>Stable_Consciousness</li>
+		</exclusionTags>
+		<displayOrderInCategory>3.01</displayOrderInCategory>
+		<capMods>
+			<li>
+				<capacity>Consciousness</capacity>
+				<setMax>0.9</setMax>
+			</li>
+			<li>
+				<capacity>Consciousness</capacity>
+				<offset>2.25</offset>
+			</li>
+		</capMods>
+	</GeneDef>
+	<GeneDef ParentName="CHTech_BioStabilize_3">		<!-- Moveing -->
+		<defName>CHTech_BioStable_Moving_90</defName>
+		<label>Movement Stability: 90%</label>
+		<description>The Bio-Stabalizer Genes are designed to heigten specific stats, at the cost of longer rests and minor pain.
+		
+This one specifically stabalizes movment, keeping it at a maximum of 30%,  allowing even the almost-legless some mobility.</description>
+		<exclusionTags>
+			<li>Stable_Moving</li>
+		</exclusionTags>
+		<displayOrderInCategory>3.02</displayOrderInCategory>
+		<capMods>
+			<li>
+				<capacity>Moving</capacity>
+				<setMax>0.6</setMax>
+			</li>
+			<li>
+				<capacity>Moving</capacity>
+				<offset>2.25</offset>
+			</li>
+		</capMods>
+	</GeneDef>
+	<GeneDef ParentName="CHTech_BioStabilize_3">		<!--Manipulation -->
+		<defName>CHTech_BioStable_Manipulation_90</defName>
+		<label>Manipulation Stability: 90%</label>
+		<description>The Bio-Stabalizer Genes are designed to heigten specific stats, at the cost of longer rests and minor pain.
+
+This one specifically stabalizies manipulation, preventing it from passing 30%, but makeing it so even major injurys (such as loosing 1 arm, and almost all of the other) doesn't completly stop their manipulation capabilities! </description>
+		<exclusionTags>
+			<li>Stable_Manipulation</li>
+		</exclusionTags>
+		<displayOrderInCategory>3.03</displayOrderInCategory>
+		<capMods>
+			<li>
+				<capacity>Manipulation</capacity>
+				<setMax>0.9</setMax>
+			</li>
+			<li>
+				<capacity>Manipulation</capacity>
+				<offset>2.25</offset>
+			</li>
+		</capMods>
+	</GeneDef>
+	<GeneDef ParentName="CHTech_BioStabilize_speech_3">		<!-- Talking -->		<!-- Needs the tags of anything that manipulates talking -->
+		<defName>CHTech_BioStable_Talking_90</defName>
+		<label>Communication Stability: 90%</label>
+		<description>The Bio-Stabalizer Genes are designed to heigten specific stats, at the cost of longer rests and minor pain.
+		
+This one specifically stabalizies talking, by keeping it at 90%. Not that hard to get over, communication wise. And, it is almost impossible to get it down!</description>
+		<exclusionTags>
+			<li>Stable_Talking</li>
+		</exclusionTags>
+		<displayOrderInCategory>3.04</displayOrderInCategory>
+		<capMods>
+			<li>
+				<capacity>Talking</capacity>
+				<setMax>0.9</setMax>
+			</li>
+			<li>
+				<capacity>Talking</capacity>
+				<offset>2.25</offset>
+			</li>
+		</capMods>
+	</GeneDef>
+	<GeneDef ParentName="CHTech_BioStabilize_3">		<!--Eating -->
+		<defName>CHTech_BioStable_Eating_90</defName>
+		<label>Eating Stability: 90%</label>
+		<description>The Bio-Stabalizer Genes are designed to heigten specific stats, at the cost of longer rests and minor pain.
+		
+This one specifically stabalizies eating, which makes it slightly harder to eat in general, but almost impossible to be unable to eat!</description>
+		<exclusionTags>
+			<li>Stable_Eating</li>
+		</exclusionTags>
+		<displayOrderInCategory>3.05</displayOrderInCategory>
+		<capMods>
+			<li>
+				<capacity>Eating</capacity>
+				<setMax>0.9</setMax>
+			</li>
+			<li>
+				<capacity>Eating</capacity>
+				<offset>2.25</offset>
+			</li>
+		</capMods>
+	</GeneDef>
+	<GeneDef ParentName="CHTech_BioStabilize_sight_3">		<!-- Sight -->		<!-- Needs the tags of anything that manipulates sight -->
+		<defName>BioStable_Sight_90</defName>
+		<label>Visual Stability: 90%</label>
+		<description>The Bio-Stabalizer Genes are designed to heigten specific stats, at the cost of longer rests and minor pain.
+		
+This one specifically stabalizies sight, allowing them to see no matter the injury, at the cost of minorly impaired sight</description>
+		<exclusionTags>
+			<li>Stable_Sight</li>
+		</exclusionTags>
+		<displayOrderInCategory>3.06</displayOrderInCategory>
+		<capMods>
+			<li>
+				<capacity>Sight</capacity>
+				<setMax>0.9</setMax>
+			</li>
+			<li>
+				<capacity>Sight</capacity>
+				<offset>2.25</offset>
+			</li>
+		</capMods>
+	</GeneDef>
+	<GeneDef ParentName="CHTech_BioStabilize_hearing_3">		<!-- Hearing -->	<!-- Needs the tags of anything that manipulates hearing -->
+		<defName>CHTech_BioStable_Hearing_90</defName>
+		<label>Auditory Stability: 90%</label>
+		<description>The Bio-Stabalizer Genes are designed to heigten specific stats, at the cost of longer rests and minor pain.
+		
+This one specifically stabalizies hearing, allowing them to maintain hearing even with extreme injury, at the cost of slightly imaired hearing.</description>
+		<exclusionTags>
+			<li>Stable_Hearing</li>
+		</exclusionTags>
+		<displayOrderInCategory>3.07</displayOrderInCategory>
+		<capMods>
+			<li>
+				<capacity>Hearing</capacity>
+				<offset>2.25</offset>
+			</li>
+			<li>
+				<capacity>Hearing</capacity>
+				<setMax>0.9</setMax>
+			</li>
+		</capMods>
+	</GeneDef>
+	<GeneDef ParentName="CHTech_BioStabilize_3">		<!--Breathing -->
+		<defName>CHTech_BioStable_Breathing_90</defName>
+		<label>Respiratory Stability: 90%</label>
+		<description>The Bio-Stabalizer Genes are designed to heigten specific stats, at the cost of longer rests and minor pain.
+		
+This one specifically breathing, making it very hard to drop bellow 90%. While that isn't as good as 100%, it's bareley noticible. Not to mention, highly injury resistant!</description>
+		<exclusionTags>
+			<li>Stable_Breathing</li>
+		</exclusionTags>
+		<displayOrderInCategory>3.08</displayOrderInCategory>
+		<capMods>
+			<li>
+				<capacity>Breathing</capacity>
+				<offset>2.25</offset>
+			</li>
+			<li>
+				<capacity>Breathing</capacity>
+				<setMax>0.9</setMax>
+			</li>
+		</capMods>
+	</GeneDef>
+	<GeneDef ParentName="CHTech_BioStabilize_3">		<!-- Blood Filtration -->
+		<defName>CHTech_BioStable_BloodFiltration_90</defName>
+		<label>Blood Filtration Stability: 90%</label>
+		<description>The Bio-Stabalizer Genes are designed to heigten specific stats, at the cost of longer rests and minor pain.
+		
+This one specifically blood filtration. While being limited to 90% does make you a bit more sensitive to diseases, the fact that severe injury won't have an effect on the filtration will assist if you have to, say, remove a kidney!</description>
+		<exclusionTags>
+			<li>Stable_BloodFiltration</li>
+		</exclusionTags>
+		<displayOrderInCategory>3.09</displayOrderInCategory>
+		<capMods>
+			<li>
+				<capacity>BloodFiltration</capacity>
+				<setMax>0.9</setMax>
+			</li>
+			<li>
+				<capacity>BloodFiltration</capacity>
+				<offset>2.25</offset>
+			</li>
+		</capMods>
+	</GeneDef>
+	<GeneDef ParentName="CHTech_BioStabilize_3">		<!--Blood Pumping-->
+		<defName>CHTech_BioStable_BloodPumping_90</defName>
+		<label>Cardiac Stability: 60%</label>
+		<description>The Bio-Stabalizer Genes are designed to heigten specific stats, at the cost of longer rests and minor pain.
+		
+This one specifically stabalizies the heart, meaning that, so long as just a fragment of the heart remains, it works! if they loose it completley though...</description>
+		<exclusionTags>
+			<li>Stable_BloodPumping</li>
+		</exclusionTags>
+		<displayOrderInCategory>3.1</displayOrderInCategory>
+		<capMods>
+			<li>
+				<capacity>BloodPumping</capacity>
+				<setMax>0.9</setMax>
+			</li>
+			<li>
+				<capacity>BloodPumping</capacity>
+				<offset>2.25</offset>
+			</li>
+		</capMods>
+	</GeneDef>
+	<GeneDef ParentName="CHTech_BioStabilize_3">		<!--Metabolism -->
+		<defName>CHTech_BioStable_Metabolism_90</defName>
+		<label>Digestive Stability: 90%</label>
+		<description>The Bio-Stabalizer Genes are designed to heigten specific stats, at the cost of longer rests and minor pain.
+		
+This one specifically stabalizes digestion, making it harder to digest food, but where almost no injury will impeede it!</description>
+		<exclusionTags>
+			<li>Stable_Metabolism</li>
+		</exclusionTags>
+		<displayOrderInCategory>3.11</displayOrderInCategory>
+		<capMods>
+			<li>
+				<capacity>Metabolism</capacity>
+				<setMax>0.9</setMax>
+			</li>
+			<li>
+				<capacity>Metabolism</capacity>
+				<offset>2.25</offset>
+			</li>
+		</capMods>
+	</GeneDef>
+	
+	
+	
+	<GeneDef ParentName="CHTech_BioStabilize_archite_3">		<!--All -->			<!-- all other exclusion tags -->
+		<defName>CHTech_BioStable_All_90</defName>
+		<label>Complete Stability: 90%</label>
+		<description>The Bio-Stabalizer Genes are designed to heigten specific stats, at the cost of longer rests and minor pain.
+		
+This one stabalizes everything, utilizing archites. As you can imagine, such pawns are a tad weaker than other pawns, but can take an absurd about of injurys before any noticible effect!</description>
+		<displayOrderInCategory>2.5</displayOrderInCategory>
+		<exclusionTags>
+			<li>Stable_all</li>
+		</exclusionTags>
+		<biostatArc>35</biostatArc>
+		<biostatCpx>100</biostatCpx>
+		<biostatMet>-30</biostatMet>
+		<capMods>
+			<li>
+				<capacity>Consciousness</capacity>
+				<setMax>0.9</setMax>
+			</li>
+			<li>
+				<capacity>Moving</capacity>
+				<setMax>0.9</setMax>
+			</li>
+			<li>
+				<capacity>Manipulation</capacity>
+				<setMax>0.9</setMax>
+			</li>
+			<li>
+				<capacity>Eating</capacity>
+				<setMax>0.9</setMax>
+			</li>
+			<li>
+				<capacity>Sight</capacity>
+				<setMax>0.9</setMax>
+			</li>
+			<li>
+				<capacity>Hearing</capacity>
+				<setMax>0.9</setMax>
+			</li>
+			<li>
+				<capacity>Breathing</capacity>
+				<setMax>0.9</setMax>
+			</li>
+			<li>
+				<capacity>BloodFiltration</capacity>
+				<setMax>0.9</setMax>
+			</li>
+			<li>
+				<capacity>BloodPumping</capacity>
+				<setMax>0.9</setMax>
+			</li>	
+			<li>
+				<capacity>Metabolism</capacity>
+				<setMax>0.9</setMax>
+			</li>
+
+			<li>
+				<capacity>Consciousness</capacity>
+				<offset>2.25</offset>
+			</li>	
+			<li>
+				<capacity>Moving</capacity>
+				<offset>2.25</offset>
+			</li>
+			<li>
+				<capacity>Manipulation</capacity>
+				<offset>2.25</offset>
+			</li>
+			<li>
+				<capacity>Eating</capacity>
+				<offset>2.25</offset>
+			</li>
+			<li>
+				<capacity>Sight</capacity>
+				<offset>2.25</offset>
+			</li>
+
+			<li>
+				<capacity>Hearing</capacity>
+				<offset>2.25</offset>
+			</li>
+			<li>
+				<capacity>Breathing</capacity>
+				<offset>2.25</offset>
+			</li>
+			<li>
+				<capacity>BloodFiltration</capacity>
+				<offset>2.25</offset>
+			</li>
+			<li>
+				<capacity>BloodPumping</capacity>
+				<offset>2.25</offset>
+			</li>
+			<li>
+				<capacity>Metabolism</capacity>
+				<offset>2.25</offset>
+			</li>
+		</capMods>
+	</GeneDef>
+</Defs>

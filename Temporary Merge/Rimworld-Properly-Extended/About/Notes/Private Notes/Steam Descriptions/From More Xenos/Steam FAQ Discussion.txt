@@ -1,0 +1,37 @@
+[olist]
+[*]Q: CE Compatible?
+A: Uh... sure. There might be "unintented features" that we can't guarentee to fix, but you do you and all!
+
+[*]Q: I have increased my pawns max nutrition, but it doesn't seem to have much effect. Why?
+A: After a certain point, Rimworld has issues going above certain values with stats. To counteract it, I recommend using [url=https://steamcommunity.com/sharedfiles/filedetails/?id=2566316158]Need Bar Overflow[/url] by [url=https://steamcommunity.com/profiles/76561198134085825/myworkshopfiles/?appid=294100]AmCh[/url]
+
+[*]Q: I made a carnivore, but they can't eat baby food! Why, and what should I do?
+A: Once again, it's rimworlds fault. Baby Food is made of plants, so if a pawn can't digest plants, they can't digest baby food. Steam user [url=https://steamcommunity.com/profiles/76561198013052731/myworkshopfiles/?appid=294100]StarkRavingSane[/url] made a mod called [url=https://steamcommunity.com/sharedfiles/filedetails/?id=2998479989]Meaty Baby Food[/url] that lets you make baby food from meat. Due to it's design, there will be no incompatibilities!
+
+[*]Q: I want a way to make one baby food that all my babies can eat!
+A: Well then, try [url=https://steamcommunity.com/sharedfiles/filedetails/?id=2934118873]BK's Babies can eat Nutrient Paste[/url] by [url=https://steamcommunity.com/profiles/76561198376086085/myworkshopfiles/?appid=294100]Brent Kerman[/url], which works wonderfully with [url=https://steamcommunity.com/sharedfiles/filedetails/?id=2920385763]Vanilla Nutrient Paste Expanded[/url]
+
+[*]Q: without a major source of food poisioning for my carnivorous babies, it feels too easy! What should I do?
+A: Well, how about making food poisioning lethal, so that when you give the wrong food to your babies, or have a bad chef, it can be lethal? If that sounds nice, try [url=https://steamcommunity.com/sharedfiles/filedetails/?id=2646630077]Lethal Food Poisoning[/url] by [url=https://steamcommunity.com/id/Argon4/myworkshopfiles/?appid=294100]Arg√≥n[/url]
+
+[*]Q: Some of the xenos have very small icons (gizmos) for the abilities, why's that and what should I do?
+A: When you have a lot of gizmos, the game will scale them down. It becomes a major issue when you have lots of abilities via complex xenotypes, or worse, complex xenotypes with lots of psycasts. To counteract it, you can try [url=https://steamcommunity.com/sharedfiles/filedetails/?id=2838035829]Scrollable Gizmos[/url] by [url=https://steamcommunity.com/id/2blockdude/myworkshopfiles/?appid=294100]2blockdude[/url]. The changes and necesary scrolling takes some getting used to however, and isn't for everyone.
+
+[*]Q: My xeno that should be very OP is surprisingly under-powered! Why?
+A: Rimworld limits many values, so to unlock the full potential of your ultra-xeno, you will need so-called "unlimiter mods". Already one has been mentioned (Need bar Overflow), but you will also probally want:
+	1. [url=https://steamcommunity.com/sharedfiles/filedetails/?id=1668141382]Un-Limited[/url] by Grimm to allow percentages to go above normal, such as inate armour above 200%.
+	2. [url=https://steamcommunity.com/sharedfiles/filedetails/?id=2880595382]Limitless Deathrest[/url] by [url=https://steamcommunity.com/profiles/76561198094534855/myworkshopfiles/?appid=294100]DemonX3[/url] for your extra-OP sangophages
+	3. [url=https://steamcommunity.com/sharedfiles/filedetails/?id=2566316158]Need Bar Overflow[/url] by [url=https://steamcommunity.com/profiles/76561198134085825/myworkshopfiles/?appid=294100]AmCh[/url]
+
+[*]Q: My OP xeno is getting killed by another OP xeno, even though the injury that appears after death doesn't look that bad. Why?
+A: Rimworld, for reasons unknown, has a "Lethal Damage Threshold". If a pawn gets that much damage, it doesn't matter what part is destroyed, they die. It could only remove a toe, but they would still die. You can use the mod [url=https://steamcommunity.com/sharedfiles/filedetails/?id=2657551690]No More Lethal Damage Threshold[/url] by [url=https://steamcommunity.com/profiles/76561198095351210/myworkshopfiles/?appid=294100]Jdalt40[/url] to at least help counteract that, but it still isn't enough sometimes.
+
+[*]Q: Why did you mention [url=https://steamcommunity.com/sharedfiles/filedetails/?id=3102649632]Gendered Genes[/url] by [url=https://steamcommunity.com/profiles/76561198064363306/myworkshopfiles/?appid=294100]GarryFlowers[/url] as a recommended mod and say it will probaly one day be a requriment?
+A: Gendered Genes allows you to make xenos that have different genes on different genders, also known as [url=https://en.wikipedia.org/wiki/Sexual_dimorphism]Sexual Dimorphism[/url]. Right now, making xenos that are in a mod useable isn't possible (or if it is, very counter-intuitive). So, untill then, just [i]highly[/i] recommended.
+
+[*]Q: Why is this incompatible with [url=https://steamcommunity.com/sharedfiles/filedetails/?id=2909758050]DBHGenes in xenotypes[/url] by [url=https://steamcommunity.com/profiles/76561199007815912/myworkshopfiles/?appid=294100]SariusSkelrets[/url]?
+A: Simple. Those mods are patches, and this mod will end up overwriting those ones.
+
+[*]Q: Why is this mod incompatible with [url=https://steamcommunity.com/sharedfiles/filedetails/?id=2995911252]Phytokin have Natural Connection[/url] by [url=https://steamcommunity.com/id/unix22b/myworkshopfiles/?appid=294100]Moka[/url]?
+A: Same as the DBHGenes one
+[/olist]

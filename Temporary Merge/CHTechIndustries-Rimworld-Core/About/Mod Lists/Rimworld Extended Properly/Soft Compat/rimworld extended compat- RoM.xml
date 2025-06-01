@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ModsConfigData>
+    <version>1.5.4085 rev545</version>
+    <activeMods>
+        <li>brrainz.harmony</li>
+        <li>ludeon.rimworld</li>
+        <li>ludeon.rimworld.royalty</li>
+        <li>ludeon.rimworld.ideology</li>
+        <li>ludeon.rimworld.biotech</li>
+        <li>ludeon.rimworld.anomaly</li>
+        <li>redmattis.betterprerequisites</li>
+        <li>unlimitedhugs.hugslib</li>
+        <li>taranchuk.moderrorchecker</li>
+        <li>nightmare.jaxe.publisherplusmultiversionfork</li>
+        <li>hades.rimtest</li>
+        <li>carnysenpai.traitraritycolors</li>
+        <li>jecrell.jecstools</li>
+        <li>edb.preparecarefully</li>
+        <li>oskarpotocki.vanillafactionsexpanded.core</li>
+        <li>ebsg.framework</li>
+        <li>pathfinding.framework</li>
+        <li>neronix17.toolbox</li>
+        <li>neronix17.tweaksgalore</li>
+        <li>imranfish.xmlextensions</li>
+        <li>chtech.core</li>
+        <li>morebiotechstylegenes.mod</li>
+        <li>sarg.alphagenes</li>
+        <li>ebsg.aio</li>
+        <li>ebsg.archite</li>
+        <li>torann.arimworldofmagic</li>
+        <li>kure.arom</li>
+        <li>chtech.rimworldextended.main</li>
+        <li>co.uk.epicguru.whatsthatmod</li>
+        <li>smashphil.xmlpatchhelper</li>
+    </activeMods>
+    <knownExpansions>
+        <li>ludeon.rimworld</li>
+        <li>ludeon.rimworld.royalty</li>
+        <li>ludeon.rimworld.ideology</li>
+        <li>ludeon.rimworld.biotech</li>
+        <li>ludeon.rimworld.anomaly</li>
+    </knownExpansions>
+</ModsConfigData>

@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ModsConfigData>
+    <version>1.4.3901 rev238</version>
+    <activeMods>
+        <li>brrainz.harmony</li>
+        <li>ludeon.rimworld</li>
+        <li>ludeon.rimworld.royalty</li>
+        <li>ludeon.rimworld.ideology</li>
+        <li>ludeon.rimworld.biotech</li>
+        <li>redmattis.betterprerequisites</li>
+        <li>redmattis.bigsmall.core</li>
+        <li>petre27.biotechbalancedcapacitorgenes</li>
+        <li>biotexpans.core</li>
+        <li>gege.customxenotypeexportertool</li>
+        <li>ebsg.framework</li>
+        <li>oskarpotocki.vanillafactionsexpanded.core</li>
+        <li>sarg.alphaanimals</li>
+        <li>sarg.alphabiomes</li>
+        <li>morebiotechstylegenes.mod</li>
+        <li>sarg.alphagenes</li>
+        <li>superherogenesbase.mod</li>
+        <li>ebsg.aio</li>
+        <li>ebsg.archite</li>
+        <li>tuarre.gengenderratio</li>
+        <li>xenofell.hermaphroditegene</li>
+        <li>m00nl1ght.unofficialupdates.hugslogpublisher</li>
+        <li>jaxe.publisherplus.v14</li>
+        <li>gege.translationassistanttool</li>
+        <li>vanillaracesexpanded.customicons</li>
+        <li>vanillaracesexpanded.lycanthrope</li>
+        <li>imranfish.xmlextensions</li>
+        <li>kenx00x.xenotypeandideologybuttonstitlescreen</li>
+        <li>void.charactereditor</li>
+        <li>edb.preparecarefully</li>
+        <li>co.uk.epicguru.whatsthatmod</li>
+        <li>tdt.devorder</li>
+        <li>tdt.core</li>
+        <li>tdt.genesextended</li>
+        <li>tdt.morexenos</li>
+        <li>gege.exportedxenotypestoragemodfolder</li>
+        <li>smashphil.xmlpatchhelper</li>
+    </activeMods>
+    <knownExpansions>
+        <li>ludeon.rimworld</li>
+        <li>ludeon.rimworld.royalty</li>
+        <li>ludeon.rimworld.ideology</li>
+        <li>ludeon.rimworld.biotech</li>
+    </knownExpansions>
+</ModsConfigData>

@@ -1,0 +1,51 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ModMetaData>
+	<name>CHTechIndustries ModTemplate</name> 
+	<author>CHTech</author>
+	<packageId>chtech.ModId</packageId> 
+	<url>https://github.com/CHTechIndustries/CHTechIndustries-Rimworld-Core/wiki</url>
+	<modVersion>0.0.0</modVersion>
+	<supportedVersions>
+		<li>1.5</li>
+	</supportedVersions>
+	<description>Put mod Description Here
+
+~~~Frequently asked questions. The bellow ones are used in almost all the mods, so they are included
+FAQ
+Q: CE Compatible?
+A: Uh... sure. There might be "unintented features" that we can't guarentee to fix, but you do you and all!
+
+</description>
+
+	<modDependencies>
+	<!-- Replace and manipulate for your dependencies-->
+		<li>
+			<packageId>Ludeon.RimWorld.Biotech</packageId>
+			<displayName>Biotech</displayName>
+		</li>
+		<li>
+			<packageId>ludeon.rimworld.ideology</packageId>
+			<displayName>Ideology</displayName>
+		</li>
+		<li>
+			<packageId>ludeon.rimworld.royalty</packageId>
+			<displayName>Royalty</displayName>
+		</li>
+
+		<li>
+			<packageId>chtech.core</packageId>
+			<displayName>CHTechIndustries Core</displayName>
+			<steamWorkshopUrl>https://steamcommunity.com/sharedfiles/filedetails/?id=3097014712</steamWorkshopUrl>
+			<downloadUrl>https://github.com/CHTechIndustries/</downloadUrl>
+		</li>
+	</modDependencies>
+	<loadAfter>
+		<li>chtech.devorder</li>
+	</loadAfter>
+	<loadBefore>
+		<li>gege.exportedxenotypestoragemodfolder</li>
+		<li>smashphil.xmlpatchhelper</li>
+	</loadBefore>
+	<incompatibleWith>
+	</incompatibleWith>
+</ModMetaData>

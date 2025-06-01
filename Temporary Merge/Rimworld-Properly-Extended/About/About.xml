@@ -1,0 +1,177 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ModMetaData>
+	<name>Rimworld Extended: Properly</name>
+	<author>CTH2004, Tuarre</author>
+	<packageId>CHTech.RimworldExtended.main</packageId>
+	<url>https://github.com/CHTechIndustries/Rimworld-Properly-Extended/wiki</url>
+	<modVersion>2.2.3</modVersion>
+	<supportedVersions>
+		<li>1.4</li> 
+		<li>1.5</li>
+	</supportedVersions>
+	<description>Rimworld Properlly Extended is a mod with a deceptivly simple goal. That goal is to is to add in features that are fun. So, it extends rimworld, but trys to keep it true to the concept of rimworld, to an extent. For a general feature summary, there is a steam discussion for that. However, if you want more info, you should check the (Work in progress) Wiki.
+
+NOTE: THE (majority of) ICONS IN THIS MOD ARE PLACEHOLDERS, if you have any ideas for better ones, please say!
+
+Finally, the most important part:
+
+Credit where Credit is due:
+	1. Bleeding Eyes Mcgee, for the RoM traits section, which has been merged into here
+	2. Touchnir, for making the original RoM Classes mod, which was used as a basis (very few edits) for my version.
+	3. Alite for the More Biotech Style Genes
+		3b. the patch that my Piercing Spine patch is based off of, and the concept that will one day be applied to it
+	4. Tuarre for Gender Ratio Genes, and permission to implement it into my mod!
+	5. GetDonkedOn for "VPE psycastfocus cost genes", which he kindly let me use as a basis for some content in this mod
+	6. Neronix17 for Tabula Rausa, which makes the in-game changelog possible
+	8. Ludeon for the game RimWorld
+	
+	- and all the people who I should have put here but forgot
+
+</description>
+	<modDependencies>
+		<li>
+			<packageId>Ludeon.RimWorld.Biotech</packageId>
+			<displayName>Biotech</displayName>
+		</li>
+
+		<li>
+			<packageId>chtech.core</packageId>
+			<displayName>CHTechIndustries Core</displayName>
+			<steamWorkshopUrl>https://steamcommunity.com/sharedfiles/filedetails/?id=3097014712</steamWorkshopUrl>
+			<downloadUrl>https://github.com/CHTechIndustries/CHTechIndustries-Rimworld-Core</downloadUrl>
+		</li>
+
+		<li>
+			<packageId>OskarPotocki.VanillaFactionsExpanded.Core</packageId>
+			<displayName>Vanilla Expanded Framework</displayName>
+			<steamWorkshopUrl>https://steamcommunity.com/workshop/filedetails/?id=2023507013</steamWorkshopUrl>
+			<downloadUrl>https://github.com/Vanilla-Expanded/VanillaExpandedFramework</downloadUrl>
+		</li>
+		<li>
+			<packageId>EBSG.Framework</packageId>
+			<displayName>Expanded Biotech Style Genes Framework</displayName>
+			<steamWorkshopUrl>https://steamcommunity.com/sharedfiles/filedetails/?id=3112549163</steamWorkshopUrl>
+			<downloadUrl>https://github.com/KonradHeinser/EBSGFramework</downloadUrl>
+		</li>
+		<li>
+			<packageId>redmattis.betterprerequisites</packageId>
+			<displayName>Big and Small + Prerequisites Framework</displayName>
+			<steamWorkshopUrl>https://steamcommunity.com/sharedfiles/filedetails/?id=2925432336</steamWorkshopUrl>
+		</li>
+		<!-- <li>
+			<packageId>redmattis.bettergeneinheritance</packageId>
+			<displayName>Better Gene Inheritance</displayName>
+			<steamWorkshopUrl>https://steamcommunity.com/sharedfiles/filedetails/?id=3046776238</steamWorkshopUrl>
+		</li> -->
+		<li>
+			<packageId>sarg.alphagenes</packageId>
+			<displayName>Alpha Genes</displayName>
+			<steamWorkshopUrl>https://steamcommunity.com/sharedfiles/filedetails/?id=2891845502</steamWorkshopUrl>
+		</li>
+		<li>
+			<packageId>ebsg.archite</packageId>
+			<displayName>Expanded Archite Genes</displayName>
+			<steamWorkshopUrl>https://steamcommunity.com/sharedfiles/filedetails/?id=3039936922</steamWorkshopUrl>
+		</li>
+		<li>
+			<packageId>morebiotechstylegenes.mod</packageId>
+			<displayName>More Biotech Style Genes - All in One</displayName>
+			<steamWorkshopUrl>https://steamcommunity.com/sharedfiles/filedetails/?id=2985153870</steamWorkshopUrl>
+		</li>
+		<li>
+			<packageId>ebsg.aio</packageId>
+			<displayName>Expanded Biotech Style Genes - All in One</displayName>
+			<steamWorkshopUrl>https://steamcommunity.com/sharedfiles/filedetails/?id=2891845502</steamWorkshopUrl>
+		</li>
+		
+		<!-- only 1.5+, might make it so that in 1.4 it won't ask for these mods -->
+		<li>
+			<packageId>ebs.abilities</packageId>
+			<displayName>Expanded Biotech Style Abilities</displayName>
+			<steamWorkshopUrl>https://steamcommunity.com/sharedfiles/filedetails/?id=3355669039</steamWorkshopUrl>
+		</li>
+	</modDependencies>
+	<loadAfter>
+		<li>CHTech.devOrder</li>
+		
+		<li>petre27.biotechbalancedcapacitorgenes</li>
+		<li>petre27.biotechcapacitorgenes</li>
+		<li>petre27.biotechcapacitorgenesextra</li>
+		<li>mlem.metaadjusternew</li>
+
+		<li>superherogenesbase.mod</li>
+		<li>redmattis.bettergeneinheritance</li>
+		<li>redmattis.bigsmall.core</li>
+		
+		<!-- soft compat, adds more features (or will) -->
+		<li>torann.arimworldofmagic</li>
+		<li>aelanna.endling</li>
+		<li>kure.arom</li>
+		<li>chtech.opthings.pack</li>
+		<li>winglessflight.gene</li>
+	</loadAfter>
+	<loadBefore>
+		<li>gege.exportedxenotypestoragemodfolder</li>
+		<li>smashphil.xmlpatchhelper</li>
+		<li>co.uk.epicguru.whatsthatmod</li>
+		<li>gege.customxenotypeexportertoolreupload</li> <!-- the custom xenotype uploader 1.5 port -->
+	</loadBefore>
+	<incompatibleWith>
+		<!-- obsolete: these mods are obsolete/ now cause erros. Basically, mods that have been merged into this mod -->
+		<li>tdt.morexenos</li>
+		
+		<!-- merged: mods that I have been given permission to merge into this one, leading to almost/ completly identical code, ergo incompatible -->
+		<li>com.torodo.godlytraits</li>
+		<li>com.torodo.godlyweapons</li>
+		<li>rom.genes</li>
+		<li>all.rom.cla.genes</li>
+		<li>tuarre.gengenderratio</li>
+
+		
+		<!-- other requirments add same features, so these are redundent. Technically no "errors", but... -->
+		<li>ebsg.bleeding</li>
+		<li>ebsg.sensory</li>
+		<li>ebsg.carrycap</li>
+		<li>ebsg.deathrest</li>
+		<li>ebsg.hemogen</li>
+		<li>ebsg.lifespan</li>
+		<li>ebsg.pain</li>
+		<li>ebsg.psychic</li>
+		<li>ebsg.reproduction</li>
+		<li>ebsg.resistance</li>
+		<li>ebsg.sleep</li>
+		<li>ebsg.social</li>
+		<li>ebsg.violence</li>
+		<li>ebsg.health</li>
+		<li>ebsg.mechanitor</li>
+		<li>ebsg.mental</li>
+		<li>ebsg.productivity</li>
+		<li>libidogenes.mod</li>
+		<li>mbsg.beauty</li>
+		<li>moreantitoxicgenes.mod</li>
+		<li>morebiotechstylegenes.aptitudes</li>
+		<li>cellstabilitygenes.mod</li>
+		<li>morebiotechstylegenes.digestion</li>
+		<li>mbsg.drug</li>
+		<li>morebiotechstylegenes.fire</li>
+		<li>morehappinessgenes.mod</li>
+		<li>morebiotechstylegenes.hemogenic</li>
+		<li>moreimmunitygenes.mod</li>
+		<li>morebiotechstylegenes.miscellaneous</li>
+		<li>morebiotechstylegenes.movement</li>
+		<li>morepaingenes.mod</li>
+		<li>morepsychicsensitivitygenes.mod</li>
+		<li>moresleepygenes.mod</li>
+		<li>morestudygenes.mod</li>
+		<li>moretoughnessgenes.mod</li>
+		<li>morebiotechstylegenes.uvsensitivity</li>
+		<li>morebiotechstylegenes.violence</li>
+		<li>morebiotechstylegenes.vision</li>
+		<li>morewoundhealinggenes.mod</li>
+		<li>ebsg.biomes</li>
+		<li>ebsg.food</li>
+		<li>ebsg.slayer</li>
+		<li>sniperspine.mod</li>
+		<li>getdonkedon.psycostgenes</li>
+	</incompatibleWith>
+</ModMetaData>

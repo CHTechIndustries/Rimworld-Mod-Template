@@ -1,0 +1,7 @@
+when you complete a branch log, make a folder with the name of the next version. move the branchlog into it.
+
+  now, when once you merge the branches, you know when it was added.
+
+
+  so, lets aay you are working on version 1.9.3, with a beanch named "bob", while working on "bob", you have "bob.txt" in the first folder. once done, you move it to "completed/1.9.3". if 3 branches are completed before that update, they all go ijto that folder.
+  this allows you to later on see "well, bob was part of 1.9.3"

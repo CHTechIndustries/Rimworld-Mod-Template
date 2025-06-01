@@ -1,0 +1,109 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ModMetaData>
+	<name>CHTechIndustries Core</name>
+	<author>CTH2004</author>
+	<packageId>CHTech.core</packageId>
+	<supportedVersions>
+		<li>1.4</li>
+		<li>1.5</li>
+	</supportedVersions>
+	<url>https://github.com/CHTechIndustries/CHTechIndustries-Rimworld-Core/wiki</url>
+	<modVersion>2.0.11</modVersion>
+	<description>A simple core for all mods by CHTechIndustries!
+
+This mod is designed for a few simple things:
+1. centralized code for all CHTechIndustries mods
+2. simple patche's for rimworld (credit to Zyro for them)
+3. ensure specific load orders, such as makeing sure a core always loads above my mods, without manual specification
+
+Next, possibly the most important part, Credits:
+1. Zyro, for Un-Un-Limmited, which is integrated into this mod. if you only want that patch, go check out his mod!
+
+
+Note: While not a requirment, the mod Need Bar Overflow by AmCh is highly recommended, especially if you use any of my other mods
+	</description>
+	<modDependencies>
+		<li>
+			<packageId>brrainz.harmony</packageId>
+			<displayName>Harmony</displayName>
+			<steamWorkshopUrl>https://steamcommunity.com/sharedfiles/filedetails/?id=2009463077</steamWorkshopUrl>
+			<downloadUrl>https://github.com/pardeike/HarmonyRimWorld/</downloadUrl>
+		</li>
+
+		<li>
+			<packageId>OskarPotocki.VanillaFactionsExpanded.Core</packageId>
+			<displayName>Vanilla Expanded Framework</displayName>
+			<steamWorkshopUrl>https://steamcommunity.com/sharedfiles/filedetails/?id=2023507013</steamWorkshopUrl>
+			<downloadUrl>https://github.com/Vanilla-Expanded/VanillaExpandedFramework</downloadUrl>
+		</li>
+		<li>
+			<packageId>imranfish.xmlextensions</packageId>
+			<displayName>XML Extensions</displayName>
+			<downloadUrl>https://github.com/15adhami/XmlExtensions/releases</downloadUrl>
+			<steamWorkshopUrl>https://steamcommunity.com/sharedfiles/filedetails/?id=2574315206</steamWorkshopUrl>
+		</li>
+		<li>
+			<packageId>neronix17.toolbox</packageId>
+			<displayName>Tabula Rasa</displayName>
+			<steamWorkshopUrl>https://steamcommunity.com/sharedfiles/filedetails/?id=1660622094</steamWorkshopUrl>
+		</li>
+	</modDependencies>
+	<loadAfter>
+		
+		<!-- frameworks/ mods that should be above this (soft compatibility/ ordering for compat/ in use by other mods so sorting) -->
+		<li>ebsg.framework</li>
+		<li>neronix17.tweaksgalore</li>
+		<li>redmattis.betterprerequisites</li>
+		<li>pathfinding.framework</li>
+		<li>smashphil.vehicleframework</li>
+		
+		<!-- ultilitys that I suspect are supossed to go above, here to easily have said feature added (enforcing said order)
+			<li>blockdude.scrollablegizmos</li>
+		 -->
+		
+		<!-- frameworks in use with other of my mods, unknown if they should be above my core, or just above the specified mod
+			<li>superherogenesbase.mod</li>
+			<li>sarg.alphagenes</li>
+			
+		-->
+		
+		<!-- frameworks with semi-soon plans, put here so it's prepared
+			
+		-->
+		
+		<!-- frameworks that useage is more long-term, so commented out 
+			<li>kaitorisenkou.bodywarper.framework</li>
+			<li>thesepeople.ritualattachableoutcomes</li>
+			<li>neronix17.asimov</li>
+			<li>q308744928.cadframework</li>
+		-->
+
+		<!-- misc mods -->
+		<li>chtech.devorder</li>
+		<li>void.charactereditor</li>
+		<li>edb.preparecarefully</li>
+
+		
+<!-- frameworks that need to be loaded above just due to their annoying habbit of causing incompatibilities if bellow mods. -->
+		<li>jecrell.jecstools</li>
+		<li>erdelf.humanoidalienraces</li>
+<!-- might want to load before, not sure if should be defined, or be circumnstance-based
+		<li>unlimitedhugs.hugslib</li>
+-->
+	</loadAfter>
+	<loadBefore>	
+		<li>chtech.opThings.Pack</li>
+		<li>gege.exportedxenotypestoragemodfolder</li>
+		<li>smashphil.xmlpatchhelper</li>
+		<li>co.uk.epicguru.whatsthatmod</li>
+	</loadBefore>
+	<incompatibleWith>
+		<li>zyro.ununlimited</li> <!-- code is used here too -->
+		
+		<!-- redundent and can cause errors -->
+			<!-- similar code is included in this mod, so it could cause errors (unlikley), and is redundent (guarenteed) -->
+			<li>paragon.hanul.unlimitedarmor</li>
+			<li>grimm.unlimited</li>
+			
+	</incompatibleWith>
+</ModMetaData>

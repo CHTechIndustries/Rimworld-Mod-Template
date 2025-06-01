@@ -1,0 +1,52 @@
+A simple core for all mods by CHTechIndustries!
+Designed to do multiple things, including (but not limited to): [olist]
+[*]Improve utility mods, such as changeing the defaults of Tweaks Galore
+[*]small fixes/ tweaks of my own design (or other contributers) including: [olist]
+[*]unlimmiting all stat limits, using code primarily derived from [url=https://steamcommunity.com/sharedfiles/filedetails/?id=3235289492]un-un-limmited[/url] by [url=https://steamcommunity.com/profiles/76561198036595402/myworkshopfiles/?appid=294100]Zyro[/url], with slow expansion on by me. if you just want a really good un-limmiting mod, use that one!
+[/olist]
+[*]Centralized core code for CHTechIndustries
+[*]Easy Guarentee that my mods are bellow frameworks that they might use (as this core is bellow those frameworks, and those mods bellow this core)
+[/olist]
+
+So, anyways, what mods need it?
+Well: [list]
+[*][url=https://steamcommunity.com/sharedfiles/filedetails/?id=3114130835]Rimworld Extended: Properly[/url] requires CHTechIndustries Core
+[*][url=https://steamcommunity.com/sharedfiles/filedetails/?id=3227001441]OP Thingamajing Mod[/url] optionally uses CHTechIndustries Core, but using this core in conjunction is highly, [i]highly[/i] recommended
+[/list]
+
+Then, while there are many [i][url=https://steamcommunity.com/workshop/filedetails/discussion/3097014712/4289187621815128945/]Recommended Mods[/url][/i], a few of them are also soft (meaning they activate more content, but aren't needed) compatibilities:
+[list]
+[*][url=https://steamcommunity.com/sharedfiles/filedetails/?id=2695164414]Tweaks Galore[/url] (very benificial in conjunction with some of my other mods)
+[*][url=https://steamcommunity.com/sharedfiles/filedetails/?id=1660622094]Tabula Rasa[/url]
+[/list]
+
+FAQ
+Q: CE Compatible?
+A: Uh... sure. There might be "unintented features" (especially as more code is added) that we can't guarentee to fix, but you do you and all!
+
+Q: Is CE Supported?
+A: At least for now, no-(ish). What I mean is that I'm not going to set up drastic changes to make CE work, but I am not adverse to doing a minor change. So, if CE causes an error, feel free to report it, just understand that it's likley to not be dealt with (on my end), but if it's simple-ish, or looks like a fun challenge, who knows!
+
+Q: Why does this mod need [url=https://steamcommunity.com/sharedfiles/filedetails/?id=2009463077]Harmony[/url]
+A: Harmony is a library with lots of useful, powerful, code. There is a reason most mods either require it, or require a framework that requires it. Even if I didin't need it, Vanilla Expanded Framework does, so either way you'll need it!
+
+Q: Okay, so why is [url=https://steamcommunity.com/sharedfiles/filedetails/?id=2023507013]Vanilla Expanded Framework[/url] required?
+A: Once again, lots of useful code, and it's very, very helpful. Without it, many mods would be impossible. Not to mention, lots of my mods require mods that, you guessed it, requires Vanilla Expanded Framework!
+
+Q: Okay, fair enough. So, is that why it needs [url=https://steamcommunity.com/sharedfiles/filedetails/?id=2574315206]XML Extensions[/url]?
+A: Wow, you are getting really good at this! That is 100% correct, as CML Extensions allows for things like mod settings via XML, not just C#, as well as much more complex, dynamic patches. Eventually, as I get better with it, it will easily decrease the complexity of patches in my mods.
+
+Q: Okay, fair enough. But, what exactly do you mean by "Highly Recommended"?
+A: Well, some mods cause enough of a benifit in conjunction with my mod that they are, in a way "pseudo-requriments". For more info (i'm still working on the title and text), see [url=https://steamcommunity.com/workshop/filedetails/discussion/3097014712/4289187621815128945/]Here[/url]. Some of them even have soft compatibility with this core!
+
+Q: So, it's best if I activate all the "highly encouraged" mods?
+A: actually, no. a couple of them are directly incompatible, and are recommended because they are a good alternitive to a portion of my core. If you want an unlimmiter, why not just use a simpler one? So, most of those should be used in conjunction, but some straight up can't (it's marked as incompatible for my mod)
+
+Q: Why is this FAQ in the form of more like a conversation?
+A: Not sure, but who cares! Obviously you had no issue, as you got down to here!
+
+Q: Okay, after reading all these, I have to ask, are you okay? Like, mentally?
+A: No. No I am not. I am definitly insane. Thanks for asking!
+
+Q: Oh, just remembered, if things become more broken than normal, how should I report it?!
+A: well, just put it in either the comments or the relevant discussion. Please include a log from either [url=https://steamcommunity.com/sharedfiles/filedetails/?id=818773962]Hugs Lib[/url] or [url=https://steamcommunity.com/sharedfiles/filedetails/?id=2873415404]Log Publisher from Hugs Lib[/url]. The first one is a library, the second one was made in 1.4 when Hugs Lib's log publisher didin't work. Doesn't matter which

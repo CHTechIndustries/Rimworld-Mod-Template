@@ -1,0 +1,20 @@
+<Patch>
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/WorkGiverDef[defName="HaulMechsToCharger"]/canBeDoneByMechs</xpath>
+    <value>
+      <canBeDoneByMechs>true</canBeDoneByMechs>
+    </value>
+  </Operation>
+    <Operation Class="PatchOperationReplace">
+    <xpath>Defs/WorkGiverDef[defName="RepairMech"]/canBeDoneByMechs</xpath>
+    <value>
+      <canBeDoneByMechs>true</canBeDoneByMechs>
+    </value>
+  </Operation>
+    <Operation Class="PatchOperationReplace">
+    <xpath>Defs/WorkGiverDef[defName="DoBillsSubcoreEncoder"]/canBeDoneByMechs</xpath>
+    <value>
+      <canBeDoneByMechs>true</canBeDoneByMechs>
+    </value>
+  </Operation>
+</Patch>

@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<Defs>
+	
+  <GeneDef Name="GenderRatio" Abstract="True">
+    <displayCategory>Reproduction</displayCategory>
+    <exclusionTags>
+      <li>GenderRatioChange</li>
+    </exclusionTags>
+  </GeneDef>
+	
+  <GeneDef ParentName="GenderRatio">
+	<defName>MoreFemale16</defName>
+	<label>One out of three are men</label>
+	<description>Carriers of this gene may birth 16% more Females.</description>
+	<iconPath>UI/Icons/Genes/Gen_MoreFemale_1out3</iconPath>
+	<biostatCpx>1</biostatCpx>
+  </GeneDef>
+  
+  <GeneDef ParentName="GenderRatio">
+	<defName>MoreFemale25</defName>
+	<label>One out of four are men</label>
+	<description>Carriers of this gene may birth 25% more Females.</description>
+	<iconPath>UI/Icons/Genes/Gen_MoreFemale_1out4</iconPath>
+	<biostatCpx>1</biostatCpx>
+  </GeneDef>
+  
+  <GeneDef ParentName="GenderRatio">
+	<defName>MoreFemale30</defName>
+	<label>One out of five are men</label>
+	<description>Carriers of this gene may birth 30% more Females.</description>
+	<iconPath>UI/Icons/Genes/Gen_MoreFemale_1out5</iconPath>
+	<biostatCpx>1</biostatCpx>
+  </GeneDef>
+  
+  <GeneDef ParentName="GenderRatio">
+	<defName>MoreFemale40</defName>
+	<label>One out of ten are men</label>
+	<description>Carriers of this gene may birth 40% more Females.</description>
+	<iconPath>UI/Icons/Genes/Gen_MoreFemale_1out10</iconPath>
+	<biostatCpx>1</biostatCpx>
+  </GeneDef>
+  
+  <GeneDef ParentName="GenderRatio">
+	<defName>MoreMale16</defName>
+	<label>One out of three are woman</label>
+	<description>Carriers of this gene may birth 16% more Males.</description>
+	<iconPath>UI/Icons/Genes/Gen_MoreMale_1out3</iconPath>
+	<biostatCpx>1</biostatCpx>
+  </GeneDef>
+  
+  <GeneDef ParentName="GenderRatio">
+	<defName>MoreMale25</defName>
+	<label>One out of four are woman</label>
+	<description>Carriers of this gene may birth 25% more Males.</description>
+	<iconPath>UI/Icons/Genes/Gen_MoreMale_1out4</iconPath>
+	<biostatCpx>1</biostatCpx>
+  </GeneDef>
+  
+  <GeneDef ParentName="GenderRatio">
+	<defName>MoreMale30</defName>
+	<label>One out of five are woman</label>
+	<description>Carriers of this gene may birth 30% more Males.</description>
+	<iconPath>UI/Icons/Genes/Gen_MoreMale_1out5</iconPath>
+	<biostatCpx>1</biostatCpx>
+  </GeneDef>
+  
+  <GeneDef ParentName="GenderRatio">
+	<defName>MoreMale40</defName>
+	<label>One out of ten are woman</label>
+	<description>Carriers of this gene may birth 40% more Males.</description>
+	<iconPath>UI/Icons/Genes/Gen_MoreMale_1out10</iconPath>
+	<biostatCpx>1</biostatCpx>
+  </GeneDef>
+</Defs>

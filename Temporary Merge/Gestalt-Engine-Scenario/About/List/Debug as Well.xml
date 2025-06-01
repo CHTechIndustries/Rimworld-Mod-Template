@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ModsConfigData>
+    <version>1.4.3901 rev238</version>
+    <activeMods>
+        <li>brrainz.harmony</li>
+        <li>ludeon.rimworld</li>
+        <li>ludeon.rimworld.royalty</li>
+        <li>ludeon.rimworld.ideology</li>
+        <li>ludeon.rimworld.biotech</li>
+        <li>oskarpotocki.vanillafactionsexpanded.core</li>
+        <li>hlx.gestaltengine</li>
+        <li>void.charactereditor</li>
+        <li>gege.customxenotypeexportertool</li>
+        <li>edb.preparecarefully</li>
+        <li>m00nl1ght.unofficialupdates.hugslogpublisher</li>
+        <li>jaxe.publisherplus.v14</li>
+        <li>gege.translationassistanttool</li>
+        <li>co.uk.epicguru.whatsthatmod</li>
+        <li>imranfish.xmlextensions</li>
+        <li>kenx00x.xenotypeandideologybuttonstitlescreen</li>
+        <li>tdt.devorder</li>
+        <li>tdt.core</li>
+        <li>tdt.ges</li>
+        <li>gege.exportedxenotypestoragemodfolder</li>
+        <li>nimrag.scenariosearchbar</li>
+        <li>smashphil.xmlpatchhelper</li>
+    </activeMods>
+    <knownExpansions>
+        <li>ludeon.rimworld</li>
+        <li>ludeon.rimworld.royalty</li>
+        <li>ludeon.rimworld.ideology</li>
+        <li>ludeon.rimworld.biotech</li>
+    </knownExpansions>
+</ModsConfigData>

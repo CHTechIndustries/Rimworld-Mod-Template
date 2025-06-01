@@ -1,0 +1,5 @@
+put a prototype changelog of any branch here.
+
+this way, you can see whats been done, and have a list of changes pre-made to transfer into the changelog, without needing to deal with incompatibilities between merges.
+
+an example log is included

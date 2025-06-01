@@ -1,0 +1,131 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+	<ScenarioDef Name="InitialBase">
+		<defName>CHTech_GestScen_Base</defName>
+		<label>Gestalt Scenario Base</label>
+		<description>prototype of gestalt engine scenario</description>
+		<scenario>
+			<summary>prototype</summary>
+			<playerFaction>
+			<def>PlayerFaction</def>
+			<factionDef>PlayerColony</factionDef>
+		</playerFaction>
+		<parts>
+			<li Class="ScenPart_ConfigPage_ConfigureStartingPawns_KindDefs">
+				<def>ConfigurePawnsKindDefs</def>
+				<pawnChoiceCount>1</pawnChoiceCount>
+				<kindCounts>
+					<li>
+						<requiredAtStart>True</requiredAtStart>
+						<kindDef>Mechanitor</kindDef>
+					</li>
+				</kindCounts>
+			</li>
+			<li Class="ScenPart_GameStartDialog">
+				<def>GameStartDialog</def>
+				<text>placeholder</text>
+			</li>
+			<li Class="ScenPart_PlayerPawnsArriveMethod">
+				<def>PlayerPawnsArriveMethod</def>
+			</li>
+			<li Class="ScenPart_StartingResearch">
+				<def>StartingResearch</def>
+				<project>MicroelectronicsBasics</project>
+			</li>
+			<li Class="ScenPart_StartingResearch">
+				<def>StartingResearch</def>
+				<project>BasicMechtech</project>
+			</li>
+			<li Class="ScenPart_StartingResearch">
+				<def>StartingResearch</def>
+				<project>Batteries</project>
+			</li>
+			<li Class="ScenPart_StartingMech">
+				<def>StartingMech</def>
+				<mechKind>Mech_Lifter</mechKind>
+				<overseenByPlayerPawnChance>1</overseenByPlayerPawnChance>
+			</li>
+			<li Class="ScenPart_StartingMech">
+				<def>StartingMech</def>
+				<mechKind>Mech_Constructoid</mechKind>
+				<overseenByPlayerPawnChance>1</overseenByPlayerPawnChance>
+			</li>
+			<li Class="ScenPart_StartingThing_Defined">
+				<def>StartingThing_Defined</def>
+				<thingDef>Silver</thingDef>
+				<count>1000</count>
+			</li>
+			<li Class="ScenPart_StartingThing_Defined">
+				<def>StartingThing_Defined</def>
+				<thingDef>ComponentIndustrial</thingDef>
+				<count>55</count>
+			</li>
+			<li Class="ScenPart_StartingThing_Defined">
+				<def>StartingThing_Defined</def>
+				<thingDef>Steel</thingDef>
+				<count>900</count>
+			</li>
+			<li Class="ScenPart_StartingThing_Defined">
+				<def>StartingThing_Defined</def>
+				<thingDef>Plasteel</thingDef>
+				<count>100</count>
+			</li>
+			<li Class="ScenPart_StartingThing_Defined">
+				<def>StartingThing_Defined</def>
+				<thingDef>SubcoreBasic</thingDef>
+				<count>5</count>
+			</li>
+			<li Class="ScenPart_DisableMapGen">
+				<def>DisableExostriderRemains</def>
+			</li>
+			<li Class="ScenPart_ScatterThingsNearPlayerStart">
+				<def>ScatterThingsNearPlayerStart</def>
+				<thingDef>RM_GestaltEngine</thingDef>
+				<allowRoofed>True</allowRoofed>
+			</li>
+			<li Class="ScenPart_ForcedHediff">
+				<def>ForcedHediff</def>
+				<chance>1</chance>
+				<context>PlayerStarter</context>
+				<hediff>LuciferiumAddiction</hediff>
+				<severityRange>1~1</severityRange>
+			</li>
+			<li Class="ScenPart_StartingMech">
+				<def>StartingMech</def>
+				<mechKind>RM_Mech_Matriarch</mechKind>
+				<overseenByPlayerPawnChance>1</overseenByPlayerPawnChance>
+			</li>
+			<li Class="ScenPart_StartingMech">
+				<def>StartingMech</def>
+				<mechKind>Mech_Tunneler</mechKind>
+				<overseenByPlayerPawnChance>1</overseenByPlayerPawnChance>
+			</li>
+			<li Class="ScenPart_StartingThing_Defined">
+				<def>StartingThing_Defined</def>
+				<thingDef>VanometricPowerCell</thingDef>
+				<count>4</count>
+			</li>
+			</parts>
+		</scenario>
+	</ScenarioDef>
+	<ScenarioDef ParentName="InitialBase" Name="NoFlareBase">
+		<defName>CHTech_GestScen_BaseNoFlare</defName>
+		<scenario>
+			<li Class="ScenPart_DisableIncident">
+				<def>DisableIncident</def>
+				<incident>SolarFlare</incident>
+			</li>
+		</parts>
+		</scenario>
+	</ScenarioDef>
+	<ScenarioDef ParentName="InitialBase" Name="AgeLimitBase">
+	<defName>CHTech_GestScen_AgeLimit</defName>
+		<scenario>
+			<li Class="ScenPart_PawnFilter_Age">
+				<def>PawnFilter_Age</def>
+				<allowedAgeRange>26~30</allowedAgeRange>
+			</li>
+		</parts>
+		</scenario>
+	</ScenarioDef>
+</Defs>

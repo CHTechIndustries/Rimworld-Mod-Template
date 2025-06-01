@@ -1,0 +1,35 @@
+This realitivly simple mod is the basis of many enhancments to other mods. It starts with [url=https://steamcommunity.com/sharedfiles/filedetails/?id=3114130835]Rimworld Genes Extended
+[/url]. That adds in new genes of my own design, as well as new genes based on other mods. Next, this mod (Xenotypes Expanded and Merged
+), which is designed to patch many xenos to be integrated and more in-line with one another, as well as integrate in my previous mod. It also contains a few miscilaneus patches. The next parts of the series is explained more in Rimworld Genes Extended. But, all together, it makes many mods work seamlesly together! Perfect, eh?
+
+Now, do note that the gene mod is a higher priority for feature-rich content, but this mod will still get [i]lots[/i] of updates!
+
+A simplified list of xenotypes is over on [url=https://steamcommunity.com/workshop/filedetails/discussion/3097961901/4034727291141397072/]This discussion[/url], whereas the wiki has [url=https://github.com/Dynamic-Trio/More-Xenos/wiki/Created-Xenotypes]An in-depth page[/url] (WIP)
+
+
+Also,here are some mods that are highly recommended, as without them you can't use this mod to it's full extent[olist] 
+[*][url=https://steamcommunity.com/sharedfiles/filedetails/?id=1668141382]Un-Limited[/url] by Grimm to allow percentages to go above normal, such as inate armour above 200%.
+[*][url=https://steamcommunity.com/sharedfiles/filedetails/?id=2566316158]Need Bar Overflow[/url] by AmCh
+[*][url=https://steamcommunity.com/sharedfiles/filedetails/?id=2838035829]Scrollable Gizmos[/url] by 2blockdude
+[*][url=https://steamcommunity.com/sharedfiles/filedetails/?id=2998479989]Meaty Baby Food[/url] by StarkRavingSane
+[*][url=https://steamcommunity.com/sharedfiles/filedetails/?id=2657551690]No More Lethal Damage Threshold[/url] by Jdalt40
+[/olist]
+
+Also, there are some mods that add things that work great in tandom with this mod, the ones I know of are bellow[olist]
+[*][url=https://steamcommunity.com/sharedfiles/filedetails/?id=2880595382]Limitless Deathrest[/url] by DemonX3 for your extra-OP sangophages
+[*][url=https://steamcommunity.com/sharedfiles/filedetails/?id=3102649632]Gendered Genes[/url] by GarryFlowers, for [url=https://en.wikipedia.org/wiki/Sexual_dimorphism]Sexual Dimorphism[/url]. (might be a requirment sometime soon)
+[*][url=https://steamcommunity.com/sharedfiles/filedetails/?id=2976373966]Sniper Spine[/url] by Alite, so your piercing spine is actually, you know, useful.
+[*][url=https://steamcommunity.com/sharedfiles/filedetails/?id=2934118873]BK's Babies can eat Nutrient Paste[/url] by Brent Kerman
+[/olist]
+
+Some mods that have useful compat, but aren't strictly speaking necessary: [olist]
+[*][url=https://steamcommunity.com/sharedfiles/filedetails/?id=3002447909]Wingless Flight[/url] by Alite
+[*][url=https://steamcommunity.com/sharedfiles/filedetails/?id=2897565210]Biotech: Laser Eye Gene[/url] by Sovereign
+	Used for a very nice gene with Super Hero Genes, so highly recommended
+[/olist]
+
+[url=https://steamcommunity.com/workshop/filedetails/discussion/3097961901/4032473196483325095/]Mods with planned integration[/url]
+
+[url=https://steamcommunity.com/workshop/filedetails/discussion/3097961901/4032473196483048880/]FAQ (with some sarcasm, jokes, and attitude. Hopefully the answers make you smile and laugh (don't care if it's with or at me, laughters laughter) as much as I did while writing them!)[/url]
+
+Finally, there is a changelog right [url=https://steamcommunity.com/sharedfiles/filedetails/changelog/3097961901]Here[/url]

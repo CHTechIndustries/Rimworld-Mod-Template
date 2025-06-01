@@ -1,0 +1,3 @@
+you can put in things like rimpy modlists here, to easily acess the lists you use with this mod for debugging.
+
+For instance, a list of the bare minimum mods(only requirments), a list with what you use for debugging, a list with optional requirments (any and all combinations). They will go to github, but not steam (you can edit that if so desired. Not sure why you would though...)

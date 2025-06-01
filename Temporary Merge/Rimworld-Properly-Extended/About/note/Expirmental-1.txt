@@ -1,0 +1,3 @@
+Added in a gene that makes the comfortable tempature 0 degrees
+Added a gene that inverts the comfortable tempatures
+Added a category (for those top 2) for "impossible" genes

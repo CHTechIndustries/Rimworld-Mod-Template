@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8" ?> <!-- made with the assistance of XML Patch Helper -->
+<Patch>
+	<!-- improves names, makes into something that can be used elsewhere as a parent -->
+	<Operation Class="PatchOperationAttributeSet">
+		<xpath>Defs/ThingDef [defName="RM_Mech_Matriarch"]</xpath>
+		<value>Matriarch_baseMech</value>
+		<attribute>Name</attribute>
+	</Operation>
+	<Operation Class="PatchOperationAdd">
+		<xpath>Defs/ThingDef [defName="RM_Mech_Matriarch"]/race/mechEnabledWorkTypes</xpath>
+		<value>
+		</value>
+  </Operation>
+	<Operation Class="PatchOperationReplace">
+		<xpath>Defs/ThingDef [defName="RM_Mech_Matriarch"]/label</xpath>
+		<value>
+			<label>Matriarch</label>
+		</value>
+	</Operation>
+  
+ <!-- fixes name, does a few minor changes to the race -->
+	<Operation Class="PatchOperationReplace">
+		<xpath>Defs/PawnKindDef [defName="RM_Mech_Matriarch"]/label</xpath>
+		<value>
+			<label>Matriarch</label>
+		</value>
+	</Operation>
+	<Operation Class="PatchOperationAttributeSet">
+		<xpath>Defs/PawnKindDef [defName="RM_Mech_Matriarch"]</xpath>
+		<value>Matriarch_baseRace</value>
+		<attribute>Name</attribute>
+	</Operation>
+
+<!-- weapons -->
+<!-- to be added
+	<Operation Class="PatchOperationAdd">
+		<xpath>Defs/PawnKindDef [defName="RM_Mech_Matriarch"]</xpath>
+		<value>
+			<weaponTags>
+				<li>BeamGraserGun</li>
+				<li>MechanoidGunMiniFlameblaster</li>
+				<li>MechanoidGunShortRange</li>
+				<li>MechanoidGunSpiner</li>
+				<li>MechanoidGunToxicNeedle</li>
+				<li>HellsphereCannonGun</li>
+			</weaponTags>
+		</value>
+	</Operation>
+-->
+
+<!-- abilities -->
+<!-- to be added	<Operation Class="PatchOperationAdd">
+		<xpath>Defs/PawnKindDef [defName="RM_Mech_Matriarch"]</xpath>
+		<value>
+			<abilities>
+				<li>SmokepopMech</li>
+				<li>FirefoampopMech</li>
+				<li>LongjumpMechLauncher</li>
+				<li>LongjumpMech</li>
+				<li>ResurrectionMech</li>
+				<li>FireBurst</li>
+			</abilities>
+		</value>
+	</Operation>
+-->
+
+<!-- remember to add a weak-ish sheild sometime -->
+</Patch>

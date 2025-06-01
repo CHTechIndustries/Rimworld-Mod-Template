@@ -1,0 +1,180 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+<!-- base (more info: https://github.com/Outpost-21/Tabula-Rasa/wiki/In-Game-Updates): 
+	<TabulaRasa.UpdateDef>
+		<defName>CHTechCore_"yyyymmdd"</defName>
+		<date>yyyy/mm/dd</date>
+		<banner />
+		<contentList>
+			<li>
+				<header>Header</header>
+				<text>text
+text2</text>
+			</li>
+		</contentList>
+		<links>
+			<li>
+				<linkLabel>Steam Workshop</linkLabel>
+				<linkUrl>https://steamcommunity.com/sharedfiles/filedetails/?id=3097014712</linkUrl>
+				<linkTex>TabulaRasa/UI/Steam</linkTex>
+			</li>
+			<li>
+				<linkLabel>GitHub</linkLabel>
+				<linkUrl>https://github.com/CHTechIndustries/CHTechIndustries-Rimworld-Core</linkUrl>
+				<linkTex>TabulaRasa/UI/GitHub</linkTex>
+			</li>
+		</links>
+	</TabulaRasa.UpdateDef>
+
+notes: 
+1. if multiple updates in same day, end with an "_x", where "x" is the number of releases it is from that day (so if there are 3 releases, it will be "date_1", "date_2", and "date_3"
+2. if multiple lines in single text, to /n
+-->
+
+<!-- version 2.0.0 -->
+	<TabulaRasa.UpdateDef>
+		<defName>GenderRatioGenes_port_20240512</defName>
+		<date>2024/05/12</date>
+		<banner />
+		<contentList>
+			<li>
+				<header>Minor Change</header>
+				<text>Updated mod to version 2.0.0
+Ported to 1.5
+Put Harmony and Biotech into about folder
+fixed a bareley noticible grammatical error
+added, at the botom, notes about the port (and what that means)
+put a version number into the mod (as this is a port to a new version, with the same ID's, I made it 2.0.0)
+</text>
+			</li>
+		</contentList>
+		<links>
+			<li>
+				<linkLabel>Steam Workshop (port)</linkLabel>
+				<linkUrl>https://steamcommunity.com/sharedfiles/filedetails/?id=3245648283</linkUrl>
+				<linkTex>TabulaRasa/UI/Steam</linkTex>
+			</li>
+			<li>
+				<linkLabel>Steam Workshop (original mod)</linkLabel>
+				<linkUrl>https://steamcommunity.com/sharedfiles/filedetails/?id=3089173425</linkUrl>
+				<linkTex>TabulaRasa/UI/Steam</linkTex>
+			</li>
+			<li>
+				<linkLabel>GitHub Release</linkLabel>
+				<linkUrl>https://github.com/CTH999/Gender-Ratio-Genes--Ported/releases/tag/2.0.0</linkUrl>
+				<linkTex>TabulaRasa/UI/GitHub</linkTex>
+			</li>
+			
+			
+		</links>
+	</TabulaRasa.UpdateDef>
+<!-- version 2.0.1 -->
+	<TabulaRasa.UpdateDef>
+		<defName>GenderRatioGenes_port_20240514</defName>
+		<date>2024/05/14</date>
+		<banner />
+		<contentList>
+			<li>
+				<header>Minor Changes</header>
+				<text>set up version folders and load order, which should allow easier bugfixes (such as if an error only ocurs in 1.4), as well as better future-proofing for 1.6 (if applicable)
+added a changelog document
+set up links
+put a document into the mod with the steam description
+</text>
+			</li>
+			<li>
+				<header>Small additions</header>
+				<text>made the mod Tabula Rasa a soft reqrirment
+made it so if you have Tabula Rasa, you will get a changelog (you should know, your currently reading it), which is put into a "common" folder
+	made a "common" folder. all rim-world versions will load it, and it's for stuff like this changelog
+	
+added in links, credit, a micro-"wiki" for it, ect. (read: a formated readME file)
+added that link both into this changelog, the about file, and the steam description
+</text>
+			</li>
+		</contentList>
+		<links>
+			<li>
+				<linkLabel>Steam Workshop (port)</linkLabel>
+				<linkUrl>https://steamcommunity.com/sharedfiles/filedetails/?id=3245648283</linkUrl>
+				<linkTex>TabulaRasa/UI/Steam</linkTex>
+			</li>
+			<li>
+				<linkLabel>Steam Workshop (original mod)</linkLabel>
+				<linkUrl>https://steamcommunity.com/sharedfiles/filedetails/?id=3089173425</linkUrl>
+				<linkTex>TabulaRasa/UI/Steam</linkTex>
+			</li>
+			<li>
+				<linkLabel>GitHub Release</linkLabel>
+				<linkUrl>https://github.com/CTH999/Gender-Ratio-Genes--Ported/releases/tag/2.0.1</linkUrl>
+				<linkTex>TabulaRasa/UI/GitHub</linkTex>
+			</li>
+		</links>
+	</TabulaRasa.UpdateDef>
+<!-- version 2.0.2 -->
+	<TabulaRasa.UpdateDef>
+		<defName>GenderRatioGenes_port_20240516</defName>
+		<date>2024/05/16</date>
+		<banner />
+		<contentList>
+			<li>
+				<header>Minor Changes</header>
+				<text>fixed an error with the date of update 2.0.1
+improved filestructure and moved this to acount for that
+</text>
+			</li>
+		</contentList>
+		<links>
+			<li>
+				<linkLabel>Steam Workshop (port)</linkLabel>
+				<linkUrl>https://steamcommunity.com/sharedfiles/filedetails/?id=3245648283</linkUrl>
+				<linkTex>TabulaRasa/UI/Steam</linkTex>
+			</li>
+			<li>
+				<linkLabel>Steam Workshop (original mod)</linkLabel>
+				<linkUrl>https://steamcommunity.com/sharedfiles/filedetails/?id=3089173425</linkUrl>
+				<linkTex>TabulaRasa/UI/Steam</linkTex>
+			</li>
+			<li>
+				<linkLabel>GitHub Release</linkLabel>
+				<linkUrl>https://github.com/CTH999/Gender-Ratio-Genes--Ported/releases/tag/2.0.2</linkUrl>
+				<linkTex>TabulaRasa/UI/GitHub</linkTex>
+			</li>
+		</links>
+		<!-- 2.0.3 -->
+	</TabulaRasa.UpdateDef>
+		<TabulaRasa.UpdateDef>
+		<defName>GenderRatioGenes_port_20241124</defName>
+		<date>2024/11/24</date>
+		<banner />
+		<contentList>
+			<li>
+				<header>IMPORTANT NOTICE</header>
+				<text>this mod will no longer be truly recieving updates. Major bugs, and updateing to new rimworld versions, that's it. All content related to, or based off of, this mod, is now in Rimworld Extended: Properly</text>
+			</li>
+			<li>
+				<header>Major Update</header>
+				<text>made incompatible with my main mod
+added the contents of this mod to my main mod
+</text>
+			</li>
+		</contentList>
+		<links>
+			<li>
+				<linkLabel>Steam Workshop (port)</linkLabel>
+				<linkUrl>https://steamcommunity.com/sharedfiles/filedetails/?id=3245648283</linkUrl>
+				<linkTex>TabulaRasa/UI/Steam</linkTex>
+			</li>
+			<li>
+				<linkLabel>Steam Workshop (original mod)</linkLabel>
+				<linkUrl>https://steamcommunity.com/sharedfiles/filedetails/?id=3089173425</linkUrl>
+				<linkTex>TabulaRasa/UI/Steam</linkTex>
+			</li>
+			<li>
+				<linkLabel>GitHub Release</linkLabel>
+				<linkUrl>https://github.com/CTH999/Gender-Ratio-Genes--Ported/releases/tag/2.0.3</linkUrl>
+				<linkTex>TabulaRasa/UI/GitHub</linkTex>
+			</li>
+		</links>
+	</TabulaRasa.UpdateDef>
+</Defs>

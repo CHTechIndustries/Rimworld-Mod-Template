@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+	<GeneDef ParentName="CHTech_BioStabilize_base" Name="CHTech_BioStabalize_base_speech" Abstract="True"> <!--Version to make a copy of base with exclusions muteness-->
+		<exclusionTags>
+			<li>EBSG_Talking</li>
+			<!-- alpha genes has a mute gene somewhere, find it -->
+			<!--Anything that manipulates talking -->
+		</exclusionTags>
+	</GeneDef>
+	<GeneDef ParentName="CHTech_BioStabilize_base" Name="CHTech_BioStabalize_base_sight" Abstract="True"> <!--Version to make a copy of base with exclusions sight-->
+		<exclusionTags>
+			<li>EBSG_Sight</li>
+			<li>ShootingAccuracy</li>
+			<!-- find how to allow nearsighted, farsighted, ect, but not eyes. Block psycic sight? -->
+			<!-- Anything that manipulates sight -->
+		</exclusionTags>
+	</GeneDef>
+	<GeneDef ParentName="CHTech_BioStabilize_base" Name="CHTech_BioStabalize_base_hearing" Abstract="True"> <!--Version to make a copy of base with exclusions to deafness-->
+		<exclusionTags>
+			<li>EBSG_Hearing</li>
+			<!-- Anything that manipulates hearing -->
+			<!-- Alpha Genes has some sort of deafness gene, add it -->
+		</exclusionTags>
+	</GeneDef>	
+	<GeneDef ParentName="CHTech_BioStabilize_base" Name="CHTech_BioStabalize_base_arcite" Abstract="True"> <!--Version to make a copy of base with exclusions to all. Has all the ones from above, maybe more-->
+		<exclusionTags>
+			<li>EBSG_Hearing</li>
+			<li>Stable_Hearing</li>
+			<li>EBSG_Hearing</li>
+			<li>EBSG_Sight</li>
+			<li>EBSG_Talking</li>
+			<!-- anything causing blindness, mute, deaf, ect -->
+		</exclusionTags>
+	</GeneDef>	
+</Defs>

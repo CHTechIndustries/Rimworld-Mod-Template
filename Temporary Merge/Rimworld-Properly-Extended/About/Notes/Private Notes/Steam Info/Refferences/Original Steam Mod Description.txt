@@ -1,0 +1,56 @@
+[h1]Rimworld Extended: Properly[/h1]
+[hr][/hr]
+This mod has the deceptivly "semi-simple" goal of [u]Extending Rimworld[/u] and other [u]Rimworld Mods[/u], how [i]we[/i] think it should be done!
+
+So, what does that entail? Glad you asked[olist]
+[*]New Genes
+[*]Soft Compatibility with many a mod
+[*]more (takeing all suggestions!)
+[/olist]
+[hr][/hr]
+So, there are a lot of things in this mod, and there's not enough space. To give you a gist and show you what mods are optional dependencies (see the[url=https://steamcommunity.com/workshop/filedetails/discussion/3114130835/4034727620345270147/]Compatible Mods[/url] for details)
+
+Okay, what was I saying? oh, right, soft compatibilities: [olist]
+[*][url=https://steamcommunity.com/sharedfiles/filedetails/?id=3011354315]Endling (Last Of Their Kind)[/url]- adds a gene for it
+[*][url=https://steamcommunity.com/workshop/filedetails/?id=1201382956]A RimWorld of Magic[/url]- class genes, and trait genes
+	[*][url=https://steamcommunity.com/sharedfiles/filedetails/?id=2236103336]Kure's Rimworld of Magic Class Expansion Pack[/url]- class genes
+[*]And more comming soon![/olist]
+[hr][/hr]
+Do note, some of the content is not 100% my own, so, credit where credit is due: [olist]
+[*]Bleeding Eyes for [url=https://steamcommunity.com/sharedfiles/filedetails/?id=2907470506]RoM Genes[/url]. It's ported in [i]almost[/i] one-for-one
+[*]Touch-nir for [url=https://steamcommunity.com/sharedfiles/filedetails/?id=3023584656]All Rimworld of Magic Class Genes[/url], which I used as a basis for my class genes (although mine are soft requriments)
+[*]A RimWorld of Magic, which I am directly use the textures of for the genes mentioned in items 1 and 2, so I don't need to include those textures too
+[/olist]
+
+
+
+So, there is a lot of things in this mod, and not enough room on the Workshop Item Page (that's why there is a discusion specifically for a[url=https://steamcommunity.com/workshop/filedetails/discussion/3114130835/4034726898984604842/]general summary[/url] of info, as well as an (eternally WIP) [url=https://github.com/CHTechIndustries/Rimworld-Properly-Extended/wiki]Github-based wiki[/url] (also has stuff on notes for this mod, for those who want to extend the extension. Just do it [i]properly[/i], okay?) If you have any questions, don't hesitate to ask. While anywhere works, that summary discussion is also designed as the questions discussion, so I will be checking it more. (still will look at the comments though). 
+
+). Not the indipendent ones, as that could cause duplicates and errors, so it's only compatible with the All in One's
+If you want a more in-depth explanation/ description, check out the (highly Work in Progress) [url=https://github.com/Dynamic-Trio/Rimworld-Genes-Extended/wiki]Rimworld Genes Extended[/url] wiki. 
+As for a changelog, you can check out the steam changelog [url=https://steamcommunity.com/sharedfiles/filedetails/changelog/3114130835]Here[/url], or subscribe to[url=https://steamcommunity.com/sharedfiles/filedetails/?id=1660622094]Tabula-Rasa[/url] for an in-game, more in-depth update log!
+
+Now, for the the general, long-term plan for this mod seris is to have it multi-part, going like this:
+[olist]
+[*][url=https://steamcommunity.com/sharedfiles/filedetails/?id=3114130835]Rimworld Genes Extended[/url] (this mod): adds in some new genes of my own invention, as well as genes integrated with other mods.
+[*][url=https://steamcommunity.com/sharedfiles/filedetails/?id=3097961901]Xenotypes Expanded and Merged[/url]: New xenotypes based on this mods genes, and a few others
+[*]Rimworld Genes Integrated
+	This mod will make new genes requiring multiple mods. For instance, integration between 2 specific mods, as optional dependencies won't allow them. Examples include:[olist]
+[*]All Vanilla Expanded Races
+[*]All Big and Small Races
+[/olist]
+[*]Xenotypes Integrated: uses all of the Rimworld Genes Integrated to produce new inter-connected xenos
+[*]Biotech Expanded: mods that add new mechanics. Examples include [list]
+[*]Cloneing
+[*]Synthesyzing genes
+[*]Archite production
+[*]Save our Ship features (genes, weapons, ship components)
+[/list]
+[*]Xenotypes Combined: A mod that combines xenotypes integrated and all Biotech Expanded into one mod!
+[*]More?
+[/olist]
+
+
+And, here's the [url=https://steamcommunity.com/workshop/filedetails/discussion/3114130835/4032474633912009568/]FAQ[/url] (don't worry. I made it [i]quite[/i] enjoyable to read, imo.
+
+[b]NOTE: THE ICONS IN THIS MOD ARE [i]PLACEHOLDERS[/i], UNTILL I CAN FIGURE OUT HOW TO MAKE "GOOD" ICONS, AND HAVE TIME (and the desire) TO DO THAT[/b] 
