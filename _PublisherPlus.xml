@@ -9,6 +9,5 @@
 	<exclude>.branchLog</exclude>
 	<exclude>About\Incomplete</exclude>
 	<exclude>About\Lists</exclude>
-	<exclude>\Temporary Transfer</exclude>
   </Excluded>
 </Configuration>
