@@ -1,0 +1,1 @@
+put soft dependencies in these folders. Remember to re-construct folder structure (defs folder, ect)
