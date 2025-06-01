@@ -1,0 +1,21 @@
+Put notes to self in here, such as a reminder to do "x"
+
+Other notes (important for all mods)
+
+XML Format:
+	Commenteing: 
+<!-- Comment goes here -->
+
+Rimworld Notes
+	File Locations (on windows, but I assume for mac and such a similar pattern will appear, you would just need to go to the equivilent of "locallow" on that OS):
+
+	1. Custom Scenarios: 
+		Users\Username\AppData\LocalLow\Ludeon Studios\RimWorld by Ludeon Studios\Scenarios
+	2. Custom Xenotypes: 
+		Users\Username\AppData\LocalLow\Ludeon Studios\RimWorld by Ludeon Studios\Xenotypes
+	3. Ideologies: 
+		Users\Username\AppData\LocalLow\Ludeon Studios\RimWorld by Ludeon Studios\Ideos
+	4. Androids (vanilla races expanded: androids): 
+		Users\Username\AppData\LocalLow\Ludeon Studios\RimWorld by Ludeon Studios\AndroidProjects
+
+File Structure for other parts of mods

@@ -1,0 +1,39 @@
+0.0.0
+
+Made mod as placeholder
+
+0.0.1
+Added in the scenario someone made as a prototype
+Updated description with credits
+Made mod require Vanometric Generater, to provide a more thematic power source for the scenario!
+Uploaded public, as an extreme alpha
+
+0.0.3
+made unlisted, so it can be tested by others, but people won't find it
+updated to 1.5 (not all the requirents are updated, but they will be soon)
+altered a few ID's (so 1.4 and 1.5 aren't compatible, srry)
+added common folder
+deleted empty placeholders in 1.4
+
+0.0.4
+Fixed common folder file structure
+added tabula rasa based changelog
+
+0.1.0
+tried to get softcores craftable via mechs (can't right now, have some ideas but it's not happening soon. Untill then, either a trader or semi-random event?)
+patched researching into the gestator
+update description
+update about file
+fix about file
+add progress notes
+
+0.1.1
+made this reqrire a mod that allows them to caravan. goal is to one day make that involve research, but untill then...
+found how to make it able to do subcores, but the limitations are unknown.
+	It's known that fabricators can do them, and that they can do basic subcores.
+	It's unknown if they can do higher teirs than basic. If you find out, tell me please
+	
+	The ultimate plan: But, the plan is to eventually have only the gestator able to make subcores, and only to basic (maybe the middle (softscanner) one). Holography (future feature) is needed to make the high subcores. So, plan acordingly with your designs, knowing that if you currently can make high subcores, it's not permanent
+
+0.1.2
+Found out that I forgot to update version number in about file, fixed

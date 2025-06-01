@@ -1,0 +1,1 @@
+won't work in a full mod as uploaded scenarios are themselves mods, combined with the about file, and scenario, all in one file

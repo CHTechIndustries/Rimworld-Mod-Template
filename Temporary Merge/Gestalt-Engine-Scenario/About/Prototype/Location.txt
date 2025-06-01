@@ -1,0 +1,2 @@
+after once in SteamLibrary, the scenario (which are technically mods) is in the location of:
+SteamLibrary\steamapps\workshop\content\294100\3157511590

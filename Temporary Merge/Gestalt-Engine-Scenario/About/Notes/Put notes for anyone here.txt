@@ -1,0 +1,1 @@
+Put notes for things you want others (such as other moders) to be able to see. That's things like more detailed explanations, build-in guides for adding on code (general notes. More detailed info would still go into the main files as comments. This is for like "all my genes are prefixed with "such and such" (with mine, TdT_, for instance. In Super Hero Genes, it's shg_ iirc)

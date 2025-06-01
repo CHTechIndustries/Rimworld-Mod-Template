@@ -1,0 +1,10 @@
+useing Visual Studio, follow rimworld instructions, and install your code here (checking "put workshpace in same folder.
+
+Then, as the assembly target, use ../../1.4/Assemblies
+
+../ means "go up 1 folder. By ticking "Place solution and project in the same directory", you have to go back 2 spaces. Then, into 1.4/Assemblies.
+
+You can put it into an assemblies folder outside 1.4, but by doing this, when migrating to new versions, you just leave the old code, and transfer any changes to the new location (change the place the workspace targets). Will make compatibility across versions easier
+
+If you don't tick "Place solution and project in the same directory", you will need to add another ../
+If you want to put assemblies outside of 1.4, you remove the 1.4 from that adress

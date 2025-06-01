@@ -1,0 +1,38 @@
+[h1]THIS MOD IS QUITE COMPLEX AND A MAJOR WORK IN PROGRESS[/h1]
+That means:
+[b][olist]
+[*]Updates will be semi-sporiadic due to complexity and necessary breaks
+[*]There will be very little "polish" (for instance, no preview image)
+[*]For modders, ID's might change as I re-design the mod from scratch over and over...
+[/olist]
+
+[u]YOU HAVE BEEN WARNED[/u]
+[/b]
+[hr][/hr]
+Okay, now that the warning is over let's get on with the mod description!
+
+So, there is [i]one[/i] thing missing from our good friend the [url=https://steamcommunity.com/sharedfiles/filedetails/?id=3042401691]Gestalt Engine Mod[/url]. That is: a scenario!
+
+So, a while back, I mentioned "I'm beginning to get into modding, I'll look into it". I then forgot, luckilly the person who inspired it didin't. After a "few" reminders, I started working on it. First they uploaded a prototype scenario, which I used as a basis. I then started editing the scenario, by doing things such as adding background features to let it work better! So, anyways, thank you to [url=https://steamcommunity.com/profiles/76561198366165786]Breadmond[/url], for:
+[list]
+[*]Inspiritation
+[*]Testing
+[*][url=https://steamcommunity.com/sharedfiles/filedetails/?id=3157511590]A prototype[/url]
+[*]Pestering me to make sure I didin't forget (honestly, only sure-fire way to remind me)
+[/list]
+
+But, I aparently was wrong on the simplicity of this idea (it turned out the answer is "not at all"), so even more people ended up helping, and therefore deserve credit:
+[list]
+[*][url=https://steamcommunity.com/profiles/76561198366165786]Breadmond[/url] (for the reasons mentioned above_
+[*][url=https://steamcommunity.com/id/nirahiel]Niraheil[/url], without whom I couldn't have even begun to do the necessary C# code, nor realize that this mod would reqrire code! He described a good algorithim for the system, and the holography is based on his idea!
+[/list]
+
+and, while he didin't directly help, thank you to [url=https://steamcommunity.com/id/Helixien/myworkshopfiles/?appid=294100]Helixien[/url] for making [url=https://steamcommunity.com/sharedfiles/filedetails/?id=3042401691]Gestalt Engine[/url] mod, without which this mod wouldn't be possible!
+
+[hr][/hr]
+[h2]Progress[/h2]
+Holography: 0%
+Gestalt Engine Avatar: 0%
+Subcore Production: 8%
+Research: 39%
+Scenarios: 3%
