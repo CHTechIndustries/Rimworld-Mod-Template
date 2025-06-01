@@ -30,3 +30,6 @@
 *.exe
 *.out
 *.app
+
+#Folders
+PersonalLinks/*.lnk
