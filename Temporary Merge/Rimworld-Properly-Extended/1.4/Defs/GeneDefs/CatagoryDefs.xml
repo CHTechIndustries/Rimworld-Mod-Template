@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+    <GeneCategoryDef>
+        <defName>TdT_BioStabilizers</defName>
+        <label>Bio-Stabilizer</label>
+        <displayPriorityInXenotype>499.999</displayPriorityInXenotype>
+    </GeneCategoryDef>
+</Defs>

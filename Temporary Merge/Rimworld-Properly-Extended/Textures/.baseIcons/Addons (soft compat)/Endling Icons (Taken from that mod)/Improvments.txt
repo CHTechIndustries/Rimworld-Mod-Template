@@ -1,0 +1,1 @@
+Note: the icon (final icon) needs to have a slight change so that the gradients semlessly merge. Low priority

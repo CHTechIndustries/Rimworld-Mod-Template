@@ -1,0 +1,1 @@
+use 128 by 128 size. That is "0.98 cm" on word

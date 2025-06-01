@@ -1,0 +1,19 @@
+2.0.0
+Ported
+Slight gramatical change
+ported to 1.5 as well
+made harmony reqruiered by the mods about file as well
+Made biotech reqrired by the mods about file
+added mod version
+
+2.0.1
+added version folders (might help with bug fixes?)
+added in a Tabula Rasa based changelog (soft compat)
+added in a changelog pre-file (this one)
+finished description
+made markdown into a mod info page
+added link to said markdown into about file
+
+2.0.2
+fixed an error of the date for update 2.0.1
+altered location of changelog to be more organized

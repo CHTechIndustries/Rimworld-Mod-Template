@@ -1,0 +1,38 @@
+Okay, I, CTH2004, have finally written the description, after being reminded by [url=https://steamcommunity.com/id/verruxlunox]verruxlunox[/url]
+So, here's the Description v2 (version 3 coming eventually!)
+
+
+[h1]Rimworld Extended: Properly[/h1]
+[hr][/hr]
+This mod has the deceptivly "semi-simple" goal of [u]Extending Rimworld[/u] and other [u]Rimworld Mods[/u], how [i]I[/i] think it should be done!
+
+So, what does that entail? Glad you asked[olist]
+[*]New Genes
+[*]Soft Compatibility with many a mod
+[*]more (takeing any [i]and[/i] all suggestions!)
+[/olist]
+[hr][/hr]
+Oh, you want more? well, okay, [i]fine[/i]. I'll give you a summary, that's all! 
+[list]
+[*]There are the Bio-Stabilizer genes, which weaken all stats by "x", except for 1. That other stat is increased, but capped at 100. That way, it takes a lot more to drop it to bellow 100! So, you wanted a functional colonist with a very damaged brain? No? well, now you can!
+[*]There are some genes manipulateing the psyfocus costs with Vanilla Psycasts Expanded
+[*]If you have Endling: Last of their Kind, a gene that adds that. Now you can have kids inherit haveing no liveing family!
+[*]Pierceing Spine has an increased range
+[*]Genes for manipulateing the ratio of pawns genders, courtesy of Tuuree
+[*]that's all (For now)...
+[/list]
+
+Oh, still not enough? Well, there's no room here, so... uh, [strike][url=https://steamcommunity.com/workshop/filedetails/discussion/3114130835/4034726898984604842/]try here[/url][/strike] [b]Coming Soon-ish[/b]
+[hr][/hr]
+Now, I must admit, some of the content is not 100% my ownsome of the content is not 100% my own, so, credit where credit is due: [olist]
+[*]Bleeding Eyes for [url=https://steamcommunity.com/sharedfiles/filedetails/?id=2907470506]RoM Genes[/url]. It's ported in [i]almost[/i] one-for-one
+[*]Touch-nir for [url=https://steamcommunity.com/sharedfiles/filedetails/?id=3023584656]All Rimworld of Magic Class Genes[/url], which I used as a basis for my class genes [strike](although mine are soft requriments)[/strike]
+[*]A RimWorld of Magic, which I am directly use the textures of for the genes mentioned in items 1 and 2, so I don't need to include those textures too
+[*][url=https://steamcommunity.com/id/DaLeadingWolf/myworkshopfiles/?appid=294100]Get Donked On[/url] for [url=https://steamcommunity.com/sharedfiles/filedetails/?id=3048020073]VPE Psycastfocus cost genes[/url] Which, with his permission, has been integrated here
+[/olist]
+
+
+And, here's the [url=https://steamcommunity.com/workshop/filedetails/discussion/3114130835/4032474633912009568/]FAQ[/url] (don't worry. It is quite fun to read in my [i]totally unbiased[/i] opinion)
+
+
+[b]NOTE: THE ICONS IN THIS MOD ARE [i]PLACEHOLDERS[/i], UNTILL I CAN FIGURE OUT HOW TO MAKE "GOOD" ICONS, AND HAVE TIME (and the desire) TO DO THAT[/b]

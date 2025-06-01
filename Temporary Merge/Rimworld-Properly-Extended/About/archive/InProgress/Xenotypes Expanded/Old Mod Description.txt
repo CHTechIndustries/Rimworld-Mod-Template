@@ -1,0 +1,18 @@
+This realitivly simple mod does a couple things.
+First it adds in some nice (in my opinion at least) xenotypes straight off the bat.
+Next, it patches the xenos of other mods, to (hopefully) make them more seamless
+Finally, it adds some new basic xenos to different mods, so if you have mod "x" installed, new xenos appear!
+
+Because of that, this mod is effectivly an "intermediate" step to my other mods, making them already semi-connected before I even begin. Perfect, eh? (I hope...)
+Now, there are some mods that this works very well with, and are needed to be able to expirience this mod to it's full extent. They are:
+	1. Un-Limited by Grimm to allow percentages to go above normal, such as inate armour above 200%.
+	2. Need Bar Overflow by AmCh
+	3. Meaty Baby Food by StarkRavingSane
+	4. No More Lethal Damage Threshold by Jdalt40
+	5. Sniper Spine by Alite, so your piercing spine is actually, you know, useful.
+	6. BK's Babies can eat Nutrient Paste by Brent Kerman
+
+Also, there are some that are very useful, but not truly necessary (still highly recommeneded you look at them)
+	1. Limitless Deathrest by DemonX3 for your extra-OP sangophages
+	2. Scrollable Gizmos by 2blockdude
+	3. Gendered Genes, which allows for genes to be exclusive to genders, and therefore pawns to have phenotypes (different properties for different genders). It's possible some xenos will one day need this mod, perhap even to the hard requirment level.
