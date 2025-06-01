@@ -1,0 +1,1 @@
+the debug mods haven't been optimized for newest version, so right now a mod with only my mods is there, so "Sort" can be used to add in the pre-reqs, as they change. Once finilized, will remove that and make it the main one

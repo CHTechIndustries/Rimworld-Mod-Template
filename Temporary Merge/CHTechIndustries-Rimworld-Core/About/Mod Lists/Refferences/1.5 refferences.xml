@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ModsConfigData>
+    <version>1.5.4104 rev435</version>
+    <activeMods>
+        <li>brrainz.harmony</li>
+        <li>ludeon.rimworld</li>
+        <li>ludeon.rimworld.royalty</li>
+        <li>ludeon.rimworld.ideology</li>
+        <li>ludeon.rimworld.biotech</li>
+        <li>ludeon.rimworld.anomaly</li>
+        <li>unlimitedhugs.hugslib</li>
+        <li>oskarpotocki.vanillafactionsexpanded.core</li>
+        <li>vanillaexpanded.vpsycastse</li>
+        <li>sarg.alphaanimals</li>
+        <li>sarg.alphagenes</li>
+        <li>sarg.alphaimplants</li>
+        <li>tpabobap.bettervpeskipdoorpathing</li>
+        <li>edern.combatpsycasts</li>
+        <li>metalocif.coolerpsycasts</li>
+        <li>edb.preparecarefully</li>
+        <li>ebsg.framework</li>
+        <li>sariusskelrets.hemocapacity</li>
+        <li>ferny.integratedalphapsycasts</li>
+        <li>neronix17.toolbox</li>
+        <li>myf.lightseeker</li>
+        <li>myf.skyrunner</li>
+        <li>arquebus.psyblasters</li>
+        <li>imranfish.xmlextensions</li>
+        <li>mute.vpesensitivity</li>
+        <li>blockdude.scrollablegizmos</li>
+        <li>sleepy068.morepsycasts</li>
+        <li>vanillaexpanded.vpe.puppeteer</li>
+        <li>lee.theforce.psycast</li>
+        <li>aranmaho.rangerclass</li>
+        <li>slug.vpecurses1</li>
+        <li>jdalt.vpeselfcastpatch</li>
+        <li>vanillaexpanded.vpe.hemosage</li>
+        <li>vanillaracesexpanded.archon</li>
+        <li>restless.archocaster</li>
+        <li>co.uk.epicguru.whatsthatmod</li>
+        <li>aranmaho.ravenouseye.wildhunter.psycast</li>
+        <li>kenx00x.xenotypeandideologybuttonstitlescreen15update</li>
+    </activeMods>
+    <knownExpansions>
+        <li>ludeon.rimworld</li>
+        <li>ludeon.rimworld.royalty</li>
+        <li>ludeon.rimworld.ideology</li>
+        <li>ludeon.rimworld.biotech</li>
+        <li>ludeon.rimworld.anomaly</li>
+    </knownExpansions>
+</ModsConfigData>

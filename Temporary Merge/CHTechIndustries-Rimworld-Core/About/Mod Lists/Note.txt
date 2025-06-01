@@ -1,0 +1,3 @@
+unless specified, the mod has the "assistance" mods
+
+the list in this folder contains the mods used for debugging/ publishing
