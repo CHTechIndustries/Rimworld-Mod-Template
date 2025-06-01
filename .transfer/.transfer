@@ -1,0 +1,5 @@
+this branch utilizes the gitignore file to be able to not form commits.
+
+this 1 file here allows for thefolder to exist, but the .gitignore file will prevent anything transfered in from being effected. that means anything that is put here will not be removed by github, nor added.
+
+useful for transfering changed files between branches
