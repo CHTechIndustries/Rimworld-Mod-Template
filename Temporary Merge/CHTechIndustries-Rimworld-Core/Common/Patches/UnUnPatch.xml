@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Patch>
+        <!--ArmorRatingBase MaxValue-->
+		<Operation Class="PatchOperationRemove">
+			<xpath>Defs/StatDef[@Name="ArmorRatingBase"]/maxValue</xpath>
+		</Operation>
+        <!--MeleeHitChance CapacityOffsets-->
+		<Operation Class="PatchOperationRemove">
+			<xpath>Defs/StatDef[defName="MeleeHitChance"]/capacityOffsets//max</xpath>
+		</Operation>
+		<!--MeleeDodgeChance CapacityOffsets-->
+		<Operation Class="PatchOperationRemove">
+			<xpath>Defs/StatDef[defName="MeleeDodgeChance"]/capacityOffsets//max</xpath>
+		</Operation>
+        <!--ShootingAccuracyPawn CapacityOffsets-->
+		<Operation Class="PatchOperationRemove">
+			<xpath>Defs/StatDef[defName="ShootingAccuracyPawn"]/capacityOffsets//max</xpath>
+		</Operation>
+        <!--MortarMissRadiusFactor CapacityOffsets-->
+		<Operation Class="PatchOperationRemove">
+			<xpath>Defs/StatDef[defName="MortarMissRadiusFactor"]/capacityOffsets//max</xpath>
+		</Operation>
+        <!--ForagedNutritionPerDay CapacityFactors-->
+		<Operation Class="PatchOperationRemove">
+			<xpath>Defs/StatDef[defName="ForagedNutritionPerDay"]/capacityFactors//max</xpath>
+		</Operation>
+        <!--NegotiationAbility CapacityFactors-->
+		<Operation Class="PatchOperationRemove">
+			<xpath>Defs/StatDef[defName="NegotiationAbility"]/capacityFactors//max</xpath>
+		</Operation>
+        <!--ArrestSuccessChance CapacityFactors-->
+		<Operation Class="PatchOperationRemove">
+			<xpath>Defs/StatDef[defName="ArrestSuccessChance"]/capacityFactors//max</xpath>
+		</Operation>
+        <!--SocialImpact CapacityFactors-->
+		<Operation Class="PatchOperationRemove">
+			<xpath>Defs/StatDef[defName="SocialImpact"]/capacityFactors//max</xpath>
+		</Operation>
+        <!--TameAnimalChance CapacityFactors-->
+		<Operation Class="PatchOperationRemove">
+			<xpath>Defs/StatDef[defName="TameAnimalChance"]/capacityFactors//max</xpath>
+		</Operation>
+        <!--TrainAnimalChance CapacityFactors-->
+		<Operation Class="PatchOperationRemove">
+			<xpath>Defs/StatDef[defName="TrainAnimalChance"]/capacityFactors//max</xpath>
+		</Operation>
+        <!--MiningSpeed CapacityFactors-->
+		<Operation Class="PatchOperationRemove">
+			<xpath>Defs/StatDef[defName="MiningSpeed"]/capacityFactors//max</xpath>
+		</Operation>
+        <!--DeepDrillingSpeed CapacityFactors-->
+		<Operation Class="PatchOperationRemove">
+			<xpath>Defs/StatDef[defName="DeepDrillingSpeed"]/capacityFactors//max</xpath>
+		</Operation>
+        <!--MiningYield CapacityFactors MaxValue-->
+		<Operation Class="PatchOperationRemove">
+			<xpath>Defs/StatDef[defName="MiningYield"]/capacityFactors//max</xpath>
+		</Operation>
+		<Operation Class="PatchOperationRemove">
+			<xpath>Defs/StatDef[defName="MiningYield"]/maxValue</xpath>
+		</Operation>
+        <!--SmoothingSpeed CapacityFactors-->
+		<Operation Class="PatchOperationRemove">
+			<xpath>Defs/StatDef[defName="SmoothingSpeed"]/capacityFactors//max</xpath>
+		</Operation>
+        <!--IntellectualSkillBase CapacityFactors-->
+		<Operation Class="PatchOperationRemove">
+			<xpath>Defs/StatDef[@Name="IntellectualSkillBase"]/capacityFactors//max</xpath>
+		</Operation>
+        <!--AnimalGatherSpeed CapacityFactors-->
+		<Operation Class="PatchOperationRemove">
+			<xpath>Defs/StatDef[defName="AnimalGatherSpeed"]/capacityFactors//max</xpath>
+		</Operation>
+        <!--AnimalGatherYield CapacityFactors MaxValue-->
+		<Operation Class="PatchOperationRemove">
+			<xpath>Defs/StatDef[defName="AnimalGatherYield"]/capacityFactors//max</xpath>
+		</Operation>
+		<!--<Operation Class="PatchOperationRemove">
+			<xpath>Defs/StatDef[defName="AnimalGatherYield"]/maxValue</xpath>
+		</Operation>Already unlimited in 1.5 update-->
+        <!--PlantWorkSpeed CapacityFactors-->
+		<Operation Class="PatchOperationRemove">
+			<xpath>Defs/StatDef[defName="PlantWorkSpeed"]/capacityFactors//max</xpath>
+		</Operation>
+        <!--PlantHarvestYield CapacityFactors MaxValue-->
+		<Operation Class="PatchOperationRemove">
+			<xpath>Defs/StatDef[defName="PlantHarvestYield"]/capacityFactors//max</xpath>
+		</Operation>
+		<Operation Class="PatchOperationRemove">
+			<xpath>Defs/StatDef[defName="PlantHarvestYield"]/maxValue</xpath>
+		</Operation>
+        <!--DrugHarvestYield MaxValue-->
+		<Operation Class="PatchOperationRemove">
+			<xpath>Defs/StatDef[defName="DrugHarvestYield"]/maxValue</xpath>
+		</Operation>
+        <!--ConstructionSpeed CapacityFactors-->
+		<Operation Class="PatchOperationRemove">
+			<xpath>Defs/StatDef[defName="ConstructionSpeed"]/capacityFactors//max</xpath>
+		</Operation>
+        <!--ConstructSuccessChance CapacityFactors MaxValue-->
+		<Operation Class="PatchOperationRemove">
+			<xpath>Defs/StatDef[defName="ConstructSuccessChance"]/capacityFactors//max</xpath>
+		</Operation>
+		<Operation Class="PatchOperationRemove">
+			<xpath>Defs/StatDef[defName="ConstructSuccessChance"]/maxValue</xpath>
+		</Operation>
+        <!--FixBrokenDownBuildingSuccessChance CapacityFactors MaxValue-->
+		<Operation Class="PatchOperationRemove">
+			<xpath>Defs/StatDef[defName="FixBrokenDownBuildingSuccessChance"]/capacityFactors//max</xpath>
+		</Operation>
+		<Operation Class="PatchOperationRemove">
+			<xpath>Defs/StatDef[defName="FixBrokenDownBuildingSuccessChance"]/maxValue</xpath>
+		</Operation>
+        <!--MedicalTendSpeed CapacityFactors-->
+		<Operation Class="PatchOperationRemove">
+			<xpath>Defs/StatDef[defName="MedicalTendSpeed"]/capacityFactors//max</xpath>
+		</Operation>
+        <!--MedicalTendQuality CapacityFactors-->
+		<Operation Class="PatchOperationRemove">
+			<xpath>Defs/StatDef[defName="MedicalTendQuality"]/capacityFactors//max</xpath>
+		</Operation>
+        <!--MedicalOperationSpeed CapacityFactors-->
+		<Operation Class="PatchOperationRemove">
+			<xpath>Defs/StatDef[defName="MedicalOperationSpeed"]/capacityFactors//max</xpath>
+		</Operation>
+        <!--MedicalSurgerySuccessChance CapacityFactors-->
+		<Operation Class="PatchOperationRemove">
+			<xpath>Defs/StatDef[defName="MedicalSurgerySuccessChance"]/capacityFactors//max</xpath>
+		</Operation>
+        <!--SmeltingSpeed CapacityFactors-->
+		<Operation Class="PatchOperationRemove">
+			<xpath>Defs/StatDef[defName="SmeltingSpeed"]/capacityFactors//max</xpath>
+		</Operation>
+        <!--GeneralLaborSpeed CapacityFactors-->
+		<Operation Class="PatchOperationRemove">
+			<xpath>Defs/StatDef[defName="GeneralLaborSpeed"]/capacityFactors//max</xpath>
+		</Operation>
+            <!--DrugSynthesisSpeed CapacityFactors-->
+		<Operation Class="PatchOperationRemove">
+			<xpath>Defs/StatDef[defName="DrugSynthesisSpeed"]/capacityFactors//max</xpath>
+		</Operation>
+            <!--CookSpeed CapacityOffsets-->
+		<Operation Class="PatchOperationRemove">
+			<xpath>Defs/StatDef[defName="CookSpeed"]/capacityOffsets//max</xpath>
+		</Operation>
+            <!--DrugCookingSpeed CapacityFactors-->
+		<Operation Class="PatchOperationRemove">
+			<xpath>Defs/StatDef[defName="DrugCookingSpeed"]/capacityFactors//max</xpath>
+		</Operation>
+            <!--ButcherySpeedBase CapacityFactors-->
+		<Operation Class="PatchOperationRemove">
+			<xpath>Defs/StatDef[@Name="ButcherySpeedBase"]/capacityFactors//max</xpath>
+		</Operation>
+        <!--ButcheryEfficiencyBase CapacityFactors-->
+		<Operation Class="PatchOperationRemove">
+			<xpath>Defs/StatDef[@Name="ButcheryEfficiencyBase"]/capacityFactors//max</xpath>
+		</Operation>
+		<Operation Class="PatchOperationRemove">
+			<xpath>Defs/StatDef[@Name="ButcheryEfficiencyBase"]/maxValue</xpath>
+		</Operation>
+</Patch>

@@ -1,0 +1,29 @@
+This is a list of mods that work very well with this mod (or just recommendations) (my other mods might also work great with another group, which will be mentioned in that mod). Also, if the mod is bolded, that means I consider it a near-necesity for useage
+
+[list]
+
+[*][b][url=https://steamcommunity.com/sharedfiles/filedetails/?id=2566316158]Need Bar Overflow[/url] by AmCh[/b]
+this mod allows you to have pawns not waste nutrition when the food would put them a little over 100%, and makes other sources of increased max nutrition work better
+
+[*][url=https://steamcommunity.com/sharedfiles/filedetails/?id=2838035829]Scrollable Gizmos[/url] by 2blockdude
+this way, if you get too many gizmos because of mods, you can scroll!
+
+[*][url=https://steamcommunity.com/sharedfiles/filedetails/?id=818773962]Hugs Lib[/url] or [url=https://steamcommunity.com/sharedfiles/filedetails/?id=2873415404]Log Publisher from Hugs Lib[/url]: great for publishing logs, practicly necessary for bug fixing
+
+[*][url=https://steamcommunity.com/sharedfiles/filedetails/?id=1660622094]Tabula Rausua[/url] by Neronix17
+this allows you to see my mods updates, and is a soft compat of Tweaks Galore. Also, (might) one day be used as a soft compat for my other mods. And, on top of that, on top of that, it also adds in a xenotype editor accessible from the front page (if Debug Modes on), which is great!
+
+[*][url=https://steamcommunity.com/sharedfiles/filedetails/?id=2258431182]What's That Mod[/url] by Epicguru (James B)
+this mod will let you know what mod added what, which is very, [i]very[/i] useful, especially with large packs
+
+[*][url=https://steamcommunity.com/sharedfiles/filedetails/?id=735106432]EdB Prepare Carefully[/url] by EdB
+it makes life a whole lot easier for when you just want to mess around, and not deal with things like "rules" and "balence" (:
+
+[*][url=https://steamcommunity.com/sharedfiles/filedetails/?id=3235289492]Un-Un-Limited[/url] by Zyro, as a sort of "light" (and therefore less prone to breaking) version of the unlimmiting portion of this mod
+
+[/list]
+
+
+
+
+

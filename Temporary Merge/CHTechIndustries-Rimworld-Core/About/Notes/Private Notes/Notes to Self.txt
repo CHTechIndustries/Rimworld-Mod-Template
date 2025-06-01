@@ -1,0 +1,28 @@
+Note to self: if PublisherHelper is removed, the original has probaly been updated, so get it from here: https://steamcommunity.com/sharedfiles/filedetails/?id=1510554297
+Note to self: check every so often if PublisherHelper (original) is updated, and if so, find out if that means the 1.4 port will no longer recieve updateds. If so, transistion to the original
+
+(few days worth) of code, and a "version" per each publish. Untill then, each "batch" is a new version.
+
+Changelog might eventually go through a major re-write, such as me adding earlier changes to it (includeing updates before when I started the file), and (eventually) changing the version numbers inside. Right now, those numbers are "notes", once I use github-releases and have "official" releace versions, then I will go through and make the versions match that, (and, once that hapens, convention prevents any more edits of previous entries, but right now it's more just notes than a true changelog)
+
+Once SuperEngie and DopeUnicorn909 have rimworld and we work on this together in earnest, add their names back to the author sections.
+
+Other notes (important for all mods)
+
+XML Format:
+	Commenteing: 
+<!-- Comment goes here -->
+
+Rimworld Notes
+	File Locations (on windows, but I assume for mac and such a similar pattern will appear, you would just need to go to the equivilent of "locallow" on that OS):
+
+	1. Custom Scenarios: 
+		Users\Username\AppData\LocalLow\Ludeon Studios\RimWorld by Ludeon Studios\Scenarios
+	2. Custom Xenotypes: 
+		Users\Username\AppData\LocalLow\Ludeon Studios\RimWorld by Ludeon Studios\Xenotypes
+	3. Ideologies: 
+		Users\Username\AppData\LocalLow\Ludeon Studios\RimWorld by Ludeon Studios\Ideos
+	4. Androids (vanilla races expanded: androids): 
+		Users\Username\AppData\LocalLow\Ludeon Studios\RimWorld by Ludeon Studios\AndroidProjects
+
+File Structure for other parts of mods
