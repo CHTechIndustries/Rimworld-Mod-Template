@@ -1,0 +1,1 @@
+if a mod is integrated in that has it's own changelog, an update to this mods changelog will say "mod "x" is integrated", and "mod "x"'s changelog will go here"

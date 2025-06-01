@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+	<GeneDef>
+		<defName>TdT_noRest</defName>
+		<label>No Rest</label>
+		<description>test		test		</description>
+		<displayCategory>Sleep</displayCategory>
+		<displayOrderInCategory>40.9</displayOrderInCategory>
+        <statFactors>
+            <RestRateMultiplier>0.25</RestRateMultiplier>
+        </statFactors>
+	</GeneDef>
+</Defs>

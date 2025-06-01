@@ -1,0 +1,12 @@
+So, this mod also adds new features to some mods (for details, look at the [url=https://steamcommunity.com/workshop/filedetails/discussion/3114130835/4034726898984604842/]Features[/url] discussion). Currently, those mods are:
+
+[olist]
+[*][url=https://steamcommunity.com/sharedfiles/filedetails/?id=3011354315]Endling: Last of their Kind[/url]: A new gene
+[/olist]
+
+There are also a few that either fit perfectly or are going to have new features very soon (soon is realitive... I get easily distrac.. [i]Squirell!?[/i]) [olist]
+[*][url=https://steamcommunity.com/sharedfiles/filedetails/?id=2985153870]More Biotech Style Genes - All in One[/url]
+[*][url=https://steamcommunity.com/sharedfiles/filedetails/?id=3020821838]Expanded Biotech Style Genes - All in One[/url]
+[*][url=https://steamcommunity.com/sharedfiles/filedetails/?id=3039936922]Expanded Archite Genes[/url]
+(Because of these 3, only the All in One's are compatible. The All in One's are a combination of multiple mods, so those individual ones are incompatible)
+[/olist]

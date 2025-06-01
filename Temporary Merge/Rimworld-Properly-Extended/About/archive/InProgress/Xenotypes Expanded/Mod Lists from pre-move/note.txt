@@ -1,0 +1,1 @@
+these lists are from core, where I store mod lists of what I'm testing. Put here as currently not in use, but might need to be refferenced later when makeing the features here

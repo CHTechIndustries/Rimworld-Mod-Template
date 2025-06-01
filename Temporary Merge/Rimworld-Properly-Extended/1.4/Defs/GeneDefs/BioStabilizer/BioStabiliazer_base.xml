@@ -1,0 +1,225 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+	<GeneDef Name="TdT_BioStabilize_base" Abstract="True">			<!--Base -->
+		<displayCategory>TdT_BioStabilizers</displayCategory>
+		<description>The Bio-Stabalizer Genes are designed to heigten specific stats, at the cost of longer rests and minor pain.
+		
+This one specifically stabalizies...</description>
+		<!-- if possible, find a way to have a custom description like shown: <customEffectDescriptions>
+			<li>This keeps stats bellow a certain point, but adds a large amount. So long as you have a fragment of the original limb, this will boost it to the target number! But, if you loose all, then there's a multiplication by 0, and you are out of luck!</li>
+		</customEffectDescriptions> -->
+		<exclusionTags>
+			<li>BioStable</li>
+			<li>Pain</li>
+			<li>EBSG_Wimp</li>
+			<li>EBSG_PainTraits</li>
+		</exclusionTags>
+		<statFactors>
+			<LifespanFactor>0.9</LifespanFactor>
+		</statFactors>
+	</GeneDef>
+
+<!-- 30% -->
+	<GeneDef ParentName="TdT_BioStabilize_base" Name="TdT_BioStabilize_1" Abstract="True">			<!-- 30% (main) -->
+		<displayOrderInCategory>1</displayOrderInCategory>
+		<labelShortAdj>Biostable 30%</labelShortAdj>
+		<biostatCpx>10</biostatCpx>
+		<biostatMet>-3</biostatMet>
+		<marketValueFactor>1.6</marketValueFactor>
+		<statFactors>
+			<RestRateMultiplier>0.7</RestRateMultiplier>
+		</statFactors>
+		<painOffset>0.30</painOffset>
+		<painFactor>1.3</painFactor>
+		<iconPath>GeneIcons/Bio-Stable/30/BioStable</iconPath>
+	</GeneDef>
+	<GeneDef ParentName="TdT_BioStabalize_base_speech" Name="TdT_BioStabilize_speech_1" Abstract="True">			<!-- 30% (talking) -->
+		<displayOrderInCategory>1</displayOrderInCategory>
+		<labelShortAdj>Biostable 30%</labelShortAdj>
+		<biostatCpx>10</biostatCpx>
+		<biostatMet>-3</biostatMet>
+		<marketValueFactor>1.6</marketValueFactor>
+		<statFactors>
+			<RestRateMultiplier>0.7</RestRateMultiplier>
+		</statFactors>
+		<painOffset>0.30</painOffset>
+		<painFactor>1.3</painFactor>
+		<iconPath>GeneIcons/Bio-Stable/30/BioStable</iconPath>
+	</GeneDef>
+	<GeneDef ParentName="TdT_BioStabalize_base_sight" Name="TdT_BioStabilize_sight_1" Abstract="True">			<!-- 30% (eye) -->
+		<displayOrderInCategory>1</displayOrderInCategory>
+		<labelShortAdj>Biostable 30%</labelShortAdj>
+		<biostatCpx>10</biostatCpx>
+		<biostatMet>-3</biostatMet>
+		<marketValueFactor>1.6</marketValueFactor>
+		<statFactors>
+			<RestRateMultiplier>0.7</RestRateMultiplier>
+		</statFactors>
+		<painOffset>0.30</painOffset>
+		<painFactor>1.3</painFactor>
+		<iconPath>GeneIcons/Bio-Stable/30/BioStable</iconPath>
+	</GeneDef>
+	<GeneDef ParentName="TdT_BioStabalize_base_hearing" Name="TdT_BioStabilize_hearing_1" Abstract="True">			<!-- 30% (hearing) -->
+		<displayOrderInCategory>1</displayOrderInCategory>
+		<labelShortAdj>Biostable 30%</labelShortAdj>
+		<biostatCpx>10</biostatCpx>
+		<biostatMet>-3</biostatMet>
+		<marketValueFactor>1.6</marketValueFactor>
+		<statFactors>
+			<RestRateMultiplier>0.7</RestRateMultiplier>
+		</statFactors>
+		<painOffset>0.30</painOffset>
+		<painFactor>1.3</painFactor>
+		<iconPath>GeneIcons/Bio-Stable/30/BioStable</iconPath>
+	</GeneDef>
+	<GeneDef ParentName="TdT_BioStabalize_base_arcite" Name="TdT_BioStabilize_archite_1" Abstract="True">			<!-- 30% (archite) -->
+		<displayOrderInCategory>1</displayOrderInCategory>
+		<labelShortAdj>Biostable 30%</labelShortAdj>
+		<biostatCpx>10</biostatCpx>
+		<biostatMet>-3</biostatMet>
+		<marketValueFactor>1.6</marketValueFactor>
+		<statFactors>
+			<RestRateMultiplier>0.7</RestRateMultiplier>
+		</statFactors>
+		<painOffset>0.30</painOffset>
+		<painFactor>1.3</painFactor>
+		<iconPath>GeneIcons/Bio-Stable/30/BioStable_Arc</iconPath>
+	</GeneDef>
+
+<!-- 60% -->
+	<GeneDef ParentName="TdT_BioStabilize_base" Name="TdT_BioStabilize_2" Abstract="True">			<!-- 60% (main) -->
+		<labelShortAdj>Biostable 60%</labelShortAdj>
+		<displayOrderInCategory>2</displayOrderInCategory>
+		<biostatCpx>15</biostatCpx>
+		<biostatMet>-6</biostatMet>
+		<marketValueFactor>2</marketValueFactor>
+		<statFactors>
+			<RestRateMultiplier>0.8</RestRateMultiplier>
+		</statFactors>
+		<painOffset>0.20</painOffset>
+		<painFactor>1.2</painFactor>
+		<iconPath>GeneIcons/Bio-Stable/60/BioStable</iconPath>
+	</GeneDef>
+	<GeneDef ParentName="TdT_BioStabalize_base_speech" Name="TdT_BioStabilize_speech_2" Abstract="True">			<!-- 60% (talking) -->
+		<labelShortAdj>Biostable 60%</labelShortAdj>
+		<displayOrderInCategory>2</displayOrderInCategory>
+		<biostatCpx>15</biostatCpx>
+		<biostatMet>-6</biostatMet>
+		<marketValueFactor>2</marketValueFactor>
+		<statFactors>
+			<RestRateMultiplier>0.8</RestRateMultiplier>
+		</statFactors>
+		<painOffset>0.20</painOffset>
+		<painFactor>1.2</painFactor>
+		<iconPath>GeneIcons/Bio-Stable/60/BioStable</iconPath>
+	</GeneDef>
+	<GeneDef ParentName="TdT_BioStabalize_base_sight" Name="TdT_BioStabilize_sight_2" Abstract="True">			<!-- 60% (eye) -->
+		<labelShortAdj>Biostable 60%</labelShortAdj>
+		<displayOrderInCategory>2</displayOrderInCategory>
+		<biostatCpx>15</biostatCpx>
+		<biostatMet>-6</biostatMet>
+		<marketValueFactor>2</marketValueFactor>
+		<statFactors>
+			<RestRateMultiplier>0.8</RestRateMultiplier>
+		</statFactors>
+		<painOffset>0.20</painOffset>
+		<painFactor>1.2</painFactor>
+		<iconPath>GeneIcons/Bio-Stable/60/BioStable</iconPath>
+	</GeneDef>
+	<GeneDef ParentName="TdT_BioStabalize_base_hearing" Name="TdT_BioStabilize_hearing_2" Abstract="True">			<!-- 60% (hearing) -->
+		<labelShortAdj>Biostable 60%</labelShortAdj>
+		<displayOrderInCategory>2</displayOrderInCategory>
+		<biostatCpx>15</biostatCpx>
+		<biostatMet>-6</biostatMet>
+		<marketValueFactor>2</marketValueFactor>
+		<statFactors>
+			<RestRateMultiplier>0.8</RestRateMultiplier>
+		</statFactors>
+		<painOffset>0.20</painOffset>
+		<painFactor>1.2</painFactor>
+		<iconPath>GeneIcons/Bio-Stable/60/BioStable</iconPath>
+	</GeneDef>
+	<GeneDef ParentName="TdT_BioStabalize_base_arcite" Name="TdT_BioStabilize_archite_2" Abstract="True">			<!-- 60% (archite) -->
+		<labelShortAdj>Biostable 60%</labelShortAdj>
+		<displayOrderInCategory>2</displayOrderInCategory>
+		<biostatCpx>15</biostatCpx>
+		<biostatMet>-6</biostatMet>
+		<marketValueFactor>2</marketValueFactor>
+		<statFactors>
+			<RestRateMultiplier>0.8</RestRateMultiplier>
+		</statFactors>
+		<painOffset>0.20</painOffset>
+		<painFactor>1.2</painFactor>
+		<iconPath>GeneIcons/Bio-Stable/60/BioStable_Arc</iconPath>
+	</GeneDef>
+	
+<!-- 90% -->
+	<GeneDef ParentName="TdT_BioStabilize_base" Name="TdT_BioStabilize_3" Abstract="True">			<!-- 90% (main)-->
+		<labelShortAdj>Biostable 90%</labelShortAdj>
+		<displayOrderInCategory>3</displayOrderInCategory>
+		<biostatCpx>20</biostatCpx>
+		<biostatMet>-9</biostatMet>
+		<marketValueFactor>1.9</marketValueFactor>
+		<statFactors>
+			<RestRateMultiplier>0.9</RestRateMultiplier>
+		</statFactors>
+		<painOffset>0.10</painOffset>
+		<painFactor>1.1</painFactor>
+		<iconPath>GeneIcons/Bio-Stable/90/BioStable</iconPath>
+	</GeneDef>
+	<GeneDef ParentName="TdT_BioStabalize_base_speech" Name="TdT_BioStabilize_speech_3" Abstract="True">			<!-- 90% (talking)-->
+		<labelShortAdj>Biostable 90%</labelShortAdj>
+		<displayOrderInCategory>3</displayOrderInCategory>
+		<biostatCpx>20</biostatCpx>
+		<biostatMet>-9</biostatMet>
+		<marketValueFactor>1.9</marketValueFactor>
+		<statFactors>
+			<RestRateMultiplier>0.9</RestRateMultiplier>
+		</statFactors>
+		<painOffset>0.10</painOffset>
+		<painFactor>1.1</painFactor>
+		<iconPath>GeneIcons/Bio-Stable/90/BioStable</iconPath>
+	</GeneDef>
+	<GeneDef ParentName="TdT_BioStabalize_base_sight" Name="TdT_BioStabilize_sight_3" Abstract="True">			<!-- 90% (sight)-->
+		<labelShortAdj>Biostable 90%</labelShortAdj>
+		<displayOrderInCategory>3</displayOrderInCategory>
+		<biostatCpx>20</biostatCpx>
+		<biostatMet>-9</biostatMet>
+		<marketValueFactor>1.9</marketValueFactor>
+		<statFactors>
+			<RestRateMultiplier>0.9</RestRateMultiplier>
+		</statFactors>
+		<painOffset>0.10</painOffset>
+		<painFactor>1.1</painFactor>
+		<iconPath>GeneIcons/Bio-Stable/90/BioStable</iconPath>
+	</GeneDef>
+	<GeneDef ParentName="TdT_BioStabilize_base" Name="TdT_BioStabilize_hearing_3" Abstract="True">			<!-- 90% (hearing)-->
+		<labelShortAdj>Biostable 90%</labelShortAdj>
+		<displayOrderInCategory>3</displayOrderInCategory>
+		<biostatCpx>20</biostatCpx>
+		<biostatMet>-9</biostatMet>
+		<marketValueFactor>1.9</marketValueFactor>
+		<statFactors>
+			<RestRateMultiplier>0.9</RestRateMultiplier>
+		</statFactors>
+		<painOffset>0.10</painOffset>
+		<painFactor>1.1</painFactor>
+		<iconPath>GeneIcons/Bio-Stable/90/BioStable</iconPath>
+	</GeneDef>
+	<GeneDef ParentName="TdT_BioStabalize_base_arcite" Name="TdT_BioStabilize_archite_3" Abstract="True">			<!-- 90% (archite)-->
+		<labelShortAdj>Biostable 90%</labelShortAdj>
+		<displayOrderInCategory>3</displayOrderInCategory>
+		<biostatCpx>20</biostatCpx>
+		<biostatMet>-9</biostatMet>
+		<marketValueFactor>1.9</marketValueFactor>
+		<statFactors>
+			<RestRateMultiplier>0.9</RestRateMultiplier>
+		</statFactors>
+		<painOffset>0.10</painOffset>
+		<painFactor>1.1</painFactor>
+		<iconPath>GeneIcons/Bio-Stable/90/BioStable_Arc</iconPath>
+	</GeneDef>
+
+<!-- 100% (future feature) will be modular (not mutually exclusive)-->
+</Defs>
+

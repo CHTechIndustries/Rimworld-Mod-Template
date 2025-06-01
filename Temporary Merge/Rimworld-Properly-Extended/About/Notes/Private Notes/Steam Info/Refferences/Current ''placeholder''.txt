@@ -1,0 +1,49 @@
+Okay, a "temporary" [spoiler]Might make the permanent one integrate this[/spoiler] description bellow. (I keep forgetting to re-write the description. You know, these things ain't easy! Limited words, gotta make it humourus, gotta check length, ensure backups, yell at myself at least 3 times for stupid mistakes... )
+
+This mod started as a gene mod, then as a "gene and a few other mods", but it's gotten with enough plans, it's less genes and more an extension. One might even say, a [i]proper[/i] extension!
+
+P.S. just so you know, most incompatibilities are purley for preventing duplicity.
+
+P.P.S.
+already too much too write. So, I put a (summary) of the features in [url=https://steamcommunity.com/workshop/filedetails/discussion/3114130835/4034726898984604842/]This discussion[/url].
+
+P.P.P.S
+[b]NOTE: THE ICONS IN THIS MOD ARE [i]PLACEHOLDERS[/i], UNTILL I CAN FIGURE OUT HOW TO MAKE "GOOD" ICONS, AND HAVE TIME TO DO THAT[/b] (or decide to keep them as a tribute to the past)
+
+[url=https://steamcommunity.com/workshop/filedetails/discussion/3114130835/4032474633912009568/]FAQ[/url] (don't worry. I made it [i]quite[/i] enjoyable to read, imo.
+[strike]Rimworld genes expanded does, get this, add new genes!
+
+Now, this mod adds both genes of my own design, and genes that require other mods and work with them. The whole mod is designed to (try) to fit in easily, as well as be both simple, [i]and[/i] complex. Because of that, the features are  If you have any questions, don't hesitate to ask. While anywhere works, that summary discussion is also designed as the questions discussion, so I will be checking it more. (still will look at the comments though). It is also highly compatible with all of the Biotech Style Genes mods by Alite (look at [url=https://steamcommunity.com/workshop/filedetails/discussion/3114130835/4034727620345270147/]"Compatible Mods"[/url]). Not the indipendent ones, as that could cause duplicates and errors, so it's only compatible with the All in One's
+If you want a more in-depth explanation/ description, check out the (highly Work in Progress) [url=https://github.com/Dynamic-Trio/Rimworld-Genes-Extended/wiki]Rimworld Genes Extended[/url] wiki. 
+As for a changelog, you can check out the steam changelog [url=https://steamcommunity.com/sharedfiles/filedetails/changelog/3114130835]Here[/url]. however, the wiki contains a [i]much[/i] better [url=https://github.com/Dynamic-Trio/Rimworld-Genes-Extended/wiki/Changelog]Changelog[/url].
+
+Now, for the the general, long-term plan for this mod seris is to have it multi-part, going like this:
+[olist]
+[*][url=https://steamcommunity.com/sharedfiles/filedetails/?id=3114130835]Rimworld Genes Extended[/url] (this mod): adds in some new genes of my own invention, as well as genes integrated with other mods.
+[*][url=https://steamcommunity.com/sharedfiles/filedetails/?id=3097961901]Xenotypes Expanded and Merged[/url]: New xenotypes based on this mods genes, and a few others
+[*]Rimworld Genes Integrated
+	This mod will make new genes requiring multiple mods. For instance, integration between 2 specific mods, as optional dependencies won't allow them. Examples include:[olist]
+[*]All Vanilla Expanded Races
+[*]All Big and Small Races
+[/olist]
+[*]Xenotypes Integrated: uses all of the Rimworld Genes Integrated to produce new inter-connected xenos
+[*]Biotech Expanded: mods that add new mechanics. Examples include [list]
+[*]Cloneing
+[*]Synthesyzing genes
+[*]Archite production
+[*]Save our Ship features (genes, weapons, ship components)
+[/list]
+[*]Xenotypes Combined: A mod that combines xenotypes integrated and all Biotech Expanded into one mod!
+[*]More?
+[/olist]
+
+Currently, some of the features that are in the works include: [olist]
+[*]genes for the mod "Godly Trait Genes".
+[*]simple genes for Super Hero Genes. That quite possibly will also be my first "Rimworld Genes Integrated" module
+[/olist]
+And, here's the 
+
+Also, if you want more xenos based off of this mod, look no further than [url=https://steamcommunity.com/sharedfiles/filedetails/?id=3097961901]Xenotypes Expanded and Merged[/url], the first mod to use this as a requirment! It is not as high a priority update-wise, but it shall still be updated to utilize new features from any and all these mods, as well as many others!
+
+
+[/strike]

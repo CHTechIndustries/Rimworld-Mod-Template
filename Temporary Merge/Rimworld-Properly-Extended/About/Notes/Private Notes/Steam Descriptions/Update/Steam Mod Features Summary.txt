@@ -1,0 +1,25 @@
+This is a [i]summary[/i] of the features added by this mod. If you have any questions, this is the best (untill my discord is ready. Then second-best) place to ask them. You can also look at the (currently a major Work in Progress) [url=https://github.com/Dynamic-Trio/Rimworld-Genes-Extended/wiki]Rimworld Genes Extended Wiki[/url] 
+
+Now, for the summary (remember, more details on the [url=https://github.com/Dynamic-Trio/Rimworld-Genes-Extended/wiki]Wiki[/url]
+
+So, the genes come in (currently 2) groups:
+[h1]Group 1: New Genes[/h1] Genes of my own design!
+
+[olist]
+[*]Bio-Stabilazier: locks a biological stat at a max of a certain number (30, 60, or 90), as well as causing pain and causing rest issues. But, it also provides an offset, meaning extreme injuries will have almost no effect!
+[/olist]
+
+
+[hr][/hr]
+[h1]Group 2: Addons[/h1] (These are genes that requre other mods, and add new features to them. For a straight up list, look [url=https://steamcommunity.com/workshop/filedetails/discussion/3114130835/4034727620345270147/]Here[/url])
+
+[olist]
+[*]Endling: it gives the endling trait from [url=https://steamcommunity.com/sharedfiles/filedetails/?id=3011354315]Endling: Last of their Kind[/url]
+[/olist]
+
+[hr][/hr]
+[h1]Final Notes[/h1]Miscellaneous final notes
+
+[list]
+[*]if this list gets too long, I will change this to a discussion soely for questions, and make a new page for  the summary. If anyone thinks this is too long (at any point) just say!
+[/list]

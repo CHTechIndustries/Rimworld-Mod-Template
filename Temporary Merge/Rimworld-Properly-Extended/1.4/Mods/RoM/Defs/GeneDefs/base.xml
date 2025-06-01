@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+	<!-- the very basis -->
+	<GeneDef Name="CHTech_RoM_gene_base" Abstract="True">
+	</GeneDef>
+	
+	<!-- the genes for classes -->
+	<GeneDef ParentName="CHTech_RoM_gene_base" Name="CHTech_RoM_class_base" Abstract="True"> <!-- genes for base RoM -->
+		<displayCategory>RoM</displayCategory>
+	</GeneDef>
+	<GeneDef ParentName="CHTech_RoM_gene_base" Name="CHTech_RoM_class_Kure" Abstract="True"> <!-- genes for RoM + Kure's Rimworld of Magic Class Expansion Pack -->
+	    <displayCategory>RoMKure</displayCategory>
+	</GeneDef>
+	
+	<!-- the genes for the traits -->
+	<GeneDef ParentName="CHTech_RoM_gene_base" Name="CHTech_RoM_trait_base" Abstract="True"> <!-- genes for base RoM -->
+		
+	</GeneDef>
+	
+	<GeneDef ParentName="CHTech_RoM_trait_base" Name="CHTech_RoM_trait_mage" Abstract="True" MayRequire="kure.arom"> <!-- genes for RoM + Kure's Rimworld of Magic Class Expansion Pack -->
+	    <iconPath>Ideology/Mages</iconPath>
+		<displayCategory>RoM-Mage</displayCategory>
+	</GeneDef>
+	
+	<GeneDef ParentName="CHTech_RoM_trait_base" Name="CHTech_RoM_trait_fighter" Abstract="True" MayRequire="kure.arom"> <!-- genes for RoM + Kure's Rimworld of Magic Class Expansion Pack -->
+	    <displayCategory>RoM-Fighter</displayCategory>
+		<iconPath>Ideology/Fighters</iconPath>
+	</GeneDef>
+</Defs>

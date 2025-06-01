@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+	<GeneDef ParentName="CTH_SHG_UltraHero_base">
+		<defName>CTH_SHG_UltraGluttony</defName>
+		<label>Ultra Gluttony</label>
+		<description>H</description>
+		<iconPath>Base/SuperGluttony</iconPath>
+		<prerequisite>SuperGluttony</prerequisite>
+		<displayOrderInCategory>1</displayOrderInCategory>
+		<statFactors>
+		</statFactors>
+	</GeneDef>
+
+	<GeneDef ParentName="CTH_SHG_UltraHero_base">
+		<defName>CTH_SHG_UltraDurability</defName>
+		<label>Ultra Durability</label>
+		<description>H</description>
+		<customEffectDescriptions>
+			<li>Is immune to bodily death, meaning only extreme brain tramu can kill them!</li>
+		</customEffectDescriptions>
+		<geneClass>Gene_Deathless</geneClass>
+		<iconPath>Base/SuperDurability</iconPath>
+		<prerequisite>SuperDurability</prerequisite>
+		<displayOrderInCategory>2</displayOrderInCategory>
+		<statFactors>
+            		<ArmorRating_Blunt>2</ArmorRating_Blunt>
+            		<ArmorRating_Sharp>2</ArmorRating_Sharp>
+            		<ArmorRating_Heat>2</ArmorRating_Heat>
+		</statFactors>
+		<forcedTraits>
+			<li>
+			<def>Tough</def>
+			</li>
+		</forcedTraits>
+		<statOffsets>
+			<ArmorRating_Blunt>.5</ArmorRating_Blunt>
+			<ArmorRating_Sharp>.5</ArmorRating_Sharp>
+			<ArmorRating_Heat>.5</ArmorRating_Heat>
+		</statOffsets>
+	</GeneDef>
+
+</Defs>

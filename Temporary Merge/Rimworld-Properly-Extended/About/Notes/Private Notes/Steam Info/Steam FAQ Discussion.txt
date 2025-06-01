@@ -1,0 +1,18 @@
+[olist]
+[*]Q: Is this Combat Extended compatible?
+A: Well, based on my extensive lack of testing, I can ensure you that it might be compatible
+[*]Q: Why does this mod need biotec?
+A: Simple. Most features here use biotech, and frankly, it's the best DLC.
+[*]Q:Why does this mod need Expanded Biotech Style Genes Framework and Big and Small+ Prerequisites Framework?
+A: Well, that is because this mod utilizes features from those frameworks, and thus requires them!
+[*]Q: Alright, fair enough. But, why does it need Alpha Genes?
+A: Well, Alpha Genes also has lots of useful code, so it's almost a framework in and of itself!
+[*]Q: Okay, that answers all requirment questions. Why, though, is it incompatible with all the independent "Expanded ..." and "Biotech Style ... " mods?
+A: Well, the all in 1 has all those features, and subscribing to both those is redundent. Also, it could cause minor issues, so just use the better one! NOt to mention, it has many cross compatibilities, and for a while was a requirment. So, for major cross-compat, using the All in One will make it easier, both for me [i]and[/i] you (in other words: You're welcome)!
+[*]Q: Why is this mod called Rimworld Extended: Properly
+A: Simple. Expanded has been taken, so I used a similar word. This [i]extends[/i] Rimworld
+[*]Q: Okay, that explains the Extended, but what's with that "properly"
+A: Well, I don't want the extension to not behave properly, do I now? I have enough problems without the name implying it's got bugs!
+[*]Q: Okay, with all these mods, all this content, and all these ideas, did you bite off more than you can chew?
+A: Uh... I do have the right to remain silent, right?
+[/olist]

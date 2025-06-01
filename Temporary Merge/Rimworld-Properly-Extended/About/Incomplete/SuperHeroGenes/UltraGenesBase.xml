@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Def>
+	<GeneDef Name="CTH_SHG_UltraHero_base" Abstract="True">
+		<displayCategory>CTH_SHG_UltraGenes</displayCategory>
+		<biostatMet>-15</biostatMet>
+		<biostatCpx>15</biostatCpx>
+		<marketValueFactor>5</marketValueFactor>
+		<biostatArc>50</biostatArc>
+		<exclusionTags>
+			<li>DurabilityPool</li>
+			<li>HealingPool</li>
+			<li>IntelligencePool</li>
+			<li>PerceptionPool</li>
+			<li>PersuasionPool</li>
+			<li>PrecisionPool</li>
+			<li>SpeedPool</li>
+			<li>StrengthPool</li>
+			<li>SHG_SuperMutations</li>
+			<li>CellInstability</li>
+		</exclusionTags>
+		<statFactors>
+			<MoveSpeed>1.1</MoveSpeed>
+			<PawnBeauty>1.1</PawnBeauty>	
+		</statFactors>
+		<statOffsets>
+			<MoveSpeed>1</MoveSpeed>
+			<PawnBeauty>1</PawnBeauty>
+			<ArmorRating_Blunt>0.01</ArmorRating_Blunt>
+			<ArmorRating_Sharp>.0.01</ArmorRating_Sharp>
+			<ArmorRating_Heat>.0.01</ArmorRating_Heat>
+		</statOffsets>
+	</GeneDef>
+</Def>

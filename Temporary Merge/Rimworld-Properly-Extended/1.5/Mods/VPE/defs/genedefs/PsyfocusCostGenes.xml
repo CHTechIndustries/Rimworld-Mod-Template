@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+    <GeneDef>
+      <defName>VPE_CostReductionslight</defName>
+      <label>slight focus reduction</label>
+      <labelShortAdj>slight focusreduce</labelShortAdj>
+      <iconPath>UI/Icons/Genes/Gene_EnhancedPsychicAbility</iconPath>
+      <description>Carriers of this gene have reduced cost for psychic abilities.</description>
+      <displayCategory>Psychic</displayCategory>
+      <displayOrderInCategory>35</displayOrderInCategory>
+      <statOffsets>
+        <VPE_PsyfocusCostFactor>-0.05</VPE_PsyfocusCostFactor>
+      </statOffsets>
+      <biostatMet>-1</biostatMet>
+      <exclusionTags>
+        <li>VPE_CostReduction</li>
+      </exclusionTags>
+      <symbolPack>
+        <prefixSymbols>
+          <li><symbol>casting</symbol></li>
+          <li><symbol>focused</symbol></li>
+        </prefixSymbols>
+        <suffixSymbols>
+          <li><symbol>focuser</symbol></li>
+          <li><symbol>caster</symbol></li>
+        </suffixSymbols>
+      </symbolPack>
+    </GeneDef>
+
+    <GeneDef>
+      <defName>VPE_CostReductionMedium</defName>
+      <label>Medium focus reduction</label>
+      <labelShortAdj>Medium focusreduce</labelShortAdj>
+      <iconPath>UI/Icons/Genes/Gene_EnhancedPsychicAbility</iconPath>
+      <description>Carriers of this gene have reduced cost for psychic abilities.</description>
+      <displayCategory>Psychic</displayCategory>
+      <displayOrderInCategory>36</displayOrderInCategory>
+      <statOffsets>
+        <VPE_PsyfocusCostFactor>-0.1</VPE_PsyfocusCostFactor>
+      </statOffsets>
+      <biostatMet>-2</biostatMet>
+      <exclusionTags>
+        <li>VPE_CostReduction</li>
+      </exclusionTags>
+      <symbolPack>
+        <prefixSymbols>
+          <li><symbol>casting</symbol></li>
+          <li><symbol>focused</symbol></li>
+        </prefixSymbols>
+        <suffixSymbols>
+          <li><symbol>focuser</symbol></li>
+          <li><symbol>caster</symbol></li>
+        </suffixSymbols>
+      </symbolPack>
+    </GeneDef>
+
+    <GeneDef>
+      <defName>VPE_CostReductionlarge</defName>
+      <label>Large focus reduction</label>
+      <labelShortAdj>Large focusreduce</labelShortAdj>
+      <iconPath>UI/Icons/Genes/Gene_EnhancedPsychicAbility</iconPath>
+      <description>Carriers of this gene have reduced cost for psychic abilities.</description>
+      <displayCategory>Psychic</displayCategory>
+      <displayOrderInCategory>37</displayOrderInCategory>
+      <statOffsets>
+        <VPE_PsyfocusCostFactor>-0.25</VPE_PsyfocusCostFactor>
+      </statOffsets>
+      <biostatMet>-5</biostatMet>
+      <exclusionTags>
+        <li>VPE_CostReduction</li>
+      </exclusionTags>
+      <symbolPack>
+        <prefixSymbols>
+          <li><symbol>casting</symbol></li>
+          <li><symbol>focused</symbol></li>
+        </prefixSymbols>
+        <suffixSymbols>
+          <li><symbol>focuser</symbol></li>
+          <li><symbol>caster</symbol></li>
+        </suffixSymbols>
+      </symbolPack>
+    </GeneDef>
+
+
+</Defs>

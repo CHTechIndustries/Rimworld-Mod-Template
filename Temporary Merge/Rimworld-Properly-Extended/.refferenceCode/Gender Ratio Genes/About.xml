@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ModMetaData>
+	<name>Gender Ratio Genes: 1.5+</name>
+	<author>Tuarre</author>
+	<packageId>Tuarre.GenGenderRatio</packageId>
+	<supportedVersions>
+		<li>1.4</li>
+		<li>1.5</li>
+	</supportedVersions>
+	<url>https://github.com/CTH999/Gender-Ratio-Genes--Ported/blob/main/README.md</url>
+	<modVersion>3.0.0</modVersion>
+	<description>
+	This mod adds a new pack of genes that change the gender ratio of that xenotype
+	
+	
+Note from the porter: this great mod was made by Tuarre, all I (CTH2004) did was change a few things, and upload the port with permision.
+Note from the porter 2: if you are using this mod, do not, I repeat, do not, use it with the original. The ID's are the same to allow for cross-compatibality, meaning youll have duplicates and errors galore!
+Note from the porter 3: as this is a 1-for-1 port, I will only be fixing any bugs/ updateing to new versions (well, I might add a few extra goodies :). I do have plans (and permision) to integrate it with my mod, and there new features shall abound!
+	Note from the porter 3a: this mod is officialy purely going to get bug fixes. It has been transfered into my main mod. See the workshop page (or the in-game changelog) for details. Do note, they are incompatible with each other, as I used the same ID's. In theory, you should be able to just transistion to the new one, but I don't recomend it.
+		P.S: to other modders, you'll be happy to know that I marked the mods as incompatible because I kept the ID's the same, so, it shouldn't break your game!
+	</description>
+		<modDependencies>
+		<li>
+			<packageId>ludeon.rimworld.biotech</packageId>
+			<displayName>Biotech</displayName>
+		</li>
+		<li>
+			<packageId>brrainz.harmony</packageId>
+			<displayName>Harmony</displayName>
+			<steamWorkshopUrl>https://steamcommunity.com/sharedfiles/filedetails/?id=2009463077</steamWorkshopUrl>
+			<downloadUrl>https://github.com/pardeike/HarmonyRimWorld/</downloadUrl>
+		</li>
+	</modDependencies>
+	<loadAfter>
+		<li>neronix17.toolbox</li>
+	</loadAfter>
+	<incompatibleWith>
+		<li>chtech.rimworldextended.main</li>
+	</incompatibleWith>
+</ModMetaData>
+
+	<!-- Changes:
+		1. Slight gramatical change
+		2. ported to 1.5 as well
+		3. made harmony reqruiered by the mods about file as well
+		4. Made biotech reqrired by the mods about file
+		5. add a "mod version"
+		6. made incompatible with my main mod, as they have officially been unofficially merged
+	-->

@@ -1,0 +1,797 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+  <GeneDef ParentName="CHTech_RoM_class_base">
+    <defName>TM_SuperSoldier_Gene</defName>
+    <label>Super Soldier</label>
+    <description>Carriers of this gene are a highly trained Soldiers, specializing in pistol, shotgun, or rifle weapons.</description>
+    <iconPath>Other/ClassTextures/supersoldierFighterMark</iconPath>
+
+    <displayOrderInCategory>1</displayOrderInCategory>
+    <forcedTraits>
+      <li>
+        <def>TM_SuperSoldier</def>
+      </li>
+    </forcedTraits>
+    <biostatMet>-2</biostatMet>
+    <symbolPack>
+      <prefixSymbols>
+        <li><symbol>solda</symbol></li>
+      </prefixSymbols>
+    </symbolPack>
+  </GeneDef>	
+
+  <GeneDef ParentName="CHTech_RoM_class_base">
+    <defName>TM_Commander_Gene</defName>
+    <label>Commander</label>
+    <description>As a Commander, carrier of this gene exhibits a charismatic personality and stalwart presence that makes other pawns want to follow carrier of this gene lead.</description>
+    <iconPath>Other/ClassTextures/CommanderMark</iconPath>
+
+    <displayOrderInCategory>2</displayOrderInCategory>
+    <forcedTraits>
+      <li>
+        <def>TM_Commander</def>
+      </li>
+    </forcedTraits>
+    <biostatMet>-2</biostatMet>
+
+    <symbolPack>
+      <prefixSymbols>
+        <li><symbol>com</symbol></li>
+		    <li><symbol>gen</symbol></li>
+      </prefixSymbols>
+    </symbolPack>
+  </GeneDef>
+  
+  <GeneDef ParentName="CHTech_RoM_class_base">
+    <defName>TM_Monk_Gene</defName>
+    <label>Monk</label>
+    <description>carrier of this gene is a Monk, dedicated to mastering Chi - the energy that connects all life in the universe. carrier of this gene harnesses Chi to create magical effects and exceed carrier of this gene physical capabilities. carrier of this gene is also able to disrupt the Chi in others, affecting their command over spells and abilities.</description>
+    <iconPath>Other/ClassTextures/monkPsiMark</iconPath>
+
+    <displayOrderInCategory>3</displayOrderInCategory>
+    <forcedTraits>
+      <li>
+        <def>TM_Monk</def>
+      </li>
+    </forcedTraits>
+    <biostatMet>-2</biostatMet>
+
+    <symbolPack>
+      <prefixSymbols>
+        <li><symbol>monk</symbol></li>
+		    <li><symbol>fight</symbol></li>
+      </prefixSymbols>
+    </symbolPack>
+  </GeneDef>
+  
+  <GeneDef ParentName="CHTech_RoM_class_base">
+    <defName>DeathKnight_Gene</defName>
+    <label>Death Knight</label>
+    <description>Carrier of this gene is a Death Knight - harbinger of doom and a representative of the ever approaching inevitability of death and decay. carrier of this gene solemn attitude makes most pawns uneasy and even fewer approve of carrier of this gene methods.</description>
+    <iconPath>Other/ClassTextures/deathknightFighterMark</iconPath>
+
+    <displayOrderInCategory>4</displayOrderInCategory>
+    <forcedTraits>
+      <li>
+        <def>DeathKnight</def>
+      </li>
+    </forcedTraits>
+    <biostatMet>-2</biostatMet>
+
+    <symbolPack>
+      <prefixSymbols>
+        <li><symbol>death</symbol></li>
+		    <li><symbol>knight</symbol></li>
+	    	<li><symbol>rage</symbol></li>
+      </prefixSymbols>
+    </symbolPack>
+  </GeneDef>
+  
+  <GeneDef ParentName="CHTech_RoM_class_base">
+    <defName>TM_Psionic_Gene</defName>
+    <label>Psionic</label>
+    <description>Carrier of this gene is a Psionic - able to manifest mental willpower into raw energy without the use of a psychic amplifier.</description>
+    <iconPath>Other/ClassTextures/psiPsiMark</iconPath>
+
+    <displayOrderInCategory>5</displayOrderInCategory>
+    <forcedTraits>
+      <li>
+        <def>TM_Psionic</def>
+      </li>
+    </forcedTraits>
+    <biostatMet>-2</biostatMet>
+
+    <symbolPack>
+      <prefixSymbols>
+        <li><symbol>psy</symbol></li>
+		    <li><symbol>brain</symbol></li>
+	    	<li><symbol>mind</symbol></li>
+      </prefixSymbols>
+    </symbolPack>
+  </GeneDef>
+  
+  <GeneDef ParentName="CHTech_RoM_class_base">
+    <defName>Faceless_Gene</defName>
+    <label>Faceless</label>
+    <description>Carrier of this gene is a master of disguise and imitation; able to manipulate and capture the muscle and mental actions of another and release it as their own.</description>
+    <iconPath>Other/ClassTextures/facelessFighterMark</iconPath>
+
+    <displayOrderInCategory>6</displayOrderInCategory>
+    <forcedTraits>
+      <li>
+        <def>Faceless</def>
+      </li>
+    </forcedTraits>
+    <biostatMet>-2</biostatMet>
+
+    <symbolPack>
+      <prefixSymbols>
+        <li><symbol>face</symbol></li>
+		    <li><symbol>disguise</symbol></li>
+	    	<li><symbol>doppel</symbol></li>
+      </prefixSymbols>
+    </symbolPack>
+  </GeneDef>
+  
+  <GeneDef ParentName="CHTech_RoM_class_base">
+    <defName>Bladedancer_Gene</defName>
+    <label>Bladesman</label>
+    <description>carrier of this gene is training to become a master of the blade and excels at fighting in melee combat.</description>
+    <iconPath>Other/ClassTextures/bladedancerFighterMark</iconPath>
+
+    <displayOrderInCategory>7</displayOrderInCategory>
+    <forcedTraits>
+      <li>
+        <def>Bladedancer</def>
+      </li>
+    </forcedTraits>
+    <biostatMet>-2</biostatMet>
+
+    <symbolPack>
+      <prefixSymbols>
+        <li><symbol>blade</symbol></li>
+		    <li><symbol>dancer</symbol></li>
+	    	<li><symbol>melee</symbol></li>
+      </prefixSymbols>
+    </symbolPack>
+  </GeneDef>
+ 
+ <GeneDef ParentName="CHTech_RoM_class_base">
+    <defName>TM_Sniper_Gene</defName>
+    <label>Sharpshooter</label>
+    <description>carrier of this gene has trained to become a sniper, skilled in the economy and accuracy of long range, small arms combat. Training to become a sniper has caused some colonists to be uncomfortable around carrier of this gene, not that carrier of this gene cares.</description>
+    <iconPath>Other/ClassTextures/sniperFighterMark</iconPath>
+
+    <displayOrderInCategory>8</displayOrderInCategory>
+    <forcedTraits>
+      <li>
+        <def>TM_Sniper</def>
+      </li>
+    </forcedTraits>
+    <biostatMet>-2</biostatMet>
+
+    <symbolPack>
+      <prefixSymbols>
+        <li><symbol>snipe</symbol></li>
+		    <li><symbol>ranged</symbol></li>
+	    	<li><symbol>accuracy</symbol></li>
+      </prefixSymbols>
+    </symbolPack>
+  </GeneDef>
+  
+ <GeneDef ParentName="CHTech_RoM_class_base">
+    <defName>Ranger_Gene</defName>
+    <label>Woodsman</label>
+    <description>carrier of this gene is a trained woodsman; preferring the silence and lethality of a bow and armed with field-craft and cunning, carrier of this gene is prepared to defend carrier of this gene land from invaders.</description>
+    <iconPath>Other/ClassTextures/rangerFighterMark</iconPath>
+
+    <displayOrderInCategory>9</displayOrderInCategory>
+    <forcedTraits>
+      <li>
+        <def>Ranger</def>
+      </li>
+    </forcedTraits>
+    <biostatMet>-2</biostatMet>
+
+    <symbolPack>
+      <prefixSymbols>
+        <li><symbol>ranger</symbol></li>
+		    <li><symbol>silence</symbol></li>
+	    	<li><symbol>bow</symbol></li>
+      </prefixSymbols>
+    </symbolPack>
+  </GeneDef>
+  
+ <GeneDef ParentName="CHTech_RoM_class_base">
+    <defName>Gladiator_Gene</defName>
+    <label>Gladiator</label>
+    <description>carrier of this gene has learned how to train the Gladiator combat style.</description>
+    <iconPath>Other/ClassTextures/gladiatorFighterMark</iconPath>
+
+    <displayOrderInCategory>10</displayOrderInCategory>
+    <forcedTraits>
+      <li>
+        <def>Gladiator</def>
+      </li>
+    </forcedTraits>
+    <biostatMet>-2</biostatMet>
+
+    <symbolPack>
+      <prefixSymbols>
+        <li><symbol>gladiator</symbol></li>
+      </prefixSymbols>
+    </symbolPack>
+  </GeneDef>
+  
+ <GeneDef ParentName="CHTech_RoM_class_base">
+    <defName>TM_Apothecary_Gene</defName>
+    <label>Apothecary</label>
+    <description>carrier of this gene is an apothecary, trained in the preparation of medicines, balms, tinctures and drugs. carrier of this gene profession exhibits strict discipline and dedication, and carrier of this gene has learned to apply carrier of this gene discipline to more generic, physical skills. With training, carrier of this gene can become capable in many combat techniques to augment carrier of this gene skill in herbs.</description>
+    <iconPath>Other/ClassTextures/apothecaryFighterMark</iconPath>
+
+    <displayOrderInCategory>11</displayOrderInCategory>
+    <forcedTraits>
+      <li>
+        <def>TM_Apothecary</def>
+      </li>
+    </forcedTraits>
+    <biostatMet>-2</biostatMet>
+
+    <symbolPack>
+      <prefixSymbols>
+        <li><symbol>apotheca</symbol></li>
+		    <li><symbol>med</symbol></li>
+	    	<li><symbol>tincture</symbol></li>
+      </prefixSymbols>
+    </symbolPack>
+  </GeneDef>
+  
+  <GeneDef ParentName="CHTech_RoM_class_base">
+    <defName>TM_Wayfarer_Gene</defName>
+    <label>Wayfarer</label>
+    <description>carrier of this gene is a wayfarer; an self-disciplined fighter that excels at tricks and dirty fighting. carrier of this gene carefree personality has kept carrier of this gene from developing class abilities. Instead, carrier of this gene has learned to improve a vast number of utility abilities that allow carrier of this gene to adapt to any situation. Wayfarers prefer the open road and will gain a mood boost for being in a caravan, and any caravan with a wayfarer will travel 25% faster. However, wayfarers will suffer a mood penalty if they remain at colony for too long.</description>
+    <iconPath>Other/ClassTextures/wayfarerFlame</iconPath>
+
+    <displayOrderInCategory>12</displayOrderInCategory>
+    <forcedTraits>
+      <li>
+        <def>TM_Wayfarer</def>
+      </li>
+    </forcedTraits>
+    <biostatMet>-2</biostatMet>
+
+    <symbolPack>
+      <prefixSymbols>
+        <li><symbol>war</symbol></li>
+      </prefixSymbols>
+    </symbolPack>
+  </GeneDef>
+
+  <GeneDef ParentName="CHTech_RoM_class_base">
+    <defName>TM_Empath_Gene</defName>
+    <label>Empath</label>
+    <description>carrier of this gene is an empath, able to feel and manipulate the emotions of those around carrier of this gene. carrier's abilities are tied to magic, but have affected carrier of this gene on a more innate level. However, with training, carrier of this gene can still become an adept magic user. For better or worse, empath's have a very strong presence and can easily read the presence of others; the effectiveness of their abilities are closely tied to their aptitude for overcoming another's defenses.</description>
+    <iconPath>Other/ClassTextures/empathPsiMark</iconPath>
+
+    <displayOrderInCategory>13</displayOrderInCategory>
+    <forcedTraits>
+      <li>
+        <def>TM_Empath</def>
+      </li>
+    </forcedTraits>
+    <biostatMet>-2</biostatMet>
+
+    <symbolPack>
+      <prefixSymbols>
+        <li><symbol>empath</symbol></li>
+      </prefixSymbols>
+    </symbolPack>
+  </GeneDef>
+ 
+ <GeneDef ParentName="CHTech_RoM_class_base">
+    <defName>TM_Wanderer_Gene</defName>
+    <label>Wanderer</label>
+    <description>carrier of this gene is a wanderer; an outcast, half-breed mage class frequently dubbed a hedge-mage. carrier carefree personality has kept carrier from developing class abilities. Instead, carrier of this gene has learned to improve on a vast number of utility abilities that allow carrier of this gene to adapt to any situation. Wanderers prefer the open road and gain a mood boost for being in a caravan. Caravans with a wanderer will ignore the movement penalties of any world tile. However, their wanderlust will cause them to suffer a mood penalty for remaining at a colony for too long.</description>
+    <iconPath>Other/ClassTextures/wandererFlame</iconPath>
+
+    <displayOrderInCategory>14</displayOrderInCategory>
+    <forcedTraits>
+      <li>
+        <def>TM_Wanderer</def>
+      </li>
+    </forcedTraits>
+    <biostatMet>-2</biostatMet>
+
+    <symbolPack>
+      <prefixSymbols>
+        <li><symbol>wander</symbol></li>
+      </prefixSymbols>
+    </symbolPack>
+  </GeneDef>
+  
+  <GeneDef ParentName="CHTech_RoM_class_base">
+    <defName>InnerFire_Gene</defName>
+    <label>Fire mage</label>
+    <description>carrier of this gene is attuned with the elements of fire.</description>
+    <iconPath>Other/ClassTextures/fireMageMark</iconPath>
+
+    <displayOrderInCategory>15</displayOrderInCategory>
+    <forcedTraits>
+      <li>
+        <def>InnerFire</def>
+      </li>
+    </forcedTraits>
+    <biostatMet>-2</biostatMet>
+
+    <symbolPack>
+      <prefixSymbols>
+        <li><symbol>fire</symbol></li>
+      </prefixSymbols>
+    </symbolPack>
+  </GeneDef>
+ 
+ <GeneDef ParentName="CHTech_RoM_class_base">
+    <defName>HeartOfFrost_Gene</defName>
+    <label>Ice mage</label>
+    <description>carrier of this gene is attuned with the elements of water.</description>
+    <iconPath>Other/ClassTextures/iceMageMark</iconPath>
+
+    <displayOrderInCategory>16</displayOrderInCategory>
+    <forcedTraits>
+      <li>
+        <def>HeartOfFrost</def>
+      </li>
+    </forcedTraits>
+    <biostatMet>-2</biostatMet>
+
+    <symbolPack>
+      <prefixSymbols>
+        <li><symbol>forest</symbol></li>
+      </prefixSymbols>
+    </symbolPack>
+  </GeneDef>
+  
+  <GeneDef ParentName="CHTech_RoM_class_base">
+    <defName>StormBorn_Gene</defName>
+    <label>Lightning mage</label>
+    <description>carrier of this gene is attuned with the elements of lightning.</description>
+    <iconPath>Other/ClassTextures/lightningMageMark</iconPath>
+
+    <displayOrderInCategory>17</displayOrderInCategory>
+    <forcedTraits>
+      <li>
+        <def>StormBorn</def>
+      </li>
+    </forcedTraits>
+    <biostatMet>-2</biostatMet>
+
+    <symbolPack>
+      <prefixSymbols>
+        <li><symbol>storm</symbol></li>
+      </prefixSymbols>
+    </symbolPack>
+  </GeneDef>
+  
+  <GeneDef ParentName="CHTech_RoM_class_base">
+    <defName>Arcanist_Gene</defName>
+    <label>Arcane mage</label>
+    <description>carrier of this gene is attuned with arcane forces, interacting directly with raw arcane power to move matter and energy at will.</description>
+    <iconPath>Other/ClassTextures/arcanistMageMark</iconPath>
+
+    <displayOrderInCategory>18</displayOrderInCategory>
+    <forcedTraits>
+      <li>
+        <def>Arcanist</def>
+      </li>
+    </forcedTraits>
+    <biostatMet>-2</biostatMet>
+
+    <symbolPack>
+      <prefixSymbols>
+        <li><symbol>arcan</symbol></li>
+      </prefixSymbols>
+    </symbolPack>
+  </GeneDef>
+  
+  <GeneDef ParentName="CHTech_RoM_class_base">
+    <defName>Druid_Gene</defName>
+    <label>Druid</label>
+    <description>carrier of this gene is attuned with the forces of nature.</description>
+    <iconPath>Other/ClassTextures/druidMageMark</iconPath>
+
+    <displayOrderInCategory>19</displayOrderInCategory>
+    <forcedTraits>
+      <li>
+        <def>Druid</def>
+      </li>
+    </forcedTraits>
+    <biostatMet>-2</biostatMet>
+
+    <symbolPack>
+      <prefixSymbols>
+        <li><symbol>druid</symbol></li>
+      </prefixSymbols>
+    </symbolPack>
+  </GeneDef>
+  
+  <GeneDef ParentName="CHTech_RoM_class_base">
+    <defName>Paladin_Gene</defName>
+    <label>Paladin</label>
+    <description>carrier of this gene has been bestowed with divine might and has sworn to uphold justice wherever carrier of this gene stands.</description>
+    <iconPath>Other/ClassTextures/paladinMageMark</iconPath>
+
+    <displayOrderInCategory>20</displayOrderInCategory>
+    <forcedTraits>
+      <li>
+        <def>Paladin</def>
+      </li>
+    </forcedTraits>
+    <biostatMet>-2</biostatMet>
+
+    <symbolPack>
+      <prefixSymbols>
+        <li><symbol>paladin</symbol></li>
+      </prefixSymbols>
+    </symbolPack>
+  </GeneDef>
+  
+  <GeneDef ParentName="CHTech_RoM_class_base">
+    <defName>Summoner_Gene</defName>
+    <label>Summoner</label>
+    <description>carrier of this gene is able to summon beings and materialize objects from other planes of existence.</description>
+    <iconPath>Other/ClassTextures/summonerMageMark</iconPath>
+
+    <displayOrderInCategory>21</displayOrderInCategory>
+    <forcedTraits>
+      <li>
+        <def>Summoner</def>
+      </li>
+    </forcedTraits>
+    <biostatMet>-2</biostatMet>
+
+    <symbolPack>
+      <prefixSymbols>
+        <li><symbol>summon</symbol></li>
+      </prefixSymbols>
+    </symbolPack>
+  </GeneDef>
+  
+  <GeneDef ParentName="CHTech_RoM_class_base">
+    <defName>Necromancer_Gene</defName>
+    <label>Necromancer</label>
+    <description>carrier of this gene is attuned with the forces of death.</description>
+    <iconPath>Other/ClassTextures/necroMageMark</iconPath>
+
+    <displayOrderInCategory>22</displayOrderInCategory>
+    <forcedTraits>
+      <li>
+        <def>Necromancer</def>
+      </li>
+    </forcedTraits>
+    <biostatMet>-2</biostatMet>
+
+    <symbolPack>
+      <prefixSymbols>
+        <li><symbol>necro</symbol></li>
+      </prefixSymbols>
+    </symbolPack>
+  </GeneDef>
+  
+  <GeneDef ParentName="CHTech_RoM_class_base">
+    <defName>Lich_Gene</defName>
+    <label>Lich</label>
+    <description>carrier of this gene has transformed into a lich, forsaking life in exchange for an power and an immortal existence. carrier of this gene disdains menial taks, choosing to employ undead for trivial matters.</description>
+    <iconPath>Other/ClassTextures/necroMageMark</iconPath>
+
+    <displayOrderInCategory>23</displayOrderInCategory>
+    <forcedTraits>
+      <li>
+        <def>Lich</def>
+      </li>
+    </forcedTraits>
+    <biostatMet>-3</biostatMet>
+
+    <symbolPack>
+      <prefixSymbols>
+        <li><symbol>lich</symbol></li>
+      </prefixSymbols>
+    </symbolPack>
+  </GeneDef>
+  
+  <GeneDef ParentName="CHTech_RoM_class_base">
+    <defName>Priest_Gene</defName>
+    <label>Priest</label>
+    <description>carrier of this gene is attuned with the forces of life and healing and has taken a vow against harming others.</description>
+    <iconPath>Other/ClassTextures/priestMageMark</iconPath>
+
+    <displayOrderInCategory>24</displayOrderInCategory>
+    <forcedTraits>
+      <li>
+        <def>Priest</def>
+      </li>
+    </forcedTraits>
+    <biostatMet>-2</biostatMet>
+
+    <symbolPack>
+      <prefixSymbols>
+        <li><symbol>priest</symbol></li>
+      </prefixSymbols>
+    </symbolPack>
+  </GeneDef>
+  
+  <GeneDef ParentName="CHTech_RoM_class_base">
+    <defName>TM_Bard_Gene</defName>
+    <label>Entertainer</label>
+    <description>carrier of this gene is a natural entertainer, able to lighten the mood and lift the spirits of everyone around carrier of this gene.</description>
+    <iconPath>Other/ClassTextures/bardMageMark</iconPath>
+
+    <displayOrderInCategory>25</displayOrderInCategory>
+    <forcedTraits>
+      <li>
+        <def>TM_Bard</def>
+      </li>
+    </forcedTraits>
+    <biostatMet>-2</biostatMet>
+
+    <symbolPack>
+      <prefixSymbols>
+        <li><symbol>bard</symbol></li>
+      </prefixSymbols>
+    </symbolPack>
+  </GeneDef>
+  
+  <GeneDef ParentName="CHTech_RoM_class_base">
+    <defName>Succubus_Gene</defName>
+    <label>Succubus</label>
+    <description>carrier of this gene has a strange genetic strain that grants her enhanced physical attributes. </description>
+    <iconPath>Other/ClassTextures/demonMageMark</iconPath>
+
+    <displayOrderInCategory>26</displayOrderInCategory>
+    <forcedTraits>
+      <li>
+        <def>Succubus</def>
+      </li>
+    </forcedTraits>
+    <biostatMet>-2</biostatMet>
+
+    <symbolPack>
+      <prefixSymbols>
+        <li><symbol>succubus</symbol></li>
+      </prefixSymbols>
+    </symbolPack>
+  </GeneDef>
+  
+  <GeneDef ParentName="CHTech_RoM_class_base">
+    <defName>Warlock_Gene</defName>
+    <label>Warlock</label>
+    <description>carrier of this gene is a Warlock - able to manifest physical and demonic forces using his unique access to arcane power. </description>
+    <iconPath>Other/ClassTextures/demonMageMark</iconPath>
+
+    <displayOrderInCategory>27</displayOrderInCategory>
+    <forcedTraits>
+      <li>
+        <def>Warlock</def>
+      </li>
+    </forcedTraits>
+    <biostatMet>-2</biostatMet>
+
+    <symbolPack>
+      <prefixSymbols>
+        <li><symbol>warlock</symbol></li>
+      </prefixSymbols>
+    </symbolPack>
+  </GeneDef>
+  
+  <GeneDef ParentName="CHTech_RoM_class_base">
+    <defName>Geomancer_Gene</defName>
+    <label>Geomancer</label>
+    <description>carrier of this gene is attuned with the earth and natural order, drawing power from the physical realm and intertwining it with arcane energy. carrier of this gene is capable of reinforcing physical elements, and bending them, as carrier of this gene needs.</description>
+    <iconPath>Other/ClassTextures/earthMageMark</iconPath>
+
+    <displayOrderInCategory>28</displayOrderInCategory>
+    <forcedTraits>
+      <li>
+        <def>Geomancer</def>
+      </li>
+    </forcedTraits>
+    <biostatMet>-2</biostatMet>
+
+    <symbolPack>
+      <prefixSymbols>
+        <li><symbol>geo</symbol></li>
+      </prefixSymbols>
+    </symbolPack>
+  </GeneDef>
+  
+  <GeneDef ParentName="CHTech_RoM_class_base">
+    <defName>Technomancer_Gene</defName>
+    <label>Technomancer</label>
+    <description>carrier of this gene has learned to see magic and science as two parts of the same force and is able to use arcane power to interface directly with components of technology. carrier of this gene is capable of manipulating objects with advanced mechanics, electronics, or computing it to achieve carrier goals, but has difficulty interacting with biological systems.</description>
+    <iconPath>Other/ClassTextures/technoMageMark</iconPath>
+
+    <displayOrderInCategory>29</displayOrderInCategory>
+    <forcedTraits>
+      <li>
+        <def>Technomancer</def>
+      </li>
+    </forcedTraits>
+    <biostatMet>-2</biostatMet>
+
+    <symbolPack>
+      <prefixSymbols>
+        <li><symbol>techno</symbol></li>
+      </prefixSymbols>
+    </symbolPack>
+  </GeneDef>
+  
+  <GeneDef ParentName="CHTech_RoM_class_base">
+    <defName>BloodMage_Gene</defName>
+    <label>Blood Mage</label>
+    <description>carrier of this gene is a blood mage and has consigned to the dark art of manipulating the life blood of living things as a means of increasing carrier power.\n\nAs a blood mage, carrier of this gene has learned to control the life force within and command it to carrier will. carrier connection to life makes it easier to associate with other living things, but doesn't appreciate effort without immediate results.</description>
+    <iconPath>Other/ClassTextures/bloodMageMark</iconPath>
+
+    <displayOrderInCategory>30</displayOrderInCategory>
+    <forcedTraits>
+      <li>
+        <def>BloodMage</def>
+      </li>
+    </forcedTraits>
+    <biostatMet>-2</biostatMet>
+
+    <symbolPack>
+      <prefixSymbols>
+        <li><symbol>blood</symbol></li>
+      </prefixSymbols>
+    </symbolPack>
+  </GeneDef>
+  
+  <GeneDef ParentName="CHTech_RoM_class_base">
+    <defName>Enchanter_Gene</defName>
+    <label>Enchanter</label>
+    <description>carrier of this gene is an enchanter, attuned to the composition of matter and materials. carrier of this gene can manipulate matter to carrier will, frequently in unnatural ways, and carrier powers of transmutation can be permanent when sufficient effort is applied.</description>
+    <iconPath>Other/ClassTextures/enchanterMageMark</iconPath>
+
+    <displayOrderInCategory>31</displayOrderInCategory>
+    <forcedTraits>
+      <li>
+        <def>Enchanter</def>
+      </li>
+    </forcedTraits>
+    <biostatMet>-2</biostatMet>
+
+    <symbolPack>
+      <prefixSymbols>
+        <li><symbol>enchant</symbol></li>
+      </prefixSymbols>
+    </symbolPack>
+  </GeneDef>
+  
+  <GeneDef ParentName="CHTech_RoM_class_base">
+    <defName>Chronomancer_Gene</defName>
+    <label>Chronomancer</label>
+    <description>carrier of this gene is a chronomancer. Through arcane sight, carrier of this gene is able to view reality as it once was and as it could be, and can manipulate objects between those realities.</description>
+    <iconPath>Other/ClassTextures/chronomancerMageMark</iconPath>
+
+    <displayOrderInCategory>32</displayOrderInCategory>
+    <forcedTraits>
+      <li>
+        <def>Chronomancer</def>
+      </li>
+    </forcedTraits>
+    <biostatMet>-2</biostatMet>
+
+    <symbolPack>
+      <prefixSymbols>
+        <li><symbol>chrono</symbol></li>
+      </prefixSymbols>
+    </symbolPack>
+  </GeneDef>
+  
+  <GeneDef ParentName="CHTech_RoM_class_base">
+    <defName>ChaosMage_Gene</defName>
+    <label>Chaos Mage</label>
+    <description>carrier of this gene has rejected all predefined magic paths and refuses to attribute objective reality in carrier search for power.</description>
+    <iconPath>Other/ClassTextures/chaosMageMark</iconPath>
+
+    <displayOrderInCategory>33</displayOrderInCategory>
+    <forcedTraits>
+      <li>
+        <def>ChaosMage</def>
+      </li>
+    </forcedTraits>
+    <biostatMet>-2</biostatMet>
+
+    <symbolPack>
+      <prefixSymbols>
+        <li><symbol>chaos</symbol></li>
+      </prefixSymbols>
+    </symbolPack>
+  </GeneDef>
+  
+  <GeneDef ParentName="CHTech_RoM_class_base">
+    <defName>TM_TheShadow_Gene</defName>
+    <label>Shadow</label>
+    <description>carrier of this gene is a half-breed demon with an affinity for shadow magic. carrier of this gene has developed carrier unique talents through combat training and physical conditioning making carrier of this gene the perfect assassin.</description>
+    <iconPath>Other/ClassTextures/shadowFlame</iconPath>
+
+    <displayOrderInCategory>34</displayOrderInCategory>
+    <forcedTraits>
+      <li>
+        <def>TM_TheShadow</def>
+      </li>
+    </forcedTraits>
+    <biostatMet>-2</biostatMet>
+
+    <symbolPack>
+      <prefixSymbols>
+        <li><symbol>shadow</symbol></li>
+      </prefixSymbols>
+    </symbolPack>
+  </GeneDef>
+  
+  <GeneDef ParentName="CHTech_RoM_class_base">
+    <defName>TM_Brightmage_Gene</defName>
+    <label>Brightmage</label>
+    <description>carrier of this gene is a brightmage, able to harness the powers of light to purge evil. carrier of this gene approaches any task with an unrivaled fervor that usually places carrier of this gene at the forefront. Being a Brightmage introduces a dependency on the sun and light, because of this, carrier of this gene has developed an intense hatred for shadowy and dark caricatures.</description>
+    <iconPath>Other/ClassTextures/brightMageMark</iconPath>
+
+    <displayOrderInCategory>35</displayOrderInCategory>
+    <forcedTraits>
+      <li>
+        <def>TM_Brightmage</def>
+      </li>
+    </forcedTraits>
+    <biostatMet>-2</biostatMet>
+
+    <symbolPack>
+      <prefixSymbols>
+        <li><symbol>bright</symbol></li>
+      </prefixSymbols>
+    </symbolPack>
+  </GeneDef>
+  
+  <GeneDef ParentName="CHTech_RoM_class_base">
+    <defName>TM_Shaman_Gene</defName>
+    <label>Shaman</label>
+    <description>Shamans take a more harmonious approach to arcane powers than most mages, choosing to pursue a path that works with the ebb and flow of magic to offset or enhance the natural order. carrier of this gene is kin to the spirit realm and more attuned to nature and its elements.</description>
+    <iconPath>Other/ClassTextures/shamanMageMark</iconPath>
+
+    <displayOrderInCategory>36</displayOrderInCategory>
+    <forcedTraits>
+      <li>
+        <def>TM_Shaman</def>
+      </li>
+    </forcedTraits>
+    <biostatMet>-2</biostatMet>
+
+    <symbolPack>
+      <prefixSymbols>
+        <li><symbol>saman</symbol></li>
+      </prefixSymbols>
+    </symbolPack>
+  </GeneDef>
+  
+  <GeneDef ParentName="CHTech_RoM_class_base">
+    <defName>TM_Golemancer_Gene</defName>
+    <label>Golemancer</label>
+    <description>Golemancers prefer to weave their magic through powerful runes and sigils that are able to transfer purpose into an object.</description>
+    <iconPath>Other/ClassTextures/golemancerMageMark</iconPath>
+
+    <displayOrderInCategory>37</displayOrderInCategory>
+    <forcedTraits>
+      <li>
+        <def>TM_Golemancer</def>
+      </li>
+    </forcedTraits>
+    <biostatMet>-2</biostatMet>
+
+    <symbolPack>
+      <prefixSymbols>
+        <li><symbol>golem</symbol></li>
+      </prefixSymbols>
+    </symbolPack>
+  </GeneDef>
+  
+
+</Defs>

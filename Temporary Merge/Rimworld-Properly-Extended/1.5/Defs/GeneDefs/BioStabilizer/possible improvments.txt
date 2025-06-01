@@ -1,0 +1,4 @@
+improvment ideas:
+
+change base to instead have one for each sense, and the "_30, _60, _90" docs are in charge of changeing the value. Might be simpler, look into
+use dynamic patches (HTML Extensions might allow) to add dynamic tags for said exclusions?

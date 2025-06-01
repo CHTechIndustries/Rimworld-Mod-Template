@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+	<GeneDef ParentName="CHTech_RoM_trait_fighter">
+    <defName>PhysicalProdigy_Gene</defName>
+    <label>Physically Gifted</label>
+    <description>Carriers of this gene are physically adept and have potential to learn special combat forms.</description>
+
+    <displayOrderInCategory>1</displayOrderInCategory>
+    <forcedTraits>
+      <li>
+        <def>PhysicalProdigy</def>
+      </li>
+    </forcedTraits>
+    <biostatMet>-2</biostatMet>
+    <exclusionTags>
+      <li>RoM-Talent</li>
+    </exclusionTags>
+    <symbolPack>
+      <prefixSymbols>
+        <li><symbol>fight</symbol></li>
+		    <li><symbol>battle</symbol></li>
+	    	<li><symbol>war</symbol></li>
+      </prefixSymbols>
+    </symbolPack>
+  </GeneDef>
+
+  <GeneDef ParentName="CHTech_RoM_trait_fighter">
+    <defName>TM_BoundlessTD_Gene</defName>
+    <label>Boundless</label>
+    <description>Carriers of this gene excel at combat arts and are able to execute combat maneuvers 40% more frequently, however, their talent fosters an arrogant attitude that reduces their experience gain by 25% and causes other fighters to dislike them.</description>
+
+    <displayOrderInCategory>2</displayOrderInCategory>
+    <forcedTraits>
+      <li>
+        <def>TM_BoundlessTD</def>
+      </li>
+    </forcedTraits>
+    <biostatMet>-2</biostatMet>
+    <exclusionTags>
+      <li>TM_Talent3</li>
+    </exclusionTags>
+    <symbolPack>
+      <prefixSymbols>
+        <li><symbol>fight</symbol></li>
+		    <li><symbol>battle</symbol></li>
+	    	<li><symbol>war</symbol></li>
+      </prefixSymbols>
+    </symbolPack>
+  </GeneDef>
+
+  <GeneDef ParentName="CHTech_RoM_trait_fighter">
+    <defName>TM_GiantsBloodTD_Gene</defName>
+    <label>Giant's Blood</label>
+    <description>Carriers of this gene are descendants of giants - endowed with with great strength and stamina, though slow to recover. Their max stamina is increased by 80%, but stamina regeneration is reduced by 40%. Any attack made while using a melee weapon, or unarmed, deals an additional 25% damage.</description>
+
+    <displayOrderInCategory>3</displayOrderInCategory>
+    <forcedTraits>
+      <li>
+        <def>TM_GiantsBloodTD</def>
+      </li>
+    </forcedTraits>
+    <biostatMet>-3</biostatMet>
+    <exclusionTags>
+      <li>TM_Talent3</li>
+    </exclusionTags>
+    <symbolPack>
+      <prefixSymbols>
+        <li><symbol>giant</symbol></li>
+      </prefixSymbols>
+    </symbolPack>
+  </GeneDef>
+	
+</Defs>

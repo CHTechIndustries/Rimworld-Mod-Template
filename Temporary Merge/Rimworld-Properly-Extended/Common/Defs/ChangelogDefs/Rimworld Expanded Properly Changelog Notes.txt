@@ -1,0 +1,115 @@
+V 1.0.0
+Uploaded
+
+V 1.0.1
+Wrote Description
+modified about file
+made a FAQ section
+
+V 1.0.2
+Imrpved Description
+Improved FAQ
+Made Public
+Altered Xenotypes expanded and More to fit this better (description, FAQ, and requirments)
+made it use Super Hero Genes: Base
+added incompatibilities
+
+V 1.1.0
+Improved about files
+added a note about placeholder icons (I put it on the steam description well before this update, so it's more like "V 1.0.2-b"
+Added my first custom gene-set ("Bio-Stability")
+Added some more to steam description
+Updated FAQ
+Removed the Super Hero Genes requirement (apparently, the mod "Expanded Biotech Style Genes Framework" has the same features, (Well, on a technicallity they have minute differences, but nothing of gameplay import)
+
+V 1.1.1
+Added "Endling" gene for the Endling: Last of their kind mod
+
+Started work on Wiki
+Mentioned Wiki on About File
+Made sure link worked
+Add "feature summary" discussion to steam
+Add link to said summary in steam
+Completely re-designed discussion
+Made a document to store ideas for improvments to the steam discussions
+
+Decreased size of some icons that where the wrong size
+Put all those into "Base Icons"
+Moved "Endling" into it's own "base icon" folder. Not sure if it's a benificial change, might be changed one day
+
+1.1.2
+Found out I forgot to update the version number. Well, changeing it is a new version, so... it's fixed in 1.1.2
+Added a ".branch log" folder so I can keep track of changes done in seperate beta branches, without messing with the changelog
+added in folders that will be needed in the future, to allow easier mergeing
+made description also mention the steam changelog
+added in a debug category for me to easily access genes I'm working on. Hopefully that helps development some
+Fixed author to include the The Dynamic Trio
+Removed the entire EBSG series as a requirment, as I'm not using those genes as much as I thought. THey are still going to be the most integrated of mods, so... definitly a 100% recommendation!
+Altered FAQ and Description to match requirment changes
+Added a discussion that is just a list of optional dependencies
+Modified the other mod to require the EBSG series
+Integrated with Visual Studio for easier coding and updates
+Made a note of Vanilla Expanded
+
+1.2.0
+Last "major" update for 1.4 (most likley)
+Added in the folder for 1.5 (albiet with nothing but a text file)
+Transfered in the xenos from my other mod, mergeing the two into one!
+
+2.0.0
+Updated to 1.5 (not compatible with 1.4)
+Changed ID's of features (hence the 1.4 incompatibilities)
+Changed ID
+fixed name issues
+changed description, as the goal for this mod has been refined
+removed Royalty as a hard compat, as really Biotech is the only DLC I'm using as a "core" component, the rest should be able to be made as either
+	A) Soft compat
+	B) In extreme cases, addon mod
+fixed an indent (format issue)
+Removed un-used placeholder folders from 1.4
+
+2.1.0
+updated about file
+added Pathfinding Framework as requirment
+added ebsg slayer gens as incompat
+fixed some requirments
+added in a few missing load order indices
+
+added RoM Compat
+with permision:
+	integrated in Rimworld of Magic Genes by Bleeding Eyes Mcgee ( https://steamcommunity.com/workshop/filedetails/?id=2907470506 )
+	added in genes for all of the classes in RoM (and one of it's addons, based off of Touch-nir's mod, with a good amount of alterations ( https://steamcommunity.com/sharedfiles/filedetails/?id=3023584656 )
+both will be built upon to be more robust and modular, but right now they work quite well!
+
+edits to those mods during integration:
+changed to use textures of RoM, instead of haveing a copy of the images
+used a parent gene to lessen the necessary components
+did some file mergeing
+made (using the parent) kures use a "may require", so if not there it's inactive. if ROM isn't there, the whole thing is inactive. this allows my mod to work without requiring RoM or Kures, and allows me to easily add more classes in the future if necessary
+=======
+made What's that Mod always load lower than this mod
+improved load order so all the "commented out" ones are one comment, as they are commented out for the same reason. Now I can collapse them all at once if desired!
+due to someones comment elsewhere, was inspired to put the RoM genes into the 1.4 folder, so technically another 1.4 update!
+
+2.1.1
+re-wrote description from the ground-up
+added in a tabula-rasa based changelog
+
+2.1.2
+added in infastructure (not the content, but the infastructure, so adding the content will be easier) for the soft compat with OP Thingamajings Pack
+updated about file with better wording
+
+v2.2.0
+integrated in gender ratio genes
+
+v2.2.1
+remove pathfinding framework as it's causeing errors, and isn't needed
+added in better gene inheritance as a reqriment, but commented it out. that way it's ready for the future
+fixed a major issue with the changelog
+possibly added something else (I honestly don't know, it may have gotten merged into main, or it may not have)
+
+v2.2.2
+add psyfocus cost genes with permission (will change some with archive versions later)
+
+v2.2.3
+fixed load folder so the genes appear
