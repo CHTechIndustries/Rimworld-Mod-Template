@@ -1,0 +1,3 @@
+this is for notes that the public does not need to see, such as notes to self (like "remember, I used "such and such" as a preset. Or "I left this semi-unfinished, remember to look at it"). Only people on github will see this (mod publisher plus is set up to not upload this folder)
+
+Also contains the folder for typeing drafts of steam descriptions and FAQ discussions, for backing it up in case they get reverted
